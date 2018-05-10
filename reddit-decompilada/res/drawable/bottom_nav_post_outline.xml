@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <size android:height="@dimen/bottom_nav_post_button_size" android:width="@dimen/bottom_nav_post_button_size" />
+    <solid android:color="0x106000d" />
+    <stroke android:width="@dimen/bottom_nav_post_stroke_width" android:color="#ffffff" />
+</shape>

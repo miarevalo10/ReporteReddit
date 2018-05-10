@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/label_employee" android:order="10">
+        <Preference android:title="@string/label_join_alpha" android:key="@string/key_pref_alpha" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/label_debug" android:order="11">
+        <Preference android:title="@string/label_show_debug" android:key="@string/key_pref_debug" />
+        <SwitchPreferenceCompat android:title="@string/label_enable_mvp_frontpage" android:key="@string/key_pref_mvp_frontpage" />
+        <SwitchPreferenceCompat android:title="@string/label_enable_mvp_popular" android:key="@string/key_pref_mvp_popular" />
+        <SwitchPreferenceCompat android:title="@string/label_enable_mvp_usp" android:key="@string/key_pref_mvp_usp" />
+        <SwitchPreferenceCompat android:title="@string/label_enable_carousel_debug" android:key="@string/key_pref_carousel_debug" />
+        <SwitchPreferenceCompat android:title="@string/label_enable_onboarding_override" android:key="@string/key_pref_onboarding_enabled" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/label_network_config" android:order="12">
+        <EditTextPreference android:title="@string/label_base_uri" android:key="@string/key_pref_uri_base" android:defaultValue="@string/base_uri_default" />
+        <EditTextPreference android:title="@string/label_gateway_uri" android:key="@string/key_pref_uri_gateway" android:defaultValue="@string/gateway_uri_default" />
+        <SwitchPreferenceCompat android:title="@string/label_use_staging" android:key="@string/key_pref_use_staging" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/label_experiments" android:order="13">
+        <SwitchPreferenceCompat android:title="@string/label_experiment_share_vs_rate" android:key="@string/key_pref_enjoy_reddit_toast" />
+        <SwitchPreferenceCompat android:title="@string/label_experiment_upvote_toast" android:key="@string/key_pref_upvote_toast" />
+        <SwitchPreferenceCompat android:title="@string/label_experiment_share_copy_link" android:key="@string/key_pref_share_copy_link" />
+        <SwitchPreferenceCompat android:title="@string/label_experiment_share_shimmer" android:key="@string/key_pref_share_shimmer" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/label_data_logging" android:order="14">
+        <Preference android:title="@string/label_data_logging" android:key="@string/key_pref_data_logging" />
+    </PreferenceCategory>
+</PreferenceScreen>

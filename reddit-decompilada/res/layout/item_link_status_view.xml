@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0700fb">
+    <ImageView android:id="@+id/icon_removed" android:src="@drawable/ind_deleted" style="@style/rdt_status_view_icon_simple_style" />
+    <ImageView android:id="@+id/icon_spam" android:src="@drawable/ind_spam" style="@style/rdt_status_view_icon_simple_style" />
+    <ImageView android:id="@+id/icon_flagged" android:src="@drawable/ind_reported" style="@style/rdt_status_view_icon_text_style" />
+    <TextView android:id="@+id/text_flagged" style="@style/rdt_status_view_text_style" />
+    <ImageView android:id="@+id/icon_stickied" android:src="@drawable/ind_pinned" style="@style/rdt_status_view_icon_simple_style" />
+    <ImageView android:id="@+id/icon_archived" android:src="@drawable/ind_archived" style="@style/rdt_status_view_icon_simple_style" />
+    <ImageView android:id="@+id/icon_locked" android:src="@drawable/ind_locked" style="@style/rdt_status_view_icon_simple_style" />
+    <ImageView android:id="@+id/icon_approved" android:src="@drawable/ind_approved" style="@style/rdt_status_view_icon_simple_style" />
+</LinearLayout>

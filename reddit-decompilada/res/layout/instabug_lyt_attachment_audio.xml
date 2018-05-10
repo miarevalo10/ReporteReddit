@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/instabug_grid_audio_item" app:layout_width="match_parent" app:layout_height="match_parent"
+    <RelativeLayout app:background="?attr/instabug_attachment_bg_color" app:padding="@dimen/instabug_bottom_sheet_padding" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_margin="@dimen/instabug_bottom_sheet_padding">
+        <ImageView app:id="@id/instabug_img_audio_attachment" app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/instabug_img_audio_placeholder" app:scaleType="fitXY" app:adjustViewBounds="true" app:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="1dp" app:layout_centerInParent="true">
+        <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/instabug_btn_audio_play_attachment" app:background="0x0" app:padding="8dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/instabug_ic_play" />
+        <TextView app:textSize="14sp" app:textStyle="bold" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/instabug_txt_attachment_length" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="-4dp" />
+    </LinearLayout>
+    <com.instabug.library.view.IconView app:textSize="18sp" app:textColor="?attr/instabug_attachment_bg_icon_color" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/instabug_btn_remove_attachment" app:layout_width="UNKNOWN_DATA_0x7f07011e" app:layout_height="UNKNOWN_DATA_0x7f07011e" app:layout_alignParentRight="true" app:instabug_icon="5" />
+</RelativeLayout>

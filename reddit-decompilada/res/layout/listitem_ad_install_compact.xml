@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/rdt_body_color" android:paddingBottom="@dimen/single_pad" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.gms.ads.formats.NativeAppInstallAdView android:id="@+id/ad_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/listitem_ad_include_compact" />
+    </com.google.android.gms.ads.formats.NativeAppInstallAdView>
+</FrameLayout>

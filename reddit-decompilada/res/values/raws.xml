@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="acknowledgements">res/raw/acknowledgements.txt</raw>
+    <raw name="handshake">res/raw/handshake.json</raw>
+    <raw name="keep">res/raw/keep.xml</raw>
+    <raw name="new_message">res/raw/new_message.mp3</raw>
+    <raw name="snoos">res/raw/snoos.csv</raw>
+    <raw name="tw__cacerts">res/raw/tw__cacerts</raw>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="activity_main_drawer">res/menu/activity_main_drawer.xml</menu>
+    <menu name="activity_main_drawer_logged_out">res/menu/activity_main_drawer_logged_out.xml</menu>
+    <menu name="menu_ad_options">res/menu/menu_ad_options.xml</menu>
+    <menu name="menu_chat_inbox">res/menu/menu_chat_inbox.xml</menu>
+    <menu name="menu_comment">res/menu/menu_comment.xml</menu>
+    <menu name="menu_comment_mod_options">res/menu/menu_comment_mod_options.xml</menu>
+    <menu name="menu_community">res/menu/menu_community.xml</menu>
+    <menu name="menu_compose">res/menu/menu_compose.xml</menu>
+    <menu name="menu_data_logging">res/menu/menu_data_logging.xml</menu>
+    <menu name="menu_detail">res/menu/menu_detail.xml</menu>
+    <menu name="menu_detail_author">res/menu/menu_detail_author.xml</menu>
+    <menu name="menu_detail_viewer">res/menu/menu_detail_viewer.xml</menu>
+    <menu name="menu_group_messaging">res/menu/menu_group_messaging.xml</menu>
+    <menu name="menu_history">res/menu/menu_history.xml</menu>
+    <menu name="menu_home">res/menu/menu_home.xml</menu>
+    <menu name="menu_invite_moderator">res/menu/menu_invite_moderator.xml</menu>
+    <menu name="menu_lightbox_image">res/menu/menu_lightbox_image.xml</menu>
+    <menu name="menu_lightbox_video">res/menu/menu_lightbox_video.xml</menu>
+    <menu name="menu_link_listing">res/menu/menu_link_listing.xml</menu>
+    <menu name="menu_link_listing_multireddit">res/menu/menu_link_listing_multireddit.xml</menu>
+    <menu name="menu_link_mod_options">res/menu/menu_link_mod_options.xml</menu>
+    <menu name="menu_link_options">res/menu/menu_link_options.xml</menu>
+    <menu name="menu_live_thread">res/menu/menu_live_thread.xml</menu>
+    <menu name="menu_modtools_add">res/menu/menu_modtools_add.xml</menu>
+    <menu name="menu_modtools_add_user">res/menu/menu_modtools_add_user.xml</menu>
+    <menu name="menu_notification_inbox">res/menu/menu_notification_inbox.xml</menu>
+    <menu name="menu_profile">res/menu/menu_profile.xml</menu>
+    <menu name="menu_profile_settings">res/menu/menu_profile_settings.xml</menu>
+    <menu name="menu_region_select">res/menu/menu_region_select.xml</menu>
+    <menu name="menu_search_subreddit">res/menu/menu_search_subreddit.xml</menu>
+    <menu name="menu_submit">res/menu/menu_submit.xml</menu>
+    <menu name="menu_subreddit_info">res/menu/menu_subreddit_info.xml</menu>
+    <menu name="menu_video_preview">res/menu/menu_video_preview.xml</menu>
+    <menu name="menu_web_browser">res/menu/menu_web_browser.xml</menu>
+</resources>

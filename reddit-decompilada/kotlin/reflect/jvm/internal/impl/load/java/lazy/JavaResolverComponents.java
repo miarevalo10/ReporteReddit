@@ -1,0 +1,95 @@
+package kotlin.reflect.jvm.internal.impl.load.java.lazy;
+
+import kotlin.jvm.internal.Intrinsics;
+import kotlin.reflect.jvm.internal.impl.builtins.ReflectionTypes;
+import kotlin.reflect.jvm.internal.impl.descriptors.ModuleDescriptor;
+import kotlin.reflect.jvm.internal.impl.descriptors.PackagePartProvider;
+import kotlin.reflect.jvm.internal.impl.descriptors.SupertypeLoopChecker;
+import kotlin.reflect.jvm.internal.impl.incremental.components.LookupTracker;
+import kotlin.reflect.jvm.internal.impl.load.java.JavaClassFinder;
+import kotlin.reflect.jvm.internal.impl.load.java.components.ExternalAnnotationResolver;
+import kotlin.reflect.jvm.internal.impl.load.java.components.JavaPropertyInitializerEvaluator;
+import kotlin.reflect.jvm.internal.impl.load.java.components.JavaResolverCache;
+import kotlin.reflect.jvm.internal.impl.load.java.components.SamConversionResolver;
+import kotlin.reflect.jvm.internal.impl.load.java.components.SignaturePropagator;
+import kotlin.reflect.jvm.internal.impl.load.java.sources.JavaSourceElementFactory;
+import kotlin.reflect.jvm.internal.impl.load.kotlin.DeserializedDescriptorResolver;
+import kotlin.reflect.jvm.internal.impl.load.kotlin.KotlinClassFinder;
+import kotlin.reflect.jvm.internal.impl.serialization.deserialization.ErrorReporter;
+import kotlin.reflect.jvm.internal.impl.storage.StorageManager;
+
+/* compiled from: context.kt */
+public final class JavaResolverComponents {
+    public final StorageManager f25685a;
+    public final JavaClassFinder f25686b;
+    public final KotlinClassFinder f25687c;
+    public final DeserializedDescriptorResolver f25688d;
+    public final ExternalAnnotationResolver f25689e;
+    public final SignaturePropagator f25690f;
+    public final ErrorReporter f25691g;
+    public final JavaResolverCache f25692h;
+    public final JavaPropertyInitializerEvaluator f25693i;
+    public final SamConversionResolver f25694j;
+    public final JavaSourceElementFactory f25695k;
+    public final ModuleClassResolver f25696l;
+    public final PackagePartProvider f25697m;
+    public final SupertypeLoopChecker f25698n;
+    public final LookupTracker f25699o;
+    public final ModuleDescriptor f25700p;
+    public final ReflectionTypes f25701q;
+
+    public JavaResolverComponents(StorageManager storageManager, JavaClassFinder javaClassFinder, KotlinClassFinder kotlinClassFinder, DeserializedDescriptorResolver deserializedDescriptorResolver, ExternalAnnotationResolver externalAnnotationResolver, SignaturePropagator signaturePropagator, ErrorReporter errorReporter, JavaResolverCache javaResolverCache, JavaPropertyInitializerEvaluator javaPropertyInitializerEvaluator, SamConversionResolver samConversionResolver, JavaSourceElementFactory javaSourceElementFactory, ModuleClassResolver moduleClassResolver, PackagePartProvider packagePartProvider, SupertypeLoopChecker supertypeLoopChecker, LookupTracker lookupTracker, ModuleDescriptor moduleDescriptor, ReflectionTypes reflectionTypes) {
+        JavaResolverComponents javaResolverComponents = this;
+        StorageManager storageManager2 = storageManager;
+        JavaClassFinder javaClassFinder2 = javaClassFinder;
+        KotlinClassFinder kotlinClassFinder2 = kotlinClassFinder;
+        DeserializedDescriptorResolver deserializedDescriptorResolver2 = deserializedDescriptorResolver;
+        ExternalAnnotationResolver externalAnnotationResolver2 = externalAnnotationResolver;
+        SignaturePropagator signaturePropagator2 = signaturePropagator;
+        ErrorReporter errorReporter2 = errorReporter;
+        JavaResolverCache javaResolverCache2 = javaResolverCache;
+        JavaPropertyInitializerEvaluator javaPropertyInitializerEvaluator2 = javaPropertyInitializerEvaluator;
+        SamConversionResolver samConversionResolver2 = samConversionResolver;
+        JavaSourceElementFactory javaSourceElementFactory2 = javaSourceElementFactory;
+        ModuleClassResolver moduleClassResolver2 = moduleClassResolver;
+        PackagePartProvider packagePartProvider2 = packagePartProvider;
+        SupertypeLoopChecker supertypeLoopChecker2 = supertypeLoopChecker;
+        LookupTracker lookupTracker2 = lookupTracker;
+        ModuleDescriptor moduleDescriptor2 = moduleDescriptor;
+        Intrinsics.m26847b(storageManager2, "storageManager");
+        Intrinsics.m26847b(javaClassFinder2, "finder");
+        Intrinsics.m26847b(kotlinClassFinder2, "kotlinClassFinder");
+        Intrinsics.m26847b(deserializedDescriptorResolver2, "deserializedDescriptorResolver");
+        Intrinsics.m26847b(externalAnnotationResolver2, "externalAnnotationResolver");
+        Intrinsics.m26847b(signaturePropagator2, "signaturePropagator");
+        Intrinsics.m26847b(errorReporter2, "errorReporter");
+        Intrinsics.m26847b(javaResolverCache2, "javaResolverCache");
+        Intrinsics.m26847b(javaPropertyInitializerEvaluator2, "javaPropertyInitializerEvaluator");
+        Intrinsics.m26847b(samConversionResolver2, "samConversionResolver");
+        Intrinsics.m26847b(javaSourceElementFactory2, "sourceElementFactory");
+        Intrinsics.m26847b(moduleClassResolver2, "moduleClassResolver");
+        Intrinsics.m26847b(packagePartProvider2, "packageMapper");
+        Intrinsics.m26847b(supertypeLoopChecker2, "supertypeLoopChecker");
+        Intrinsics.m26847b(lookupTracker2, "lookupTracker");
+        Intrinsics.m26847b(moduleDescriptor, "module");
+        Intrinsics.m26847b(reflectionTypes, "reflectionTypes");
+        ModuleDescriptor moduleDescriptor3 = moduleDescriptor;
+        this.f25685a = storageManager2;
+        this.f25686b = javaClassFinder2;
+        this.f25687c = kotlinClassFinder2;
+        this.f25688d = deserializedDescriptorResolver2;
+        this.f25689e = externalAnnotationResolver2;
+        this.f25690f = signaturePropagator2;
+        this.f25691g = errorReporter2;
+        this.f25692h = javaResolverCache2;
+        this.f25693i = javaPropertyInitializerEvaluator2;
+        this.f25694j = samConversionResolver2;
+        this.f25695k = javaSourceElementFactory2;
+        this.f25696l = moduleClassResolver2;
+        this.f25697m = packagePartProvider2;
+        this.f25698n = supertypeLoopChecker2;
+        this.f25699o = lookupTracker;
+        this.f25700p = moduleDescriptor3;
+        this.f25701q = reflectionTypes;
+    }
+}

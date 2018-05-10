@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.exoplayer2.ui.AspectRatioFrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/video_frame" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextureView android:id="@id/texture_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <View android:id="@+id/shutter" android:background="?attr/rdt_dimmer_color" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.google.android.exoplayer2.ui.AspectRatioFrameLayout>
+    <include layout="@layout/video_player_preview_include" />
+</merge>

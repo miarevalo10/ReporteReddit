@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/rdt_canvas_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003" android:layout_alignParentTop="true" />
+    <com.reddit.frontpage.widgets.GoEditTextView android:textAppearance="?attr/textAppearanceRedditBody" android:id="@+id/edit_location" android:background="0x0" android:paddingLeft="@dimen/double_pad" android:paddingTop="@dimen/single_pad" android:paddingBottom="@dimen/single_pad" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/double_pad" android:hint="@string/location_subreddit_submission" android:layout_below="@id/toolbar" android:imeOptions="actionGo|actionSearch|actionDone|actionPrevious" />
+    <View android:id="@+id/title_divider_line" android:background="?attr/rdt_line_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07012c" android:layout_below="@+id/edit_location" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/title_divider_line">
+        <include layout="@layout/bare_link_list" />
+    </FrameLayout>
+    <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:paddingRight="@dimen/single_pad" android:paddingBottom="@dimen/half_pad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/foursqaure_attribution" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

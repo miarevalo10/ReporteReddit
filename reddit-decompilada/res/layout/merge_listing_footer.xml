@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/loading_indicator" android:layout_width="UNKNOWN_DATA_0x7f07017d" android:layout_height="UNKNOWN_DATA_0x7f07017d" android:layout_margin="20dp" />
+    <ViewStub android:id="@+id/error_container_stub" android:layout="@layout/widget_listing_error" android:inflatedId="@+id/error_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x14001" />
+    <android.support.v4.widget.Space android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070057" />
+</merge>

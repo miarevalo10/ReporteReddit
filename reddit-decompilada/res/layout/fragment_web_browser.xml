@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay_RedditBase_Toolbar_LightForeground" android:id="@id/toolbar" android:background="?attr/rdt_active_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003" android:layout_alignParentTop="true">
+        <include android:id="@+id/web_view_control" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/half_pad" layout="@layout/widget_web_view_control" />
+    </android.support.v7.widget.Toolbar>
+    <WebView android:id="@+id/web_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/toolbar" />
+    <View android:background="@drawable/shadow_up" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc01" android:layout_below="@id/toolbar" android:rotationX="180.0" />
+</RelativeLayout>

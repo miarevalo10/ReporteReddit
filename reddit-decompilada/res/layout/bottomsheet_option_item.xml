@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="?attr/selectableItemBackground" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f07018f">
+    <ImageView app:id="@id/icon" app:layout_width="UNKNOWN_DATA_0x7f0700ff" app:layout_height="UNKNOWN_DATA_0x7f0700ff" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <TextView app:textAppearance="?attr/textAppearanceRedditBodyMedium" app:textColor="?attr/rdt_icon_color_selector" app:id="@+id/option_label" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginStart="@dimen/double_pad" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="@id/icon" app:layout_constraintTop_toTopOf="0" />
+    <ImageView app:id="@+id/checkmark" app:layout_width="UNKNOWN_DATA_0x7f0700ff" app:layout_height="UNKNOWN_DATA_0x7f0700ff" app:src="@drawable/ic_icon_approve_check_selector" app:tint="?attr/rdt_active_color" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" />
+</android.support.constraint.ConstraintLayout>

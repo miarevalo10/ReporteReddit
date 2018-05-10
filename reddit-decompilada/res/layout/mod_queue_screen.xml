@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay_RedditBase_Toolbar_LightForeground" android:id="@id/toolbar" android:background="0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003">
+        <TextView android:textAppearance="@style/TextAppearance_RedditBase_Title_Nav" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/toolbar_title" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" />
+    </android.support.v7.widget.Toolbar>
+    <com.reddit.frontpage.widgets.modtools.modqueue.ModQueueHeader android:id="@+id/mod_queue_header" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070157" style="@style/Reddit_Widget_Design_AppBarLayout" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/merge_listing" />
+        <com.reddit.frontpage.presentation.modtools.bottomsheet.modqueueoptions.ModQueueOptionsScreen android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/mod_queue_options" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

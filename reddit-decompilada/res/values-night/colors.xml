@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fools_circle_color">@color/rdt_white</color>
+    <color name="live_highlight">#ff333d3b</color>
+    <color name="message_bubble_grey">@color/rdt_off_black</color>
+</resources>

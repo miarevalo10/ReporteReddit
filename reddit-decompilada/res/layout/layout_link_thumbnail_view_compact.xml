@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="wrap_content" app:layout_height="wrap_content">
+    <ImageView app:id="@+id/link_thumbnail_image" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="center" />
+    <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/link_thumbnail_indicator" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/half_pad" app:layout_marginBottom="@dimen/half_pad" />
+</merge>

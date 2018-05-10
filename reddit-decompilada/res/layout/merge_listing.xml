@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/content_container" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/widget_link_list" />
+    <ViewStub android:id="@+id/error_container_stub" android:layout="@layout/widget_listing_error" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ViewStub android:id="@+id/empty_container_stub" android:layout="@layout/listing_empty" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/shadow_up" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0700e9" android:rotationX="180.0" />
+</merge>

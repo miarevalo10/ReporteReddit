@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.reddit.frontpage.widgets.SponsoredLinkHeaderView app:id="@+id/linkheader" app:paddingTop="@dimen/single_pad" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f07013d" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/single_half_pad" />
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:paddingStart="@dimen/single_pad" app:paddingEnd="@dimen/single_pad">
+            <com.reddit.frontpage.widgets.BezelImageView app:id="@+id/ad_logo" app:layout_width="UNKNOWN_DATA_0x7f070085" app:layout_height="UNKNOWN_DATA_0x7f070084" app:scaleType="centerCrop" app:layout_centerVertical="true" app:layout_marginStart="@dimen/half_pad" app:layout_alignParentStart="true" app:maskDrawable="@drawable/rounded_corners_background_black" />
+            <com.reddit.frontpage.widgets.ResizeLinkTitleView app:textAppearance="?attr/textAppearanceRedditTitle" app:id="@+id/ad_headline" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentTop="true" app:layout_alignWithParentIfMissing="true" app:layout_marginStart="@dimen/single_pad" app:layout_toEndOf="@+id/ad_logo" />
+            <TextView app:id="@+id/link_flair_sponsored" app:background="@drawable/background_link_sponsored" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/half_pad" app:layout_marginBottom="@dimen/half_pad" app:text="@string/label_sponsored" app:layout_below="@+id/ad_headline" app:layout_alignStart="@+id/ad_headline" style="?attr/flairTextStyle" />
+        </RelativeLayout>
+        <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:id="@+id/ad_body" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/half_pad" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/double_pad" />
+        <FrameLayout app:id="@+id/ad_media_container" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/single_half_pad">
+            <ImageView app:id="@+id/ad_image" app:layout_width="match_parent" app:layout_height="match_parent" app:adjustViewBounds="true" />
+            <com.google.android.gms.ads.formats.MediaView app:id="@+id/ad_video" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" />
+        </FrameLayout>
+        <TextView app:textAppearance="@style/TextAppearance_RedditBase_Metadata_LinkColor" app:ellipsize="end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/ad_call_to_action" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/single_pad" app:maxLines="1" app:textAllCaps="true" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/double_pad" />
+    </LinearLayout>
+</merge>

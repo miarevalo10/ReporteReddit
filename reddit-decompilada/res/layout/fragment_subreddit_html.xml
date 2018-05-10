@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003" android:layout_alignParentTop="true" />
+    <ScrollView android:id="@+id/info_scroll" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/toolbar">
+        <com.reddit.frontpage.widgets.BaseHtmlTextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:id="@+id/info_text" android:background="?attr/rdt_body_color" android:padding="@dimen/double_pad" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </ScrollView>
+    <ViewStub android:id="@+id/error_stub" android:layout="@layout/widget_listing_error" android:inflatedId="@+id/error_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <View android:background="@drawable/shadow_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070194" android:layout_below="@id/toolbar" />
+</RelativeLayout>

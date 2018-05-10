@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item twitter:id="@id/heart_on" twitter:state_toggled_on="true">
+        <bitmap twitter:src="@drawable/tw__action_heart_on_default" />
+    </item>
+    <item twitter:id="@id/heart_off">
+        <bitmap twitter:src="@drawable/tw__action_heart_off_default" />
+    </item>
+    <transition twitter:toId="@id/heart_on" twitter:fromId="@id/heart_off">
+        <animation-list>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00000" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00001" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00002" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00003" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00004" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00005" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00006" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00007" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00008" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00009" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00010" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00011" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00012" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00013" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00014" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00015" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00016" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00017" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00018" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00019" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00020" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00021" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00022" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00023" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00024" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00025" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00026" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00027" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00028" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00029" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00030" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00031" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00032" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00033" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00034" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00035" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00036" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00037" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00038" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00039" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00040" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00041" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00042" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00043" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00044" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00045" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00046" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00047" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00048" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00049" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00050" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00051" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00052" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00053" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00054" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00055" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00056" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00057" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00058" />
+            </item>
+            <item twitter:duration="15">
+                <bitmap twitter:src="@drawable/tw__heart_animation_detail_60fps_00059" />
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>

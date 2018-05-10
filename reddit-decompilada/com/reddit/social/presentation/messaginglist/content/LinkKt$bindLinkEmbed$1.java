@@ -1,0 +1,28 @@
+package com.reddit.social.presentation.messaginglist.content;
+
+import android.view.View;
+import com.reddit.frontpage.util.IntentUtil;
+import com.reddit.frontpage.widgets.span.UrlToNativeWebViewSpan;
+import com.reddit.social.presentation.messaginglist.LinkEmbed;
+import kotlin.Metadata;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+import kotlin.jvm.internal.Lambda;
+
+@Metadata(bv = {1, 0, 2}, d1 = {"\u0000\u000e\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\u0010\u0000\u001a\u00020\u00012\b\u0010\u0002\u001a\u0004\u0018\u00010\u0003H\n¢\u0006\u0002\b\u0004"}, d2 = {"<anonymous>", "", "it", "Landroid/view/View;", "invoke"}, k = 3, mv = {1, 1, 9})
+/* compiled from: Link.kt */
+final class LinkKt$bindLinkEmbed$1 extends Lambda implements Function1<View, Unit> {
+    final /* synthetic */ LinkContent f37577a;
+    final /* synthetic */ LinkEmbed f37578b;
+
+    LinkKt$bindLinkEmbed$1(LinkContent linkContent, LinkEmbed linkEmbed) {
+        this.f37577a = linkContent;
+        this.f37578b = linkEmbed;
+        super(1);
+    }
+
+    public final /* synthetic */ Object mo6492a(Object obj) {
+        this.f37577a.f29894b.getContext().startActivity(IntentUtil.m23752a(UrlToNativeWebViewSpan.m24227a(this.f37578b.f22377a).toString()));
+        return Unit.f25273a;
+    }
+}

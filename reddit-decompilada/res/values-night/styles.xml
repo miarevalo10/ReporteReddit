@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.AlertDialog.RedditBase" parent="@style/AlertDialog.AppCompat" />
+    <style name="Base.ThemeOverlay.RedditBase.PopupMenu" parent="@style/ThemeOverlay.AppCompat.Dark" />
+    <style name="Base.Widget.RedditBase.PopupMenu" parent="@style/Widget.AppCompat.PopupMenu" />
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="ThemeOverlay.RedditBase.BottomSheetDialog" parent="@style/Theme.Design.BottomSheetDialog" />
+    <style name="ThemeOverlay.RedditBase.Toolbar.LightForeground" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Widget.RedditBase.Tweet" parent="@style/tw__TweetDarkStyle">
+        <item name="tw__container_bg_color">?rdt_body_color</item>
+    </style>
+</resources>

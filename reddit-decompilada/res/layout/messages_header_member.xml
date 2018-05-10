@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="wrap_content" app:layout_height="wrap_content">
+    <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/messages_header_member_image" app:layout_width="UNKNOWN_DATA_0x7f070100" app:layout_height="UNKNOWN_DATA_0x7f070100" app:layout_marginEnd="@dimen/half_pad" />
+    <TextView app:textAppearance="?attr/textAppearanceRedditTitle" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/messages_header_member_name" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" />
+</merge>

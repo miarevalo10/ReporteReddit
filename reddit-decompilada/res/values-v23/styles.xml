@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Base.AppTheme">
+        <item name="android:colorBackground">?rdt_canvas_color</item>
+        <item name="android:textColorPrimary">?rdt_body_text_color</item>
+        <item name="android:textColorSecondary">?rdt_meta_text_color</item>
+        <item name="android:buttonStyle">?tertiaryButtonStyle</item>
+        <item name="android:windowBackground">?rdt_canvas_color</item>
+        <item name="android:checkboxStyle">@style/Widget.RedditBase.CompoundButton.CheckBox</item>
+        <item name="android:editTextStyle">@style/Widget.RedditBase.EditText</item>
+        <item name="android:radioButtonStyle">@style/Widget.RedditBase.CompoundButton.RadioButton</item>
+        <item name="android:colorBackgroundCacheHint">?rdt_canvas_color</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.RedditBase.ActionButton.Overflow</item>
+        <item name="android:popupMenuStyle">@style/Widget.RedditBase.PopupMenu</item>
+        <item name="android:borderlessButtonStyle">@style/Widget.RedditBase.Button.Borderless</item>
+        <item name="android:switchStyle">@style/Widget.RedditBase.Switch</item>
+        <item name="android:colorBackgroundFloating">?colorBackgroundFloating</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.RedditBase.PopupMenu</item>
+        <item name="actionMenuTextColor">?rdt_button_link_text_color</item>
+        <item name="actionMenuTheme">@style/ThemeOverlay.RedditBase.PopupMenu</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.RedditBase.ActionButton.Overflow</item>
+        <item name="alertDialogStyle">@style/AlertDialog.RedditBase</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.RedditBase.Dialog.Alert</item>
+        <item name="borderlessColoredButtonStyle">@style/Widget.RedditBase.Button.Borderless.Colored</item>
+        <item name="bottomActionButtonBackground">@drawable/button_bottomaction_background</item>
+        <item name="bottomActionButtonStyle">@style/Widget.RedditBase.Button.BottomAction</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.RedditBase.BottomSheetDialog</item>
+        <item name="checkboxStyle">?android:checkboxStyle</item>
+        <item name="colorAccent">?rdt_active_color</item>
+        <item name="colorBackgroundFloating">?rdt_body_color</item>
+        <item name="colorControlNormal">?rdt_field_color</item>
+        <item name="colorPrimary">?rdt_body_color</item>
+        <item name="dialogPreferredPadding">@dimen/dialog_side_padding</item>
+        <item name="dialogTheme">@style/ThemeOverlay.RedditBase.Dialog</item>
+        <item name="editTextFieldStyle">@style/Widget.RedditBase.EditText.Field</item>
+        <item name="editTextStyle">?android:editTextStyle</item>
+        <item name="flairTextStyle">@style/Widget.RedditBase.FlairText</item>
+        <item name="linkFooterViewStyle">@style/Widget.RedditBase.LinkFooterView</item>
+        <item name="linkStatusViewStyle">@style/Widget.RedditBase.LinkStatusView</item>
+        <item name="live_highlight_color">@color/live_highlight</item>
+        <item name="popupMenuStyle">@style/Widget.RedditBase.PopupMenu</item>
+        <item name="popupTheme">@style/ThemeOverlay.RedditBase.PopupMenu</item>
+        <item name="primaryButtonBackground">@drawable/button_primary_background</item>
+        <item name="primaryButtonStyle">@style/Widget.RedditBase.Button.Colored</item>
+        <item name="primarySmallButtonStyle">@style/Widget.RedditBase.Button.Colored.Small</item>
+        <item name="radioButtonStyle">?android:radioButtonStyle</item>
+        <item name="radioCheckboxSelector">@drawable/radio_checkbox_selector</item>
+        <item name="rdt_action_text_color">?rdt_meta_text_color</item>
+        <item name="rdt_address_text_color">?rdt_button_text_color</item>
+        <item name="rdt_badge_text_color">?rdt_button_text_color</item>
+        <item name="rdt_ban_in_context_border_drawable">@drawable/ban_in_context_border</item>
+        <item name="rdt_body_medium_text_color">?rdt_body_text_color</item>
+        <item name="rdt_body_small_text_color">?rdt_body_text_color</item>
+        <item name="rdt_border_rectangle_drawable">@drawable/border_rectangle</item>
+        <item name="rdt_bottomsheet_background_color">?rdt_body_color</item>
+        <item name="rdt_bottomsheet_background_drawable">@drawable/background_bottom_sheet</item>
+        <item name="rdt_button_text_color">?rdt_light_text_color</item>
+        <item name="rdt_chat_input_field_bg">@drawable/chat_input_field_bg</item>
+        <item name="rdt_chat_message_other_background">@drawable/chat_message_other_background</item>
+        <item name="rdt_chat_message_other_color">@color/message_bubble_grey</item>
+        <item name="rdt_chat_message_self_background">@drawable/chat_message_self_background</item>
+        <item name="rdt_chat_message_self_color">@color/message_bubble_grey</item>
+        <item name="rdt_chat_missing_avatar">@drawable/avatar_missing_background</item>
+        <item name="rdt_circle_themed">@drawable/circle_active_color</item>
+        <item name="rdt_comment_indent_colors">@array/rdt_comment_indent</item>
+        <item name="rdt_corners_bottom">@drawable/rounded_corners_bottom</item>
+        <item name="rdt_cross_post_border_drawable">@drawable/crosspost_border</item>
+        <item name="rdt_default_key_color">?rdt_active_color</item>
+        <item name="rdt_default_multireddit_key_color">?rdt_active_color</item>
+        <item name="rdt_default_user_key_color">?rdt_active_color</item>
+        <item name="rdt_fab_label_background_drawable">@drawable/fab_label_background</item>
+        <item name="rdt_flair_background_drawable">@drawable/background_link_flair</item>
+        <item name="rdt_flair_text_color">?rdt_button_text_color</item>
+        <item name="rdt_h2_text_color">?rdt_body_text_color</item>
+        <item name="rdt_h4_text_color">?rdt_body_text_color</item>
+        <item name="rdt_headline_text_color">?rdt_body_text_color</item>
+        <item name="rdt_horizontal_divider_drawable">@drawable/horizontal_divider</item>
+        <item name="rdt_horizontal_divider_listing_drawable">@drawable/horizontal_divider</item>
+        <item name="rdt_horizontal_divider_listing_large_drawable">@drawable/horizontal_divider_large</item>
+        <item name="rdt_image_placeholder">@drawable/image_placeholder</item>
+        <item name="rdt_live_embed_link_background">@drawable/background_live_link</item>
+        <item name="rdt_menu_icon_color">?rdt_nav_icon_color</item>
+        <item name="rdt_metadata_text_color">?rdt_meta_text_color</item>
+        <item name="rdt_nsfw_background_drawable">@drawable/background_link_nsfw</item>
+        <item name="rdt_player_control_color">?rdt_active_color</item>
+        <item name="rdt_popup_menu_icon_color">?rdt_nav_icon_color</item>
+        <item name="rdt_quarantined_background_drawable">@drawable/background_link_quarantined</item>
+        <item name="rdt_removed_background_drawable">@drawable/background_link_removed</item>
+        <item name="rdt_spoiler_background_drawable">@drawable/background_link_spoiler</item>
+        <item name="rdt_subheader_text_color">?rdt_meta_text_color</item>
+        <item name="rdt_title_text_color">?rdt_body_text_color</item>
+        <item name="rdt_toolbar_color">?rdt_body_color</item>
+        <item name="rdt_user_flair_text_color">?rdt_active_color</item>
+        <item name="rdt_vertical_divider_drawable">@drawable/vertical_divider</item>
+        <item name="rounded_corners_background_color">@drawable/rounded_rectangle_white</item>
+        <item name="searchViewBackground">@drawable/searchview_background</item>
+        <item name="secondaryButtonBackground">@drawable/button_secondary_background</item>
+        <item name="secondaryButtonStyle">@style/Widget.RedditBase.Button.Outlined</item>
+        <item name="secondarySmallButtonStyle">@style/Widget.RedditBase.Button.Outlined.Small</item>
+        <item name="shaped_icon_view_bordered_style">@style/Widget.RedditBase.ShapedIconView.Bordered</item>
+        <item name="shaped_icon_view_style">@style/Widget.RedditBase.ShapedIconView</item>
+        <item name="switchStyle">@style/Widget.RedditBase.Switch</item>
+        <item name="tertiaryButtonBackground">@drawable/button_tertiary_background</item>
+        <item name="tertiaryButtonStyle">@style/Widget.RedditBase.Button</item>
+        <item name="textAppearanceLargePopupMenu">?textAppearanceRedditBodyMedium</item>
+        <item name="textAppearanceLightboxHeaderDetails">@style/rdt_lightboxheader_details</item>
+        <item name="textAppearanceLightboxHeaderTitle">@style/rdt_lightboxheader_title</item>
+        <item name="textAppearanceRedditAction">@style/TextAppearance.RedditBase.Action</item>
+        <item name="textAppearanceRedditAddress">@style/TextAppearance.RedditBase.Address</item>
+        <item name="textAppearanceRedditBadge">@style/TextAppearance.RedditBase.Badge</item>
+        <item name="textAppearanceRedditBody">@style/TextAppearance.RedditBase.Body</item>
+        <item name="textAppearanceRedditBodyMedium">@style/TextAppearance.RedditBase.Body.Medium</item>
+        <item name="textAppearanceRedditBodySmall">@style/TextAppearance.RedditBase.Body.Small</item>
+        <item name="textAppearanceRedditButton">@style/TextAppearance.RedditBase.Button</item>
+        <item name="textAppearanceRedditButtonBorderless">@style/TextAppearance.RedditBase.Button.Borderless</item>
+        <item name="textAppearanceRedditButtonColored">@style/TextAppearance.RedditBase.Button.Colored</item>
+        <item name="textAppearanceRedditButtonLink">@style/TextAppearance.RedditBase.Button.Link</item>
+        <item name="textAppearanceRedditFlair">@style/TextAppearance.RedditBase.Flair</item>
+        <item name="textAppearanceRedditH2">@style/TextAppearance.RedditBase.H2</item>
+        <item name="textAppearanceRedditH4">@style/TextAppearance.RedditBase.H4</item>
+        <item name="textAppearanceRedditHeadline">@style/TextAppearance.RedditBase.Headline</item>
+        <item name="textAppearanceRedditHint">@style/TextAppearance.RedditBase.Hint</item>
+        <item name="textAppearanceRedditMetadata">@style/TextAppearance.RedditBase.Metadata</item>
+        <item name="textAppearanceRedditSubheader">@style/TextAppearance.RedditBase.Subheader</item>
+        <item name="textAppearanceRedditTab">@style/TextAppearance.RedditBase.Tab</item>
+        <item name="textAppearanceRedditTitle">@style/TextAppearance.RedditBase.Title</item>
+        <item name="textAppearanceRedditUserFlair">@style/TextAppearance.RedditBase.UserFlair</item>
+        <item name="textAppearanceSmallPopupMenu">?textAppearanceRedditBodyMedium</item>
+        <item name="title_logo">@drawable/logo_reddit</item>
+        <item name="toolbarNavigationButtonStyle">@style/Widget.RedditBase.Toolbar.Button.Navigation</item>
+        <item name="toolbarStyle">@style/Widget.RedditBase.Toolbar</item>
+        <item name="voteViewStyle">@style/Widget.RedditBase.VoteView</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="AppTheme.AlienBlue" parent="@style/Base.AppTheme.AlienBlue" />
+    <style name="AppTheme.Mint" parent="@style/Base.AppTheme.Mint" />
+    <style name="AppTheme.Night" parent="@style/Base.AppTheme.Night" />
+    <style name="Base.AppTheme" parent="@style/Base.V23.AppTheme" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light" />
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="Base.Widget.AppCompat.Button.Colored" parent="@android:style/Widget.Material.Button.Colored" />
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="Base.Widget.AppCompat.RatingBar.Small" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="CardView" parent="@style/Base.CardView">
+        <item name="cardBackgroundColor">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="AppTheme.Amoled" parent="@style/AppTheme">
+        <item name="isDarkTheme">true</item>
+        <item name="rdt_action_icon_color">@color/rdt_night_action_grey</item>
+        <item name="rdt_active_color">@color/rdt_alien_blue</item>
+        <item name="rdt_body_color">@color/rdt_black</item>
+        <item name="rdt_body_text_color_raw">@color/rdt_night_body_text</item>
+        <item name="rdt_button_color_raw">@color/rdt_blue</item>
+        <item name="rdt_canvas_color">@color/rdt_night_canvas</item>
+        <item name="rdt_dimmer_color">@color/rdt_night_field_grey</item>
+        <item name="rdt_fab_color">?rdt_active_color</item>
+        <item name="rdt_fab_color_pressed">@color/rdt_blue</item>
+        <item name="rdt_field_color">@color/rdt_night_body</item>
+        <item name="rdt_flair_color">@color/rdt_night_meta_text</item>
+        <item name="rdt_highlight_color">@color/rdt_highlight_blue_dark</item>
+        <item name="rdt_hint_text_color">@color/rdt_night_white_translucent_60p</item>
+        <item name="rdt_inactive_color">@color/rdt_night_inactive_grey</item>
+        <item name="rdt_light_text_color">@color/rdt_text_light_redditbase</item>
+        <item name="rdt_line_color">@color/rdt_night_inactive_grey</item>
+        <item name="rdt_link_text_color">@color/rdt_blue</item>
+        <item name="rdt_loader_background_color">?rdt_active_color</item>
+        <item name="rdt_meta_text_color_raw">@color/rdt_night_meta_text</item>
+        <item name="rdt_nav_icon_color">@color/rdt_night_body_text</item>
+        <item name="rdt_placeholder_color">@color/rdt_night_placeholder_grey</item>
+        <item name="rdt_tab_unselected_text_color">@color/rdt_night_white_translucent_60p</item>
+        <item name="rdt_toast_color">?rdt_body_color</item>
+        <item name="rdt_toast_snoo_drawable">@drawable/toast_snoo</item>
+        <item name="rdt_toast_text_color">?rdt_body_text_color</item>
+    </style>
+    <style name="AppTheme.Pony" parent="@style/AppTheme">
+        <item name="isDarkTheme">false</item>
+        <item name="rdt_action_icon_color">@color/rdt_pony_action_pink</item>
+        <item name="rdt_active_color">@color/rdt_pony_active_pink</item>
+        <item name="rdt_body_color">@color/rdt_white</item>
+        <item name="rdt_body_text_color_raw">@color/rdt_pony_body_text</item>
+        <item name="rdt_button_color_raw">@color/rdt_pony_button_pink</item>
+        <item name="rdt_canvas_color">@color/rdt_pony_canvas_grey</item>
+        <item name="rdt_dimmer_color">@color/rdt_night_field_grey</item>
+        <item name="rdt_fab_color">?rdt_active_color</item>
+        <item name="rdt_fab_color_pressed">@color/rdt_pony_action_pink</item>
+        <item name="rdt_field_color">@color/rdt_pony_field_grey</item>
+        <item name="rdt_flair_color">@color/rdt_pony_meta_text</item>
+        <item name="rdt_highlight_color">@color/rdt_pony_highlight_pink</item>
+        <item name="rdt_hint_text_color">@color/rdt_dark_grey_translucent_60p</item>
+        <item name="rdt_inactive_color">@color/rdt_pony_canvas_grey</item>
+        <item name="rdt_light_text_color">@color/rdt_text_light_redditbase</item>
+        <item name="rdt_line_color">@color/rdt_pony_canvas_grey</item>
+        <item name="rdt_link_text_color">@color/rdt_pony_button_pink</item>
+        <item name="rdt_loader_background_color">?rdt_active_color</item>
+        <item name="rdt_meta_text_color_raw">@color/rdt_pony_meta_text</item>
+        <item name="rdt_nav_icon_color">@color/rdt_pony_body_text</item>
+        <item name="rdt_placeholder_color">@color/rdt_pony_placeholder_pink</item>
+        <item name="rdt_tab_unselected_text_color">@color/rdt_dark_grey_translucent_60p</item>
+        <item name="rdt_toast_color">?rdt_nav_icon_color</item>
+        <item name="rdt_toast_snoo_drawable">@drawable/toast_snoo_dark</item>
+        <item name="rdt_toast_text_color">?rdt_light_text_color</item>
+    </style>
+    <style name="AppTheme.Trees" parent="@style/AppTheme">
+        <item name="isDarkTheme">false</item>
+        <item name="rdt_action_icon_color">@color/rdt_trees_action_green</item>
+        <item name="rdt_active_color">@color/rdt_trees_active_green</item>
+        <item name="rdt_body_color">@color/rdt_white</item>
+        <item name="rdt_body_text_color_raw">@color/rdt_trees_body_text</item>
+        <item name="rdt_button_color_raw">@color/rdt_trees_button_green</item>
+        <item name="rdt_canvas_color">@color/rdt_trees_canvas_green</item>
+        <item name="rdt_dimmer_color">@color/rdt_night_field_grey</item>
+        <item name="rdt_fab_color">?rdt_active_color</item>
+        <item name="rdt_fab_color_pressed">@color/rdt_trees_action_green</item>
+        <item name="rdt_field_color">@color/rdt_trees_field_grey</item>
+        <item name="rdt_flair_color">@color/rdt_trees_meta_text</item>
+        <item name="rdt_highlight_color">@color/rdt_trees_highlight_green</item>
+        <item name="rdt_hint_text_color">@color/rdt_dark_grey_translucent_60p</item>
+        <item name="rdt_inactive_color">@color/rdt_trees_canvas_green</item>
+        <item name="rdt_light_text_color">@color/rdt_text_light_redditbase</item>
+        <item name="rdt_line_color">@color/rdt_trees_canvas_green</item>
+        <item name="rdt_link_text_color">@color/rdt_trees_button_green</item>
+        <item name="rdt_loader_background_color">?rdt_active_color</item>
+        <item name="rdt_meta_text_color_raw">@color/rdt_trees_meta_text</item>
+        <item name="rdt_nav_icon_color">@color/rdt_trees_body_text</item>
+        <item name="rdt_placeholder_color">@color/rdt_trees_placeholder_green</item>
+        <item name="rdt_tab_unselected_text_color">@color/rdt_dark_grey_translucent_60p</item>
+        <item name="rdt_toast_color">?rdt_nav_icon_color</item>
+        <item name="rdt_toast_snoo_drawable">@drawable/toast_snoo_dark</item>
+        <item name="rdt_toast_text_color">?rdt_light_text_color</item>
+    </style>
+    <style name="Base.V23.AppTheme" parent="@style/Base.V21.AppTheme">
+        <item name="colorButtonNormal">@color/rdt_button_tertiary</item>
+        <item name="rdt_active_enabled_else_canvas">@color/selector_active_enabled_else_canvas</item>
+        <item name="rdt_active_selected_else_canvas">@color/selector_active_selected_else_canvas</item>
+        <item name="rdt_body_text_color">@color/rdt_text_body</item>
+        <item name="rdt_button_color">@color/rdt_button_primary</item>
+        <item name="rdt_button_link_text_color">@color/selector_button_link_text</item>
+        <item name="rdt_downvote_color_selector">@color/selector_downvote_color</item>
+        <item name="rdt_favorite_color_selector">@color/selector_favorite_color</item>
+        <item name="rdt_icon_color_selector">@color/selector_nav_icon</item>
+        <item name="rdt_meta_text_color">@color/rdt_text_meta</item>
+        <item name="rdt_popup_listitem_color">@color/selector_listitem_popup_text</item>
+        <item name="rdt_selector_token_text_color">@color/selector_token_text_color</item>
+        <item name="rdt_subscribe_button_text_color">@color/rdt_button_text_subscribe</item>
+        <item name="rdt_tab_text_color">@color/selector_tab_color</item>
+        <item name="rdt_upvote_color_selector">@color/selector_upvote_color</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

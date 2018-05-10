@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@+id/banned_users_container" app:background="?attr/rdt_canvas_color" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay_RedditBase_Toolbar_LightForeground" app:id="@id/toolbar" app:background="?attr/rdt_active_color" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003" app:titleTextColor="@color/rdt_white" />
+    <com.reddit.frontpage.widgets.modtools.ModSearchView app:id="@+id/mod_tools_users_search_view" app:layout_width="match_parent" app:layout_height="wrap_content" />
+    <include layout="@layout/modtools_divider" />
+    <android.support.v7.widget.RecyclerView app:id="@+id/mod_tools_users_recyclerview" app:layout_width="match_parent" app:layout_height="wrap_content" />
+    <include app:id="@+id/empty_container_stub" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" layout="@layout/listing_empty" />
+</LinearLayout>

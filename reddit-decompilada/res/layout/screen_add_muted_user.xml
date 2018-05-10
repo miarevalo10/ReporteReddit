@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@+id/layout_add_muted_user_root" app:background="?attr/rdt_canvas_color" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003">
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textSize="18sp" app:textColor="?attr/rdt_body_text_color" app:ellipsize="end" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <include layout="@layout/modtools_divider" />
+    <ScrollView app:layout_width="match_parent" app:layout_height="match_parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <android.support.constraint.ConstraintLayout app:layout_width="match_parent" app:layout_height="match_parent" app:layout_margin="@dimen/double_pad">
+            <TextView app:textAppearance="?attr/textAppearanceRedditBody" app:id="@+id/username_title" app:focusable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/mod_tools_username_title" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0" />
+            <include app:id="@+id/username_container" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/single_pad" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/username_title" layout="@layout/layout_modtools_username" />
+            <TextView app:textAppearance="?attr/textAppearanceRedditBody" app:id="@+id/note_title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/double_pad" app:text="@string/mod_tools_add_muted_note_title" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toBottomOf="@+id/username_container" />
+            <TextView app:textAppearance="?attr/textAppearanceRedditBody" app:textColor="?attr/rdt_meta_text_color" app:id="@+id/note_helper" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/mod_tools_add_muted_helper" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toBottomOf="@+id/note_title" />
+            <EditText app:textAppearance="?attr/textAppearanceRedditBody" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/note" app:paddingLeft="@dimen/half_pad" app:paddingRight="@dimen/half_pad" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/single_pad" app:minHeight="@dimen/modtools_mod_note_height" app:hint="@string/mod_tools_add_muted_note_hint" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/note_helper" style="?attr/editTextFieldStyle" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

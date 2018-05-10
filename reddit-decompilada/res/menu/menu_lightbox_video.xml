@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_icon_share" app:id="@+id/action_share" app:title="@string/action_share" app:iconTint="?attr/rdt_menu_icon_color" app:showAsAction="always" />
+    <item app:icon="@drawable/ic_icon_download" app:id="@+id/action_save_video" app:title="@string/option_save" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_icon_download" app:id="@+id/action_save_gif" app:title="@string/option_save_as_animated_gif" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

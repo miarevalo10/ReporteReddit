@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="?attr/rdt_body_color" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003" />
+    <include layout="@layout/chat_divider" />
+    <include app:id="@+id/connection_banner" layout="@layout/connection_banner" />
+    <FrameLayout app:layout_width="match_parent" app:layout_height="match_parent">
+        <View app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/progress" app:layout_width="UNKNOWN_DATA_0x7f07017d" app:layout_height="UNKNOWN_DATA_0x7f07017d" />
+        <LinearLayout app:orientation="vertical" app:id="@+id/request_info" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent"
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="1.0"
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/inviter" app:background="?attr/selectableItemBackground" app:padding="@dimen/double_pad" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <ImageView app:id="@+id/inviter_icon" app:layout_width="UNKNOWN_DATA_0x7f07012b" app:layout_height="UNKNOWN_DATA_0x7f07012b" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="1.0" app:layout_marginStart="@dimen/single_half_pad" app:layout_marginEnd="@dimen/single_pad">
+                        <TextView app:textStyle="bold" app:textColor="?attr/rdt_body_text_color" app:ellipsize="end" app:id="@+id/inviter_name" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" />
+                        <TextView app:textSize="12sp" app:textColor="@color/rdt_meta_text" app:id="@+id/inviter_karma_and_age" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout app:layout_width="wrap_content" app:layout_height="wrap_content">
+                        <TextView app:textColor="@color/rdt_blue" app:id="@+id/inviter_nsfw" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/label_nsfw" />
+                        <TextView app:textColor="@color/rdt_red" app:id="@+id/inviter_blocked" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/label_blocked" app:layout_marginStart="@dimen/single_pad" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView app:textSize="16sp" app:textColor="?attr/rdt_body_text_color" app:id="@+id/chat_note" app:paddingLeft="@dimen/double_pad" app:paddingRight="@dimen/double_pad" app:layout_width="match_parent" app:layout_height="wrap_content" />
+                <TextView app:textSize="16sp" app:textColor="?attr/rdt_body_text_color" app:id="@+id/blocker_info" app:paddingLeft="@dimen/double_pad" app:paddingRight="@dimen/double_pad" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/single_half_pad" />
+                <LinearLayout app:orientation="vertical" app:id="@+id/members_list_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/double_pad">
+                    <TextView app:textSize="12sp" app:textColor="@color/rdt_meta_text" app:ellipsize="end" app:id="@+id/group_info" app:paddingLeft="@dimen/double_pad" app:paddingRight="@dimen/double_pad" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/single_pad" app:maxLines="1" />
+                    <include layout="@layout/chat_divider" />
+                    <android.support.v7.widget.RecyclerView app:id="@+id/members_list" app:layout_width="match_parent" app:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout app:orientation="vertical" app:id="@+id/message_preview_container" app:padding="@dimen/double_pad" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <TextView app:textSize="12sp" app:textColor="@color/rdt_meta_text" app:id="@+id/user_header" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/single_pad" app:text="@string/rdt_label_preview_of_this_chat" />
+                    <ScrollView app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <FrameLayout app:id="@+id/chat_request_message" app:paddingBottom="@dimen/single_pad" app:layout_width="match_parent" app:layout_height="wrap_content" />
+                    </ScrollView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout app:orientation="vertical" app:id="@+id/button_container" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <include layout="@layout/chat_divider" />
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <Button app:textStyle="bold" app:textColor="?attr/rdt_action_text_color" app:id="@+id/decline_button" app:background="?attr/selectableItemBackground" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="@string/rdt_label_decline" app:layout_weight="1.0" />
+                    <Button app:textStyle="bold" app:textColor="?attr/rdt_button_link_text_color" app:id="@+id/accept_button" app:background="?attr/selectableItemBackground" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="@string/rdt_label_accept" app:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

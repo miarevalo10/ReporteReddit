@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="wrap_content" app:layout_height="wrap_content">
+    <com.reddit.android.view.WrappedWidthTextView app:textAppearance="?attr/textAppearanceRedditBody" app:id="@+id/link_content_message" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+    <LinearLayout app:orientation="vertical" app:id="@+id/link_content_link_embed" app:background="?attr/rdt_chat_message_other_background" app:padding="11dp" app:layout_width="match_parent" app:layout_height="wrap_content"
+        <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:id="@+id/link_content_favicon" app:layout_width="UNKNOWN_DATA_0x7f070135" app:layout_height="UNKNOWN_DATA_0x7f070135" app:layout_marginEnd="@dimen/three_quarter_pad" />
+            <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:id="@+id/link_content_sitename" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView app:textAppearance="?attr/textAppearanceRedditBody" app:id="@+id/link_content_title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/three_quarter_pad" />
+        <TextView app:textAppearance="?attr/textAppearanceRedditBodySmall" app:id="@+id/link_content_description" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/half_pad" />
+        <com.reddit.social.widgets.ProportionalImageView app:id="@+id/link_content_image" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="10dp" app:scaleType="centerCrop" app:ratio="0.65" />
+    </LinearLayout>
+</merge>

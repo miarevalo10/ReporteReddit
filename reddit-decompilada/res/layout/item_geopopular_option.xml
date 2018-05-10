@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07018f">
+    <CheckedTextView android:textAppearance="?attr/textAppearanceRedditBodyMedium" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/option" android:layout_width="wrap_content" android:layout_height="match_parent" android:drawablePadding="@dimen/quad_pad" android:drawableStart="?attr/radioCheckboxSelector" android:checkMarkTint="?attr/rdt_active_color" />
+    <TextView android:textAppearance="?attr/textAppearanceRedditBodyMedium" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/region_textview" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/drillin_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_arrowforward" />
+</LinearLayout>

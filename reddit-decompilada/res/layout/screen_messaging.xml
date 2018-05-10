@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/layout_open_chat_root" app:background="?attr/rdt_body_color" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <com.reddit.social.widgets.WidgetKeyboard app:id="@+id/widget_keyboard" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentBottom="true" />
+    <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003" app:layout_alignParentTop="true">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textSize="18sp" app:textColor="?attr/rdt_body_text_color" app:ellipsize="end" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" />
+            <TextView app:textSize="14sp" app:textColor="@color/rdt_meta_text" app:ellipsize="end" app:id="@+id/subtitle" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_above="@+id/widget_keyboard" app:layout_below="@id/toolbar">
+        <include app:id="@+id/connection_banner" layout="@layout/connection_banner" />
+        <android.support.v7.widget.RecyclerView app:id="@+id/recycler_open_channel_chat" app:paddingBottom="@dimen/single_three_quarter_pad" app:scrollbars="vertical" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" />
+        <include app:id="@+id/error_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" layout="@layout/widget_listing_error" />
+    </LinearLayout>
+    <View app:id="@+id/progress_bar" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f07017d" app:layout_height="UNKNOWN_DATA_0x7f07017d" app:layout_centerInParent="true" />
+    <View app:background="?attr/rdt_line_color" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_below="@id/toolbar" />
+</RelativeLayout>

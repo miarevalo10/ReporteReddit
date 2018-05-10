@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/rdt_canvas_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003" />
+    <com.reddit.frontpage.widgets.GoEditTextView android:textAppearance="?attr/textAppearanceRedditBody" android:id="@+id/filter" android:background="0x0" android:paddingLeft="@dimen/double_pad" android:paddingTop="@dimen/single_pad" android:paddingBottom="@dimen/single_pad" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/double_pad" android:hint="@string/select_subreddit_navigation" android:layout_below="@id/toolbar" android:imeOptions="actionGo|actionSearch|actionDone|actionPrevious" />
+    <android.support.v7.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/filter" style="@style/Widget_RedditBase_RecyclerView" />
+    <View android:background="@drawable/shadow_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070194" android:layout_below="@id/toolbar" />
+</RelativeLayout>

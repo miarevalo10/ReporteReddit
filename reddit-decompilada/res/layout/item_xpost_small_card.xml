@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/rdt_body_color" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/selectableItemBackground" android:elevation="@dimen/elevation">
+    <ViewStub android:id="@+id/link_header_stub" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.reddit.frontpage.ui.listing.newcard.SmallCardBodyView android:id="@+id/link_card_body" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.reddit.frontpage.ui.listing.newcard.RightIndentTextView android:textAppearance="?attr/textAppearanceRedditTitle" android:id="@+id/link_title" android:paddingLeft="@dimen/double_pad" android:paddingRight="@dimen/double_pad" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <com.reddit.frontpage.ui.listing.newcard.LinkFlairView android:id="@+id/link_flair" android:paddingLeft="@dimen/double_pad" android:paddingRight="@dimen/double_pad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/link_title" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/single_pad" android:layout_below="@+id/link_flair" android:layout_alignWithParentIfMissing="true">
+            <include layout="@layout/xpost_small_bordered" />
+        </FrameLayout>
+    </com.reddit.frontpage.ui.listing.newcard.SmallCardBodyView>
+    <com.reddit.frontpage.widgets.LinkFooterView android:id="@+id/link_footer" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

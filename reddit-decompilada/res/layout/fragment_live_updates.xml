@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/rdt_canvas_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/refresh_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView android:id="@+id/update_list" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Widget_RedditBase_RecyclerView" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/update_counter" android:background="@drawable/rounded_rectangle_blue" android:padding="@dimen/single_pad" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/single_pad" android:minWidth="96dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:textAllCaps="true" />
+</RelativeLayout>

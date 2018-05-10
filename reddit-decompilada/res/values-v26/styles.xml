@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.AppTheme" parent="@style/Base.V26.AppTheme" />
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light" />
+    <style name="Base.Widget.AppCompat.Toolbar" parent="@style/Base.V26.Widget.AppCompat.Toolbar" />
+    <style name="Base.Widget.Design.AppBarLayout" parent="@style/Base.V26.Widget.Design.AppBarLayout" />
+    <style name="Reddit.Splash" parent="@style/Reddit.Theme.Versioned">
+        <item name="android:windowBackground">@color/rdt_body_text</item>
+        <item name="android:windowSplashscreenContent">@drawable/window_splash</item>
+    </style>
+    <style name="RtlOverlay.DialogWindowTitle.RedditBase" parent="@style/RtlOverlay.DialogWindowTitle.AppCompat">
+        <item name="android:textAppearance">?textAppearanceRedditTitle</item>
+    </style>
+    <style name="Base.V26.AppTheme" parent="@style/Base.V23.AppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">?rdt_canvas_color</item>
+        <item name="android:navigationBarColor">?rdt_body_color</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Widget.AppCompat.Toolbar" parent="@style/Base.V7.Widget.AppCompat.Toolbar">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="Base.V26.Widget.Design.AppBarLayout" parent="@style/Base.V21.Widget.Design.AppBarLayout">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

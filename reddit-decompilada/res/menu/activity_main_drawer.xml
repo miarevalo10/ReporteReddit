@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_icon_profile" android:id="@+id/profile_self" android:title="@string/rdt_promoter_my_profile" />
+    <item android:icon="@drawable/ic_icon_saved" android:id="@+id/profile_saved" android:title="@string/label_saved" />
+    <item android:icon="@drawable/ic_icon_feed_history" android:id="@+id/profile_history" android:title="@string/label_history" />
+</menu>

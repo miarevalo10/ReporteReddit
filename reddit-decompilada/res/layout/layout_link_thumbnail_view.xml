@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="wrap_content" app:layout_height="wrap_content">
+    <ImageView app:id="@+id/link_thumbnail_image" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="center" />
+    <FrameLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/domain_background" app:background="@drawable/rounded_corners_bottom_dark" app:paddingLeft="@dimen/half_pad" app:paddingRight="@dimen/half_pad" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1801">
+        <TextView app:textAppearance="?attr/textAppearanceRedditAddress" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/link_thumbnail_domain" app:layout_width="UNKNOWN_DATA_0x3e801" app:layout_height="UNKNOWN_DATA_0x1801" app:maxLines="1" app:includeFontPadding="false" />
+    </FrameLayout>
+</merge>

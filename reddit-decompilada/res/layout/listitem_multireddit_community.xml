@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:paddingTop="@dimen/single_pad" app:paddingBottom="@dimen/single_pad" app:layout_height="wrap_content" style="@style/listitem_subreddit">
+    <com.reddit.frontpage.widgets.ShapedIconView app:id="@+id/subreddit_icon" app:layout_width="UNKNOWN_DATA_0x7f070191" app:layout_height="UNKNOWN_DATA_0x7f070192" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+    <TextView app:textAppearance="?attr/textAppearanceRedditBodyMedium" app:ellipsize="end" app:id="@+id/subreddit_name" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/double_pad" app:layout_toRightOf="@+id/subreddit_icon" app:layout_alignTop="@+id/subreddit_icon" />
+    <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:ellipsize="end" app:id="@+id/subreddit_subscribers" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_below="@+id/subreddit_name" app:layout_alignLeft="@+id/subreddit_name" />
+</RelativeLayout>

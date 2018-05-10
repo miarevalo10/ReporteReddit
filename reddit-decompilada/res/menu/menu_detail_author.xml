@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_icon_share" app:id="@+id/action_share" app:visible="false" app:orderInCategory="5" app:title="@string/action_share" app:iconTint="?attr/rdt_popup_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_post_edit" app:id="@+id/action_edit_link" app:orderInCategory="6" app:title="@string/action_edit" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_icon_tag" app:id="@+id/action_add_flair" app:orderInCategory="7" app:title="@string/action_add_post_flair" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_icon_tag" app:id="@+id/action_change_flair" app:orderInCategory="8" app:title="@string/action_change_post_flair" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_icon_spoiler" app:id="@+id/action_mark_spoiler" app:orderInCategory="9" app:title="@string/action_mark_spoiler" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_icon_spoiler" app:id="@+id/action_unmark_spoiler" app:orderInCategory="10" app:title="@string/action_unmark_spoiler" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/icon_nsfw" app:id="@+id/action_mark_nsfw" app:orderInCategory="11" app:title="@string/action_mark_nsfw" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/icon_nsfw" app:id="@+id/action_unmark_nsfw" app:orderInCategory="12" app:title="@string/action_unmark_nsfw" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_icon_delete" app:id="@+id/action_delete" app:orderInCategory="13" app:title="@string/action_delete" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

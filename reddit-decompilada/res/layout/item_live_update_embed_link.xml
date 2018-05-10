@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/rdt_live_embed_link_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/double_pad" android:layout_marginTop="@dimen/single_pad" android:layout_marginRight="@dimen/double_pad" android:layout_marginBottom="@dimen/single_pad">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/layout_link_thumbnail_view_wide" />
+    </FrameLayout>
+    <TextView android:textAppearance="?attr/textAppearanceRedditTitle" android:id="@+id/link_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/single_half_pad" android:layout_marginTop="@dimen/single_half_pad" android:layout_marginRight="@dimen/single_half_pad" />
+    <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:id="@+id/link_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/single_half_pad" android:layout_marginTop="@dimen/half_pad" android:layout_marginRight="@dimen/single_half_pad" android:layout_marginBottom="@dimen/double_pad" />
+</LinearLayout>

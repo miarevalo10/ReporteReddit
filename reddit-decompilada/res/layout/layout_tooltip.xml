@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tooltip_tail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tooltip_tail" android:tint="?attr/rdt_active_color" android:rotation="180.0" />
+    <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:textColor="?attr/rdt_button_text_color" android:id="@+id/tooltip_text" android:background="?attr/primaryButtonBackground" android:padding="@dimen/double_pad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/double_half_pad" android:layout_marginRight="@dimen/double_half_pad" android:text="@string/geopopular_tooltip" />
+</LinearLayout>

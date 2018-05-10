@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f07018f">
+    <ImageView app:id="@+id/mod_options_left_icon" app:layout_width="UNKNOWN_DATA_0x7f070154" app:layout_height="UNKNOWN_DATA_0x7f070153" app:layout_marginLeft="@dimen/double_pad" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0" />
+    <TextView app:textAppearance="?attr/textAppearanceRedditBodyMedium" app:id="@+id/mod_options_text" app:layout_width="wrap_content" app:layout_height="wrap_content" app:paddingEnd="@dimen/double_pad" app:layout_marginStart="@dimen/double_pad" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="@+id/mod_options_left_icon" app:layout_constraintTop_toTopOf="0" />
+    <ImageView app:id="@+id/mod_options_right_icon" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f070154" app:layout_height="UNKNOWN_DATA_0x7f070153" app:src="@drawable/ic_icon_forward" app:layout_marginEnd="@dimen/double_pad" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0" />
+</android.support.constraint.ConstraintLayout>

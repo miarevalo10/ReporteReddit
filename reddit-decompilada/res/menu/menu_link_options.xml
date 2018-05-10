@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_icon_save" app:id="@+id/action_save" app:title="@string/action_save" app:iconTint="?attr/rdt_popup_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_saved" app:id="@+id/action_unsave" app:title="@string/action_unsave" app:iconTint="?attr/rdt_popup_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_share" app:id="@+id/action_share" app:title="@string/action_share" app:iconTint="?attr/rdt_popup_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_hide" app:id="@+id/action_hide" app:title="@string/action_hide_post" app:iconTint="?attr/rdt_popup_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_hide" app:id="@+id/action_unhide" app:title="@string/action_unhide_post" app:iconTint="?attr/rdt_popup_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_report" app:id="@+id/action_report" app:title="@string/action_report" app:iconTint="?attr/rdt_popup_menu_icon_color" />
+</menu>

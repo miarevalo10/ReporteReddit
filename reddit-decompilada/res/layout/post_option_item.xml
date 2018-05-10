@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="?attr/selectableItemBackground" app:layout_width="wrap_content" app:layout_height="wrap_content">
+    <ImageView app:id="@+id/post_option_icon" app:padding="@dimen/single_half_pad" app:layout_width="UNKNOWN_DATA_0x7f07016f" app:layout_height="UNKNOWN_DATA_0x7f07016f" />
+    <TextView app:textAppearance="?attr/textAppearanceRedditSubheader" app:textColor="?attr/rdt_light_text_color" app:id="@+id/post_option_label" app:paddingTop="@dimen/three_quarter_pad" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+</LinearLayout>

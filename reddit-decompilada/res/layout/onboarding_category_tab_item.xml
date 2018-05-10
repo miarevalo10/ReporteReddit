@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f07016c" app:layout_height="UNKNOWN_DATA_0x7f07016c">
+    <android.support.v7.widget.AppCompatImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/category_icon" app:background="@drawable/circle_black" app:padding="@dimen/single_half_pad" app:layout_width="UNKNOWN_DATA_0x7f07016d" app:layout_height="UNKNOWN_DATA_0x7f07016d" app:tint="?attr/rdt_onboarding_category_icon_color_selector" />
+</FrameLayout>

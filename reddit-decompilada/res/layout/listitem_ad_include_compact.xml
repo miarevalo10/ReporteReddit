@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.reddit.frontpage.widgets.SponsoredLinkHeaderView app:id="@+id/linkheader" app:paddingTop="@dimen/single_pad" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f07013d" app:layout_alignParentTop="true" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/single_half_pad" />
+        <TextView app:textAppearance="@style/TextAppearance_RedditBase_Title_Compact" app:id="@+id/ad_headline" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@+id/linkheader" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/double_pad" app:layout_toStartOf="@+id/ad_image" app:layout_alignParentStart="true" />
+        <TextView app:id="@+id/ad_flair_sponsored" app:background="@drawable/background_link_sponsored" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/half_pad" app:layout_marginBottom="@dimen/half_pad" app:text="@string/label_sponsored" app:layout_below="@+id/ad_headline" app:layout_marginStart="@dimen/double_pad" app:layout_alignParentStart="true" style="?attr/flairTextStyle" />
+        <TextView app:textAppearance="@style/TextAppearance_RedditBase_Metadata_LinkColor" app:ellipsize="end" app:id="@+id/ad_call_to_action" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" app:layout_below="@+id/ad_flair_sponsored" app:textAllCaps="true" app:layout_marginStart="@dimen/double_pad" app:layout_alignParentStart="true" />
+        <com.reddit.frontpage.widgets.BezelImageView app:id="@+id/ad_logo" app:layout_width="UNKNOWN_DATA_0x7f070085" app:layout_height="UNKNOWN_DATA_0x7f070084" app:scaleType="centerCrop" app:layout_centerVertical="true" app:layout_marginStart="@dimen/single_half_pad" app:layout_marginEnd="@dimen/double_pad" app:layout_alignParentEnd="true" app:maskDrawable="@drawable/rounded_corners_background_black" />
+    </RelativeLayout>
+</merge>

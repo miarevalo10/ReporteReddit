@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CollapsingToolbarLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/collapsing_toolbar" app:layout_width="match_parent" app:layout_height="match_parent" app:minHeight="?attr/actionBarSize" app:collapsedTitleTextAppearance="@style/TextAppearance_RedditBase_Title_Nav" app:layout_scrollFlags="3" app:toolbarId="@id/toolbar">
+    <RelativeLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:animateLayoutChanges="true" app:layout_collapseMode="0">
+        <ImageView app:id="@+id/profile_banner" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f070081" app:scaleType="centerCrop" app:layout_alignParentTop="true" />
+        <View app:id="@+id/banner_shadow" app:background="@drawable/background_banner_subreddit_shadow" app:visibility="gone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0701a0" />
+        <include app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@+id/profile_banner" layout="@layout/profile_header_view" />
+        <com.reddit.frontpage.widgets.ShapedIconView app:id="@+id/profile_icon" app:visibility="invisible" app:layout_width="UNKNOWN_DATA_0x7f070083" app:layout_height="UNKNOWN_DATA_0x7f070083" app:layout_marginTop="@dimen/community_header_icon_offset" app:scaleType="centerCrop" app:layout_marginStart="@dimen/double_pad" style="?attr/shaped_icon_view_bordered_style" />
+    </RelativeLayout>
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_collapseMode="1" app:layout_scrollFlags="1">
+        <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay_RedditBase_Toolbar_LightForeground" app:id="@id/toolbar" app:background="0x0" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003" app:layout_collapseMode="1" app:layout_scrollFlags="5">
+            <TextView app:textAppearance="@style/TextAppearance_RedditBase_Title_Nav" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/toolbar_title" app:layout_width="match_parent" app:layout_height="match_parent" app:maxLines="1" app:alpha="0.0" />
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+</android.support.design.widget.CollapsingToolbarLayout>

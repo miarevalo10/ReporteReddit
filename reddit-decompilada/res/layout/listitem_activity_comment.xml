@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/rdt_body_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?unknown_attr_ref: 101030e">
+    <RelativeLayout android:paddingTop="@dimen/single_pad" android:paddingBottom="@dimen/single_pad" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/double_pad" android:paddingEnd="@dimen/double_pad">
+        <TextView android:textAppearance="?attr/textAppearanceRedditBody" android:ellipsize="end" android:id="@+id/subject" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:ellipsize="end" android:id="@+id/metadata" android:paddingBottom="@dimen/half_pad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@+id/subject" android:drawableEnd="@drawable/ind_votes" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:textSize="12sp" android:ellipsize="end" android:id="@+id/preview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/metadata" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</FrameLayout>

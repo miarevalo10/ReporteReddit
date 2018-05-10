@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/mod_separator" android:background="?attr/rdt_line_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/quarter_pad">
+        <com.reddit.frontpage.widgets.modtools.modview.ModViewLeft android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/mod_view_left" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.reddit.frontpage.widgets.modtools.modview.ModViewRight android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/mod_view_right" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

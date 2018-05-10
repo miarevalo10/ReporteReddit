@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/list_empty" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottomPercent="10%">
+        <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/header_empty" />
+        <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/double_pad" app:text="@string/label_empty" />
+    </LinearLayout>
+</android.support.percent.PercentFrameLayout>

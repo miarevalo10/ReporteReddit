@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="?attr/rdt_body_color" app:padding="@dimen/double_pad" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <TextView app:textAppearance="?attr/textAppearanceRedditBodyMedium" app:id="@id/title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/inbox_sign_up_title" />
+    <TextView app:textAppearance="?attr/textAppearanceRedditBody" app:id="@+id/subtitle" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/half_pad" app:text="@string/inbox_sign_up_text" app:layout_constraintTop_toBottomOf="@id/title" />
+    <Button app:id="@+id/login_button" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/single_half_pad" app:minHeight="@dimen/signed_out_inbox_button_height" app:text="@string/label_log_in" app:layout_constraintTop_toBottomOf="@+id/subtitle" style="?attr/secondaryButtonStyle" />
+    <Button app:id="@+id/signup_button" app:layout_width="wrap_content" app:layout_height="wrap_content" app:minHeight="@dimen/signed_out_inbox_button_height" app:text="@string/label_sign_up" app:layout_marginStart="@dimen/single_pad" app:layout_constraintStart_toEndOf="@+id/login_button" app:layout_constraintTop_toTopOf="@+id/login_button" style="?attr/primaryButtonStyle" />
+</android.support.constraint.ConstraintLayout>

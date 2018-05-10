@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/double_pad" android:paddingTop="@dimen/single_pad" android:paddingBottom="@dimen/single_pad" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/quint_pad" style="@style/listitem_subreddit">
+    <TextView android:textAppearance="?attr/textAppearanceRedditBodyMedium" android:ellipsize="end" android:id="@+id/location_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:ellipsize="end" android:id="@+id/location_distance" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+</LinearLayout>

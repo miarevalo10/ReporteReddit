@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="?attr/rdt_body_color" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="wrap_content" app:foreground="?attr/selectableItemBackground" app:elevation="@dimen/elevation">
+    <ViewStub app:id="@+id/link_header_stub" app:layout_width="match_parent" app:layout_height="wrap_content" />
+    <com.reddit.frontpage.ui.listing.newcard.SmallCardBodyView app:id="@+id/link_card_body" app:paddingLeft="@dimen/double_pad" app:paddingRight="@dimen/double_pad" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.reddit.frontpage.ui.listing.newcard.LinkThumbnailView app:id="@+id/link_thumbnail" app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" app:layout_marginLeft="@dimen/single_pad" app:foreground="?attr/selectableItemBackground" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:cornerRadius="@dimen/link_thumbnail_radius" />
+        <com.reddit.frontpage.ui.listing.newcard.RightIndentTextView app:textAppearance="?attr/textAppearanceRedditTitle" app:id="@+id/link_title" app:layout_width="match_parent" app:layout_height="wrap_content" app:includeFontPadding="false" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" />
+        <com.reddit.frontpage.ui.listing.newcard.LinkFlairView app:id="@+id/link_flair" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_below="@+id/link_title" />
+        <com.reddit.frontpage.ui.listing.newcard.RightIndentTextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:ellipsize="end" app:id="@+id/link_self_text" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/half_pad" app:maxLines="3" app:layout_below="@+id/link_flair" app:layout_alignParentLeft="true" app:textWrapTopMargin="6dp" />
+    </com.reddit.frontpage.ui.listing.newcard.SmallCardBodyView>
+    <com.reddit.frontpage.widgets.LinkFooterView app:id="@+id/link_footer" app:layout_width="match_parent" app:layout_height="wrap_content" />
+</LinearLayout>

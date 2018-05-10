@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NestedCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/coordinator" app:background="?attr/rdt_canvas_color" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:id="@+id/appBarLayout" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003" app:layout_alignParentTop="true" app:layout_scrollFlags="1" />
+        <android.support.design.widget.TabLayout app:id="@+id/tab_layout" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0701a1" app:layout_below="@id/toolbar" style="@style/Widget_RedditBase_TabLayout" />
+    </android.support.design.widget.AppBarLayout>
+    <com.reddit.frontpage.widgets.ScreenPager app:id="@+id/screen_pager" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@+id/appBarLayout" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <View app:background="@drawable/shadow_up" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f070194" app:layout_below="@+id/appBarLayout" app:rotationX="180.0" />
+</android.support.design.widget.NestedCoordinatorLayout>

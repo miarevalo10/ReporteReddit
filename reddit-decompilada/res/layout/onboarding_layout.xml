@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <include app:id="@+id/progress_layout" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/onboarding_progress_layout" />
+    <android.support.v7.widget.RecyclerView app:orientation="horizontal" app:id="@+id/tab_layout" app:background="?attr/rdt_body_color" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/progress_layout" />
+    <View app:id="@+id/loading_view" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f07017d" app:layout_height="UNKNOWN_DATA_0x7f07017b" app:layout_marginTop="@dimen/single_pad" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/progress_layout" />
+    <android.support.design.widget.CoordinatorLayout app:id="@+id/coordinatorLayout" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_constraintBottom_toTopOf="@+id/subscribe_all_container" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/tab_layout">
+        <android.support.design.widget.AppBarLayout app:id="@+id/category_header" app:background="?attr/rdt_body_color" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <include app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_scrollFlags="5" layout="@layout/onboarding_category_header" />
+        </android.support.design.widget.AppBarLayout>
+        <android.support.v4.view.ViewPager app:id="@+id/content_pager" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </android.support.design.widget.CoordinatorLayout>
+    <ViewStub app:id="@+id/error_stub" app:layout="@layout/onboarding_error_widget" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/progress_layout" />
+    <include app:visibility="gone" layout="@layout/onboarding_subscribe_all_button" />
+</android.support.constraint.ConstraintLayout>

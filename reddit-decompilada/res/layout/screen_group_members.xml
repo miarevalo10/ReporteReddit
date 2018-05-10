@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/rdt_canvas_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003">
+        <TextView android:textAppearance="?attr/textAppearanceRedditHeadline" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rdt_title_group_members" />
+    </android.support.v7.widget.Toolbar>
+    <include layout="@layout/chat_divider" />
+    <include android:id="@+id/connection_banner" layout="@layout/connection_banner" />
+    <android.support.v7.widget.RecyclerView android:id="@+id/members" android:background="?attr/rdt_canvas_color" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

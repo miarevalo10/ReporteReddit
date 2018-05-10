@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="autoplay_option_values">
+        <item>@string/option_value_always</item>
+        <item>@string/option_value_unmetered</item>
+        <item>@string/option_value_never</item>
+    </array>
+    <array name="autoplay_options">
+        <item>@string/option_always</item>
+        <item>@string/option_unmetered</item>
+        <item>@string/option_never</item>
+    </array>
+    <array name="carousel_colors">
+        <item>@color/rdt_orangered</item>
+        <item>@color/rdt_orange</item>
+        <item>@color/rdt_mango</item>
+        <item>@color/rdt_lime</item>
+        <item>@color/rdt_green</item>
+        <item>@color/rdt_mint</item>
+        <item>@color/rdt_blue</item>
+        <item>@color/rdt_alien_blue</item>
+    </array>
+    <array name="night_mode_carousel_colors">
+        <item>@color/rdt_black</item>
+    </array>
+    <array name="notifications_filter_array">
+        <item>EVERYTHING</item>
+        <item>COMMENTS</item>
+        <item>MENTIONS</item>
+        <item>POST REPLIES</item>
+    </array>
+    <array name="rdt_comment_indent">
+        <item>#efefed</item>
+        <item>#e6e6e4</item>
+        <item>#dededc</item>
+        <item>#d6d6d4</item>
+        <item>#cecdcc</item>
+        <item>#c5c5c4</item>
+        <item>#bdbdbc</item>
+        <item>#b5b4b4</item>
+        <item>#adacac</item>
+        <item>#a5a4a4</item>
+    </array>
+    <array name="rdt_comment_indent">
+        <item>#353535</item>
+        <item>#414141</item>
+        <item>#4d4d4d</item>
+        <item>#5a5a5a</item>
+        <item>#666666</item>
+        <item>#737272</item>
+        <item>#7f7f7f</item>
+        <item>#8c8b8b</item>
+        <item>#989797</item>
+        <item>#a5a4a4</item>
+    </array>
+    <array name="report_custom_reasons">
+        <item>It breaks r/%1$s rules</item>
+        <item>It breaks Reddit rules</item>
+        <item>Intellectual property issues</item>
+    </array>
+    <array name="report_custom_reasons_copyright">
+        <item>@string/option_reason_copyright</item>
+        <item>@string/option_reason_trademark</item>
+    </array>
+    <array name="report_message">
+        <item>This is spam</item>
+        <item>I don&apos;t like it</item>
+        <item>It is harasing me</item>
+        <item>They are showing me sexual content I don &apos;t want</item>
+        <item>They are being rude or vulgar</item>
+    </array>
+    <array name="report_message_reasons">
+        <item>Threatens, harasses, or bullies</item>
+        <item>Encourages or incites violence</item>
+        <item>Reveals personal information</item>
+        <item>Impersonation</item>
+        <item>Illegal content</item>
+        <item>Spam</item>
+        <item>Involuntary pornography</item>
+    </array>
+    <array name="report_reasons">
+        <item>Threatens, harasses, or bullies</item>
+        <item>Encourages or incites violence</item>
+        <item>Reveals personal information</item>
+        <item>Impersonation</item>
+        <item>Illegal content</item>
+        <item>Spam</item>
+        <item>Involuntary pornography</item>
+        <item>Vote manipulation</item>
+        <item>Breaking Reddit</item>
+        <item>Other</item>
+    </array>
+    <array name="report_reasons_abusive">
+        <item>It&apos;s targeted harassment</item>
+        <item>It threatens violence or physical harm</item>
+        <item>It&apos;s rude, vulgar or offensive</item>
+    </array>
+    <array name="report_reasons_new">
+        <item>This is spam</item>
+        <item>This is abusive and harmful</item>
+        <item>This contains something private that shouldn&apos;t be posted publicly</item>
+    </array>
+    <array name="report_reasons_private">
+        <item>This reveals private information about someone</item>
+        <item>This is involuntary pornography</item>
+    </array>
+    <array name="report_reasons_targeted_at">
+        <item>At me</item>
+        <item>At someone else</item>
+    </array>
+    <array name="report_user_reasons">
+        <item>Threatens, harasses, or bullies</item>
+        <item>Encourages or incites violence</item>
+        <item>Reveals personal information</item>
+        <item>Impersonation</item>
+    </array>
+    <array name="safe_harbor_domains">
+        <item>imgur.com</item>
+        <item>gfycat.com</item>
+    </array>
+    <array name="safe_harbor_extensions">
+        <item>jpg</item>
+        <item>jpeg</item>
+        <item>gif</item>
+        <item>png</item>
+        <item>tiff</item>
+    </array>
+    <array name="snoomoji_icons">
+        <item>@drawable/_0038_snoo</item>
+        <item>@drawable/_0037_snoo_simple_smile</item>
+        <item>@drawable/_0036_snoo_smile</item>
+        <item>@drawable/_0035_snoo_joy</item>
+        <item>@drawable/_0034_snoo_tongue</item>
+        <item>@drawable/_0033_snoo_wink</item>
+        <item>@drawable/_0032_snoo_sad</item>
+        <item>@drawable/_0031_snoo_biblethump</item>
+        <item>@drawable/_0030_snoo_angry</item>
+        <item>@drawable/_0029_snoo_disapproval</item>
+        <item>@drawable/_0028_snoo_trollface</item>
+        <item>@drawable/_0027_snoo_dealwithit</item>
+        <item>@drawable/_0026_snoo_facepalm</item>
+        <item>@drawable/_0025_snoo_shrug</item>
+        <item>@drawable/_0024_snoo_scream</item>
+        <item>@drawable/_0023_snoo_thoughtful</item>
+        <item>@drawable/_0022_snoo_surprised</item>
+        <item>@drawable/_0021_snoo_hearteyes</item>
+        <item>@drawable/_0018_snoo_tableflip</item>
+        <item>@drawable/_0017_snoo_putback</item>
+        <item>@drawable/_0016_snoo_hug</item>
+        <item>@drawable/_0015_snoo_feelsbadman</item>
+        <item>@drawable/_0014_snoo_feelsgoodman</item>
+        <item>@drawable/_0013_upvote</item>
+        <item>@drawable/_0012_downvote</item>
+        <item>@drawable/_0011_karma</item>
+        <item>@drawable/_0010_cake</item>
+        <item>@drawable/_0009_redditgold</item>
+        <item>@drawable/_0008_illuminati</item>
+        <item>@drawable/_0007_kappa</item>
+        <item>@drawable/_0006_sloth</item>
+        <item>@drawable/_0005_cat_blep</item>
+        <item>@drawable/_0004_pupper</item>
+        <item>@drawable/_0003_partyparrot</item>
+        <item>@drawable/_0002_orly</item>
+        <item>@drawable/_0001_hamster</item>
+        <item>@drawable/_0000_doge</item>
+    </array>
+    <array name="snoomoji_ids">
+        <item>snoo</item>
+        <item>snoo_simple_smile</item>
+        <item>snoo_smile</item>
+        <item>snoo_joy</item>
+        <item>snoo_tongue</item>
+        <item>snoo_wink</item>
+        <item>snoo_sad</item>
+        <item>snoo_biblethump</item>
+        <item>snoo_angry</item>
+        <item>snoo_disapproval</item>
+        <item>snoo_trollface</item>
+        <item>snoo_dealwithit</item>
+        <item>snoo_facepalm</item>
+        <item>snoo_shrug</item>
+        <item>snoo_scream</item>
+        <item>snoo_thoughtful</item>
+        <item>snoo_surprised</item>
+        <item>snoo_hearteyes</item>
+        <item>snoo_tableflip</item>
+        <item>snoo_putback</item>
+        <item>snoo_hug</item>
+        <item>snoo_feelsbadman</item>
+        <item>snoo_feelsgoodman</item>
+        <item>upvote</item>
+        <item>downvote</item>
+        <item>karma</item>
+        <item>cake</item>
+        <item>redditgold</item>
+        <item>illuminati</item>
+        <item>kappa</item>
+        <item>sloth</item>
+        <item>cat_blep</item>
+        <item>pupper</item>
+        <item>partyparrot</item>
+        <item>orly</item>
+        <item>hamster</item>
+        <item>doge</item>
+    </array>
+    <array name="theme_entries">
+        <item>@string/option_theme_alienblue</item>
+        <item>@string/option_theme_mint</item>
+        <item>@string/option_theme_night</item>
+    </array>
+    <array name="theme_entries">
+        <item>@string/option_theme_alienblue</item>
+        <item>@string/option_theme_mint</item>
+        <item>@string/option_theme_night</item>
+        <item>@string/option_theme_pony</item>
+        <item>@string/option_theme_trees</item>
+    </array>
+    <array name="theme_values">
+        <item>@string/option_value_alienblue</item>
+        <item>@string/option_value_mint</item>
+        <item>@string/option_value_night</item>
+    </array>
+    <array name="theme_values">
+        <item>@string/option_value_alienblue</item>
+        <item>@string/option_value_mint</item>
+        <item>@string/option_value_night</item>
+        <item>@string/option_value_pony</item>
+        <item>@string/option_value_trees</item>
+    </array>
+    <array name="view_option_icons">
+        <item>@drawable/ic_view_card</item>
+        <item>@drawable/ic_view_compact</item>
+    </array>
+    <array name="view_option_values">
+        <item>@string/option_value_card</item>
+        <item>@string/option_value_compact</item>
+    </array>
+    <array name="view_options">
+        <item>@string/option_card</item>
+        <item>@string/option_compact</item>
+    </array>
+</resources>

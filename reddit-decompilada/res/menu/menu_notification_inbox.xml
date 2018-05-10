@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_icon_overflow" app:id="@+id/action_overflow_menu" app:orderInCategory="0" app:title="@string/action_more" app:iconTint="?attr/rdt_menu_icon_color" app:showAsAction="always" />
+</menu>

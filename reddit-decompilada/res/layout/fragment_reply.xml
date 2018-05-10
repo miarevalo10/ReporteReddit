@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/rdt_body_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003" android:layout_alignParentTop="true" android:paddingEnd="@dimen/double_pad">
+        <TextView android:textAppearance="?attr/textAppearanceRedditTitle" android:id="@+id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/single_pad" android:layout_marginRight="@dimen/single_pad" android:text="Toolbar Title" />
+    </android.support.v7.widget.Toolbar>
+    <View android:background="@drawable/shadow_up" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070194" android:layout_below="@id/toolbar" android:rotationX="180.0" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/toolbar">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/replyable_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+            <View android:id="@+id/divider_line" android:background="?attr/rdt_line_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07012c" android:layout_marginLeft="@dimen/double_pad" android:layout_marginRight="@dimen/double_pad" android:layout_below="@+id/replyable_container" />
+            <EditText android:textAppearance="?attr/textAppearanceRedditBody" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/reply_text" android:background="0x0" android:padding="@dimen/double_pad" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/divider_line" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textAppearance="?attr/textAppearanceRedditTab" android:textColor="?attr/rdt_tab_text_color" android:padding="@dimen/single_half_pad" android:layout_width="match_parent" android:layout_height="match_parent" />

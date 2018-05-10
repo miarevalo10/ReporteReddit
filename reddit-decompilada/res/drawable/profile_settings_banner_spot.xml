@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="4dp" />
+    <solid android:color="?attr/rdt_canvas_color" />
+    <stroke android:width="1dp" android:color="?attr/rdt_action_icon_color" android:dashWidth="6dp" android:dashGap="4dp" />
+</shape>

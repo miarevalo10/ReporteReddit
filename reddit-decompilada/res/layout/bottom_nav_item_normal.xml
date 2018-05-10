@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/bottom_nav_item_icon" android:layout_width="UNKNOWN_DATA_0x7f0700fe" android:layout_height="UNKNOWN_DATA_0x7f0700fe" />
+    <TextView android:textAppearance="?attr/textAppearanceRedditBadge" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/bottom_nav_item_notification" android:background="@drawable/bottom_nav_notification_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_nav_item_notification_center_up_offset" android:layout_marginStart="@dimen/bottom_nav_item_notification_center_right_offset" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.AppCompatImageView app:id="@+id/vote_view_upvote" app:layout_width="UNKNOWN_DATA_0x7f070142" app:layout_height="UNKNOWN_DATA_0x7f070142" app:src="@drawable/ic_icon_upvote" app:tint="?attr/rdt_upvote_color_selector" />
+    <TextView app:textAppearance="?attr/textAppearanceRedditAction" app:ellipsize="end" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/vote_view_score" app:layout_width="wrap_content" app:layout_height="match_parent" app:lines="1" app:layout_marginStart="@dimen/single_pad" />
+    <android.support.v7.widget.AppCompatImageView app:id="@+id/vote_view_downvote" app:layout_width="UNKNOWN_DATA_0x7f070142" app:layout_height="UNKNOWN_DATA_0x7f070142" app:src="@drawable/ic_icon_downvote" app:layout_marginStart="@dimen/single_pad" app:tint="?attr/rdt_downvote_color_selector" />
+</merge>

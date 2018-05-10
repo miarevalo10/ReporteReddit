@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/rdt_body_color" android:padding="@dimen/double_pad" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="?attr/rdt_line_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:ellipsize="end" android:id="@+id/metadata" android:paddingTop="@dimen/half_pad" android:paddingBottom="@dimen/half_pad" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <com.reddit.frontpage.widgets.BaseHtmlTextView android:textAppearance="?attr/textAppearanceRedditBody" android:id="@+id/body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/metadata" />
+</RelativeLayout>

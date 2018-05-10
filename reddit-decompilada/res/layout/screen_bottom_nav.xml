@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <FrameLayout app:id="@id/container" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginBottom="@dimen/bottom_nav_height" />
+    <com.reddit.frontpage.widgets.bottomnav.BottomNavView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/bottom_nav" app:background="?attr/rdt_body_color" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f070057" app:elevation="@dimen/bottom_nav_elevation" />
+    <com.reddit.frontpage.widgets.FloatingActionsView app:id="@+id/floating_actions_view_bottom_nav" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_behavior="com.reddit.frontpage.ui.behavior.FloatingActionsViewBehavior" app:layout_dodgeInsetEdges="50" />
+</android.support.design.widget.CoordinatorLayout>

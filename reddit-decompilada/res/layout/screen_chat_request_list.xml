@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/rdt_canvas_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003" />
+    <include layout="@layout/chat_divider" />
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/refresh_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/connection_banner" layout="@layout/connection_banner" />
+            <android.support.percent.PercentFrameLayout app:id="@+id/content_container" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@+id/connection_banner">
+                <android.support.v7.widget.RecyclerView app:id="@+id/link_list" app:layout_width="match_parent" app:layout_height="match_parent" style="@style/Widget_RedditBase_RecyclerView" />
+                <View app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/progress_bar" app:layout_width="UNKNOWN_DATA_0x7f07017d" app:layout_height="UNKNOWN_DATA_0x7f07017d" app:layout_marginTopPercent="40%" />
+            </android.support.percent.PercentFrameLayout>
+            <include app:id="@+id/error_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@+id/connection_banner" layout="@layout/widget_listing_error" />
+            <ViewStub app:id="@+id/empty_container_stub" app:layout="@layout/listing_empty" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@+id/connection_banner" />
+        </RelativeLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

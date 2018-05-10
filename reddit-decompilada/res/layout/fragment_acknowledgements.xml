@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/rdt_canvas_color" android:padding="@dimen/double_pad" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/acknowledgements_scroll" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <com.reddit.frontpage.widgets.BaseHtmlTextView android:textAppearance="?attr/textAppearanceRedditBody" android:id="@+id/acknowledgements_text" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </ScrollView>
+</RelativeLayout>

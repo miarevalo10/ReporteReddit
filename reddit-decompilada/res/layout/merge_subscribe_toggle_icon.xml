@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:background="@drawable/ic_icon_subscribe_header_background" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x7f07019f" android:layout_height="UNKNOWN_DATA_0x7f07019f" android:tint="?attr/rdt_active_color" android:backgroundTint="?attr/rdt_body_color" />
+</merge>

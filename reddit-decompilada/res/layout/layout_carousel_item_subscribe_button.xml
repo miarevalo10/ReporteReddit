@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/subscribe_viewswitcher" app:paddingTop="@dimen/half_pad" app:paddingBottom="@dimen/half_pad" app:focusable="true" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/single_pad" app:measureAllChildren="false" app:paddingEnd="@dimen/single_quarter_pad">
+    <LinearLayout app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content">
+        <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="UNKNOWN_DATA_0x7f070193" app:layout_height="UNKNOWN_DATA_0x7f070193" app:src="@drawable/ic_icon_add_plus" app:tint="?attr/rdt_link_text_color" />
+        <TextView app:textAppearance="?attr/textAppearanceRedditButtonLink" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/unsubscribedTextView" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/half_pad" />
+    </LinearLayout>
+    <LinearLayout app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content">
+        <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="UNKNOWN_DATA_0x7f070193" app:layout_height="UNKNOWN_DATA_0x7f070193" app:src="@drawable/ic_icon_approve_check" app:tint="?attr/rdt_placeholder_color" />
+        <TextView app:textAppearance="?attr/textAppearanceRedditButtonLink" app:textColor="?attr/rdt_placeholder_color" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/subscribedTextView" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/half_pad" />
+    </LinearLayout>
+</ViewSwitcher>

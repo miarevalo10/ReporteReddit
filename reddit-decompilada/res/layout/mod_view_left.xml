@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/left_mod" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/action_approve" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f07014e" android:src="@drawable/ic_icon_approve_check" android:contentDescription="@string/action_approve_post" style="@style/Widget_RedditBase_ModViewIcon" />
+    <ImageView android:id="@+id/action_remove" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f07014e" android:src="@drawable/ic_icon_delete" android:contentDescription="@string/action_remove_post" style="@style/Widget_RedditBase_ModViewIcon" />
+    <ImageView android:id="@+id/action_mark_spam" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f07014e" android:src="@drawable/ic_icon_spam" android:contentDescription="@string/action_remove_spam" style="@style/Widget_RedditBase_ModViewIcon" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/content" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/info_icon" android:layout_width="UNKNOWN_DATA_0x7f0700fe" android:layout_height="UNKNOWN_DATA_0x7f0700fe" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/info_text" android:paddingLeft="@dimen/single_pad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/info_icon" android:layout_centerVertical="true">
+            <TextView android:textAppearance="?attr/textAppearanceRedditTitle" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4500" />
+            <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="karma" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

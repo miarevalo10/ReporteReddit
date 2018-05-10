@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:enabled="false" app:id="@+id/action_modtools_add" app:title="@string/action_modtools_add" app:iconTint="?attr/rdt_menu_icon_color" app:showAsAction="always" />
+</menu>

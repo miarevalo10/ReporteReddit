@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.exoplayer2.ui.AspectRatioFrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/exo_content_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/exo_shutter" android:background="0x106000c" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/exo_shutter_image" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/exo_shutter_control" style="@style/ExoPlayerMediaButton_Play" />
+        </FrameLayout>
+    </com.google.android.exoplayer2.ui.AspectRatioFrameLayout>
+    <com.reddit.frontpage.widgets.video.PlaybackControlView android:id="@+id/exo_playback_control" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.reddit.frontpage.widgets.video.PlaybackProgressView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/exo_progress_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ProgressBar android:theme="@style/AppTheme_Active" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/exo_buffering_indicator" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0700cc" android:layout_height="UNKNOWN_DATA_0x7f0700cc" android:indeterminate="true" android:indeterminateDrawable="@drawable/video_buffering_progress" />
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/play_button" style="@style/ExoPlayerMediaButton_Play" />
+</merge>

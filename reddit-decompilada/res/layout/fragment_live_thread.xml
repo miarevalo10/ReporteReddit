@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="?attr/rdt_body_color" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:id="@+id/appBarLayout" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay_RedditBase_Toolbar_LightForeground" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/toolbar" app:background="@color/rdt_orangered" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003" app:layout_scrollFlags="5">
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:animateLayoutChanges="true">
+                <com.reddit.frontpage.widgets.DrawableTextView app:textAppearance="?attr/textAppearanceRedditTitle" app:textStyle="bold" app:textColor="@color/rdt_white" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/reddit_live" app:paddingRight="12sp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/label_reddit_live" app:includeFontPadding="false" app:drawablePadding="4dp" app:drawableStart="@drawable/circle_white" app:compoundDrawableHeight="12sp" app:compoundDrawableWidth="12sp" />
+                <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:textColor="@color/rdt_white" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/live_viewer_count" app:layout_width="wrap_content" app:layout_height="wrap_content" app:includeFontPadding="false" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+        <android.support.design.widget.TabLayout app:id="@+id/tab_layout" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0701a1" app:layout_scrollFlags="5" app:tabBackground="?attr/rdt_body_color" app:tabMode="1" style="@style/Widget_RedditBase_TabLayout" />
+    </android.support.design.widget.AppBarLayout>
+    <com.reddit.frontpage.widgets.DisableableViewPager app:id="@+id/view_pager" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <View app:background="@drawable/shadow_up" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f070194" app:layout_below="@+id/tab_layout" app:rotationX="180.0" />
+</android.support.design.widget.CoordinatorLayout>

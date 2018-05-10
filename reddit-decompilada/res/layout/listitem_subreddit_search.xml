@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/double_pad" android:paddingTop="@dimen/single_pad" android:paddingBottom="@dimen/single_pad" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.reddit.frontpage.widgets.ShapedIconView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/subreddit_icon" android:layout_width="UNKNOWN_DATA_0x7f070191" android:layout_height="UNKNOWN_DATA_0x7f070192" />
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/single_pad">
+        <TextView android:textAppearance="?attr/textAppearanceRedditBody" android:ellipsize="end" android:id="@+id/subreddit_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:id="@+id/subscriber_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

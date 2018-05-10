@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/mod_tools_container" android:background="?attr/rdt_canvas_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003" />
+    <include layout="@layout/modtools_divider" />
+    <android.support.v7.widget.RecyclerView android:id="@+id/mod_tools_actions_recyclerview" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

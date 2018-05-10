@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/half_pad" android:top="@dimen/half_pad" android:right="@dimen/half_pad" android:bottom="@dimen/half_pad">
+        <shape android:shape="oval">
+            <solid android:color="@color/rdt_black_15p_transparent" />
+            <size android:height="@dimen/double_half_pad" android:width="@dimen/double_half_pad" />
+        </shape>
+    </item>
+</layer-list>

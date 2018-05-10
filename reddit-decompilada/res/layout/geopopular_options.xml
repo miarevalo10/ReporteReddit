@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:paddingLeft="@dimen/double_pad" app:paddingTop="@dimen/single_pad" app:paddingRight="@dimen/double_pad" app:paddingBottom="@dimen/single_pad" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <com.reddit.frontpage.widgets.GeopopularOptionItemView app:id="@+id/global_option" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/geopopular_option_global" />
+    <com.reddit.frontpage.widgets.GeopopularOptionItemView app:id="@+id/location_option" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/geopopular_option_my_location" />
+    <com.reddit.frontpage.widgets.GeopopularOptionItemView app:id="@+id/other_option" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/geopopular_option_other" app:show_drillin_icon="true" />
+</LinearLayout>

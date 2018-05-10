@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/HorizontalScrollActionBar" app:layout_width="match_parent" app:layout_height="wrap_content" app:fillViewport="true">
+    <LinearLayout app:background="?attr/instabug_primary_color" app:layout_width="wrap_content" app:layout_height="wrap_content" app:animateLayoutChanges="true"
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/instabug_attach_video" app:layout_width="wrap_content" app:layout_height="wrap_content">
+            <com.instabug.library.view.IconView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/instabug_attach_video_icon" app:layout_width="UNKNOWN_DATA_0x3001" app:layout_height="UNKNOWN_DATA_0x3001" app:instabug_icon="7" />
+            <TextView app:id="@id/instabug_attach_video_label" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/instabug_str_record_video" />
+        </LinearLayout>
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/instabug_attach_screenshot" app:layout_width="wrap_content" app:layout_height="wrap_content">
+            <com.instabug.library.view.IconView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/instabug_attach_screenshot_icon" app:layout_width="UNKNOWN_DATA_0x3001" app:layout_height="UNKNOWN_DATA_0x3001" app:instabug_icon="6" />
+            <TextView app:id="@id/instabug_attach_screenshot_label" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/instabug_str_take_screenshot" />
+        </LinearLayout>
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/instabug_attach_gallery_image" app:layout_width="wrap_content" app:layout_height="wrap_content">
+            <com.instabug.library.view.IconView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/instabug_attach_gallery_image_icon" app:layout_width="UNKNOWN_DATA_0x3001" app:layout_height="UNKNOWN_DATA_0x3001" app:instabug_icon="14" />
+            <TextView app:id="@id/instabug_attach_gallery_image_label" app:visibility="visible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/instabug_str_add_photo" />
+        </LinearLayout>
+    </LinearLayout>
+</HorizontalScrollView>

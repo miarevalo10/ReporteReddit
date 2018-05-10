@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/rdt_canvas_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.reddit.frontpage.widgets.ListingFilterBarView android:id="@+id/listing_filter_bar" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/separator" android:background="?attr/rdt_line_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07012c" />
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/rdt_body_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003">
+        <include layout="@layout/toolbar_icon_and_title" />
+    </android.support.v7.widget.Toolbar>
+    <include layout="@layout/chat_divider" />
+    <include android:id="@+id/chat_splash" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/screen_chat_splash" />
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/chat_inbox_refresh_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/connection_banner" layout="@layout/connection_banner" />
+            <android.support.percent.PercentFrameLayout app:id="@+id/content_container" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@+id/connection_banner">
+                <android.support.v7.widget.RecyclerView app:id="@+id/link_list" app:layout_width="match_parent" app:layout_height="match_parent" style="@style/Widget_RedditBase_RecyclerView" />
+                <View app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/progress_bar" app:layout_width="UNKNOWN_DATA_0x7f07017d" app:layout_height="UNKNOWN_DATA_0x7f07017d" app:layout_marginTopPercent="40%" />
+            </android.support.percent.PercentFrameLayout>
+            <include app:id="@+id/error_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_margin="@dimen/double_pad" app:layout_below="@+id/connection_banner" layout="@layout/widget_listing_error" />
+            <include app:id="@+id/empty_container_stub" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@+id/connection_banner" layout="@layout/chat_empty_list" />
+        </RelativeLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

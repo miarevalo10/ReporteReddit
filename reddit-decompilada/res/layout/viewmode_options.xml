@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:paddingLeft="@dimen/double_pad" app:paddingTop="@dimen/single_pad" app:paddingRight="@dimen/double_pad" app:paddingBottom="@dimen/single_pad" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.reddit.frontpage.presentation.common.ui.view.BottomSheetOptionItemView app:id="@+id/card_option" app:layout_width="match_parent" app:layout_height="wrap_content" app:src="@drawable/ic_view_card" app:text="@string/option_card" />
+    <com.reddit.frontpage.presentation.common.ui.view.BottomSheetOptionItemView app:id="@+id/compact_option" app:layout_width="match_parent" app:layout_height="wrap_content" app:src="@drawable/ic_view_compact" app:text="@string/option_compact" />
+    <com.reddit.frontpage.presentation.common.ui.view.BottomSheetOptionItemView app:id="@+id/gallery_option" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:src="@drawable/ic_view_gallery" app:text="@string/option_gallery" />
+</LinearLayout>

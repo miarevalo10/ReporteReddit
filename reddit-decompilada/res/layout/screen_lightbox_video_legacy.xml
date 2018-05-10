@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/video_layout" app:background="@color/rdt_transparent" app:layout_width="match_parent" app:layout_height="match_parent">
+    <View app:id="@+id/background" app:background="@color/rdt_black" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="match_parent">
+        <include app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content" layout="@layout/video_player" />
+    </LinearLayout>
+    <RelativeLayout app:id="@+id/top_bottom" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay_RedditBase_Toolbar_LightForeground" app:id="@id/toolbar" app:background="@color/rdt_translucent_black" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003" />
+        <include layout="@layout/merge_lightbox_title_header" />
+        <com.reddit.frontpage.widgets.LinkFooterView app:id="@+id/footer_bar" app:background="@color/rdt_translucent_black" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003" app:layout_alignParentBottom="true" app:animateLayoutChanges="true" />
+    </RelativeLayout>
+</RelativeLayout>

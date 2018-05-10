@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/lightbox_title_header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/link_header_margin_left" android:layout_marginTop="@dimen/link_header_margin_top" android:layout_marginRight="@dimen/link_header_margin_right">
+        <TextView android:textAppearance="?attr/textAppearanceLightboxHeaderDetails" android:textColor="?attr/rdt_light_text_color" android:id="@+id/lightbox_title_header_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?attr/textAppearanceLightboxHeaderTitle" android:textColor="?attr/rdt_light_text_color" android:id="@+id/lightbox_title_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</merge>

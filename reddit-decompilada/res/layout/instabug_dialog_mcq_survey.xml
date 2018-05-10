@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/instabug_survey_dialog_container" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.instabug.library.ui.custom.InstabugAutoResizeTextView android:ellipsize="none" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/instabug_text_view_question" android:background="?attr/instabug_survey_dialog_header_transition" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxLines="4" style="@style/InstabugSurveyDialogQuestion" />
+            <View android:id="@id/instabug_survey_top_separator" android:background="@color/instabug_color_survey_separator" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+            <com.instabug.library.ui.custom.InstabugScrollView android:id="@id/ib_dialog_survey_scrollview_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <com.instabug.library.ui.custom.InstabugGridView android:id="@id/instabug_survey_mcq_grid_view" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="0dp" android:horizontalSpacing="16dp" />
+            </com.instabug.library.ui.custom.InstabugScrollView>
+            <View android:id="@id/instabug_survey_bottom_separator" android:background="@color/instabug_color_survey_separator" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/bottomsheet_header" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f07005c">
+    <TextView app:textAppearance="?attr/textAppearanceRedditSubheader" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/bottomsheet_header_title" app:layout_width="wrap_content" app:layout_height="match_parent" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/double_pad" />
+    <View app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:background="?attr/rdt_line_color" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginStart="@dimen/double_pad" app:layout_marginEnd="@dimen/double_pad" />
+</FrameLayout>

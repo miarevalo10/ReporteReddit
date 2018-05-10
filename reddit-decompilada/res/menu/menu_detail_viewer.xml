@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_icon_share" app:id="@+id/action_share" app:visible="false" app:orderInCategory="2" app:title="@string/action_share" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_icon_hide" app:id="@+id/action_hide" app:orderInCategory="3" app:title="@string/action_hide_post" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_icon_hide" app:id="@+id/action_unhide" app:orderInCategory="4" app:title="@string/action_unhide_post" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_icon_gild" app:id="@+id/action_give_gold" app:orderInCategory="5" app:title="@string/action_give_gold" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_icon_report" app:id="@+id/action_report" app:orderInCategory="6" app:title="@string/action_report" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

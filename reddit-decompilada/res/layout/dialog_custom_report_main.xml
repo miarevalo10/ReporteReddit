@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/single_half_pad" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" android:paddingEnd="@dimen/single_half_pad">
+        <TextView android:textAppearance="?attr/textAppearanceRedditSubheader" android:id="@+id/select_reason" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/custom_report_reason_margin_vertical" android:layout_marginBottom="@dimen/custom_report_reason_margin_vertical" android:layout_marginStart="@dimen/single_pad" />
+        <View android:id="@+id/separator" android:background="?attr/rdt_line_color" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x101" />
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioGroup android:id="@+id/radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+        <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:id="@+id/terms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/custom_report_terms_margin_bottom" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/half_pad">
+        <Button android:id="@id/cancel" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/action_cancel" android:layout_weight="1.0" android:layout_marginEnd="@dimen/quarter_pad" style="?attr/tertiaryButtonStyle" />
+        <Button android:id="@id/next" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/action_next" android:layout_weight="1.0" android:layout_marginStart="@dimen/quarter_pad" style="?attr/primaryButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

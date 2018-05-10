@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="16sp" android:textColor="?attr/rdt_selector_token_text_color" android:ellipsize="end" android:id="@+id/name" android:background="@drawable/token_background" android:padding="@dimen/half_pad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />

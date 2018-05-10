@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/rdt_body_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07019b">
+    <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:id="@+id/show_more" android:paddingRight="@dimen/double_pad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="See more" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="true" />
+</RelativeLayout>

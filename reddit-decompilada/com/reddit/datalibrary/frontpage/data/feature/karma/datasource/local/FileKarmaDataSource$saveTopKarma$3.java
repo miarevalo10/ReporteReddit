@@ -1,0 +1,25 @@
+package com.reddit.datalibrary.frontpage.data.feature.karma.datasource.local;
+
+import io.reactivex.SingleSource;
+import io.reactivex.functions.Function;
+import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
+import okio.Buffer;
+
+@Metadata(bv = {1, 0, 2}, d1 = {"\u0000\u0014\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0000\u001a\u0010\u0012\f\u0012\n \u0003*\u0004\u0018\u00010\u00020\u00020\u00012\u0006\u0010\u0004\u001a\u00020\u0005H\n¢\u0006\u0002\b\u0006"}, d2 = {"<anonymous>", "Lio/reactivex/Single;", "", "kotlin.jvm.PlatformType", "it", "Lokio/Buffer;", "apply"}, k = 3, mv = {1, 1, 9})
+/* compiled from: FileKarmaDataSource.kt */
+final class FileKarmaDataSource$saveTopKarma$3<T, R> implements Function<T, SingleSource<? extends R>> {
+    final /* synthetic */ FileKarmaDataSource f15840a;
+    final /* synthetic */ String f15841b;
+
+    FileKarmaDataSource$saveTopKarma$3(FileKarmaDataSource fileKarmaDataSource, String str) {
+        this.f15840a = fileKarmaDataSource;
+        this.f15841b = str;
+    }
+
+    public final /* synthetic */ Object apply(Object obj) {
+        Buffer buffer = (Buffer) obj;
+        Intrinsics.b(buffer, "it");
+        return this.f15840a.m15903a().mo2709a(FileKarmaDataSource.m15908c(this.f15841b), buffer);
+    }
+}

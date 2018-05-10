@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/rdt_body_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f07019b" android:foreground="?attr/selectableItemBackground" android:paddingStart="@dimen/double_pad">
+    <com.reddit.frontpage.widgets.ShapedIconView android:id="@+id/community_icon" android:layout_width="UNKNOWN_DATA_0x7f070191" android:layout_height="UNKNOWN_DATA_0x7f070192" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="?attr/textAppearanceRedditBody" android:ellipsize="end" android:id="@+id/community_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignTop="@+id/community_icon" android:layout_marginStart="@dimen/single_pad" android:layout_toEndOf="@+id/community_icon" />
+    <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:id="@+id/community_stats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/community_name" android:layout_alignStart="@+id/community_name" />
+    <com.reddit.frontpage.widgets.subscribe.SubscribeRedditView android:id="@+id/community_subscribe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

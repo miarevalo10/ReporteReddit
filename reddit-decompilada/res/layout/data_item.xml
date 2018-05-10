@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/container" android:padding="@dimen/single_pad" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/rdt_mint_body_text" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+    <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:textSize="12sp" android:textColor="@color/rdt_meta_text" android:ellipsize="end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/body_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="sans-serif" />
+    <TextView android:textSize="12sp" android:textColor="@color/rdt_semi_black" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+</LinearLayout>

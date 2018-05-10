@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/molist_container" android:background="?attr/rdt_canvas_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.reddit.frontpage.widgets.modtools.ModSearchView android:id="@+id/mod_tools_users_search_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/modtools_divider" />
+    <android.support.v7.widget.RecyclerView android:id="@+id/mod_tools_users_recyclerview" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <include android:id="@+id/empty_container_stub" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/listing_empty" />
+</LinearLayout>

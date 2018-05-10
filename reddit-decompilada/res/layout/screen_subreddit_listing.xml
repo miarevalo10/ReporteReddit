@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NestedCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/coordinator" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:id="@+id/appbar" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/Reddit_Widget_Design_AppBarLayout">
+        <include layout="@layout/profile_toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <include layout="@layout/merge_listing" />
+    </FrameLayout>
+</android.support.design.widget.NestedCoordinatorLayout>

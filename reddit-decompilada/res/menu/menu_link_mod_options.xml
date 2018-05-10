@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_icon_spoiler" app:id="@+id/action_mark_spoiler" app:title="@string/action_mark_spoiler" app:iconTint="?attr/rdt_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_nsfw" app:id="@+id/action_mark_nsfw" app:title="@string/action_mark_nsfw" app:iconTint="?attr/rdt_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_lock" app:id="@+id/action_lock_comments" app:title="@string/action_lock_comments" app:iconTint="?attr/rdt_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_pin" app:id="@+id/action_sticky_announcement" app:title="@string/action_sticky_post" app:iconTint="?attr/rdt_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_tag" app:id="@+id/action_flair" app:title="@string/action_select_post_flair" app:iconTint="?attr/rdt_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_distinguish" app:id="@+id/action_distinguish" app:title="@string/action_distinguish_as_mod" app:iconTint="?attr/rdt_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_delete" app:id="@+id/action_remove_post" app:title="@string/action_remove_post" app:iconTint="?attr/rdt_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_spam" app:id="@+id/action_remove_spam" app:title="@string/action_remove_spam" app:iconTint="?attr/rdt_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_approve_check" app:id="@+id/action_approve_post" app:title="@string/action_approve_post" app:iconTint="?attr/rdt_menu_icon_color" />
+    <item app:icon="@drawable/ic_icon_report" app:id="@+id/action_view_reports" app:title="@string/action_view_reports" app:iconTint="?attr/rdt_menu_icon_color" />
+</menu>

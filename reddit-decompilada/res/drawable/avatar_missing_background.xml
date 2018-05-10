@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/border_height" android:color="?attr/rdt_line_color" />
+    <solid android:color="?attr/rdt_body_color" />
+    <corners android:radius="@dimen/chat_icon_radius" />
+</shape>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="authenticator">res/xml/authenticator.xml</xml>
+    <xml name="preferences">res/xml/preferences.xml</xml>
+    <xml name="preferences_employee">res/xml/preferences_employee.xml</xml>
+    <xml name="provider_paths">res/xml/provider_paths.xml</xml>
+    <xml name="searchable">res/xml/searchable.xml</xml>
+    <xml name="searchable_subreddit">res/xml/searchable_subreddit.xml</xml>
+    <xml name="syncadapter_appdata">res/xml/syncadapter_appdata.xml</xml>
+    <xml name="syncadapter_userdata">res/xml/syncadapter_userdata.xml</xml>
+</resources>

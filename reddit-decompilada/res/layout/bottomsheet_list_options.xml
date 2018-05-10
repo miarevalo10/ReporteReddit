@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:paddingLeft="@dimen/double_pad" app:paddingTop="@dimen/single_pad" app:paddingRight="@dimen/double_pad" app:paddingBottom="@dimen/single_pad" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <android.support.v7.widget.RecyclerView app:id="@+id/recycler_view" app:layout_width="match_parent" app:layout_height="wrap_content" />
+</LinearLayout>

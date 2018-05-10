@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/rdt_transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <View android:id="@+id/background" android:background="@color/rdt_black" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView android:id="@+id/image_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" />
+    <View android:id="@+id/image_loading" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f07017d" android:layout_height="UNKNOWN_DATA_0x7f07017b" android:layout_margin="@dimen/quad_pad" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@+id/top_bottom" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay_RedditBase_Toolbar_LightForeground" android:id="@id/toolbar" android:background="@color/rdt_translucent_black" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003" />
+        <include layout="@layout/merge_lightbox_title_header" />
+        <com.reddit.frontpage.widgets.LinkFooterView android:id="@+id/footer_bar" android:background="@color/rdt_translucent_black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

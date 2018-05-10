@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/toolbar" />
+    <View android:background="@drawable/shadow_up" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070194" android:layout_below="@id/toolbar" android:rotationX="180.0" />
+</RelativeLayout>

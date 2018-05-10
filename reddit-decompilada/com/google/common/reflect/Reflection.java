@@ -1,0 +1,13 @@
+package com.google.common.reflect;
+
+import com.google.common.base.Preconditions;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Proxy;
+
+public final class Reflection {
+    public static <T> T m7289a(Class<T> cls, InvocationHandler invocationHandler) {
+        Preconditions.m6908a((Object) invocationHandler);
+        Preconditions.m6917a(cls.isInterface(), "%s is not an interface", (Object) cls);
+        return cls.cast(Proxy.newProxyInstance(cls.getClassLoader(), new Class[]{cls}, invocationHandler));
+    }
+}

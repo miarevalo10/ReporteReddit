@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView app:id="@+id/geopopular_region_items" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0" />
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@+id/use_location_layout" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/header_empty" />
+        <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/double_pad" app:text="@string/geopopular_use_location_desc" />
+        <TextView app:textStyle="bold" app:textColor="?attr/rdt_active_color" app:id="@+id/geopopular_use_location" app:padding="@dimen/single_pad" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/geopopular_use_location" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?attr/colorControlHighlight">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/rdt_button_corner_radius" />
+            <solid android:color="?attr/rdt_button_color" />
+            <padding android:left="@dimen/rdt_button_side_padding" android:right="@dimen/rdt_button_side_padding" />
+        </shape>
+    </item>
+</ripple>

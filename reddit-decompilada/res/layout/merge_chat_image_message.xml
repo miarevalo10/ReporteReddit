@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="148dp">
+        <TextView android:textAppearance="?attr/textAppearanceRedditTitle" android:textColor="@color/groupChatTextOther" android:ellipsize="end" android:id="@+id/chat_image_message_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="260dp" android:maxLines="1" android:paddingStart="@dimen/single_half_pad" android:paddingEnd="@dimen/single_half_pad" />
+        <View android:background="@color/rdt_line_grey" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginBottom="@dimen/single_pad" android:layout_marginStart="@dimen/single_half_pad" android:layout_marginEnd="@dimen/single_half_pad" />
+        <RelativeLayout android:id="@+id/chat_image_message_image_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070074">
+            <ProgressBar android:id="@+id/chat_image_message_progressbar" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:id="@+id/chat_image_message_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+        </RelativeLayout>
+        <com.reddit.frontpage.widgets.video.LDVideoPlayerOld android:id="@+id/chat_image_message_video" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070074" />
+    </LinearLayout>
+</merge>

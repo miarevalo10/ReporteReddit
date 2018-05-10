@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="?attr/rdt_body_color" app:focusableInTouchMode="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003" />
+    <ScrollView app:layout_width="match_parent" app:layout_height="wrap_content">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <FrameLayout app:layout_width="match_parent" app:layout_height="wrap_content"
+                <FrameLayout app:id="@+id/banner_container" app:background="@drawable/profile_settings_banner_spot" app:layout_width="match_parent" app:layout_height="wrap_content" app:foreground="?attr/selectableItemBackground">
+                    <ImageView app:id="@+id/banner" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f070081" app:scaleType="centerCrop" />
+                    <View app:id="@+id/banner_shadow" app:background="@drawable/profile_settings_banner_shadow" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" />
+                    <android.support.v7.widget.AppCompatImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/banner_camera" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_icon_camera_add" app:tint="?attr/rdt_action_icon_color" />
+                    <ProgressBar app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/banner_preloader" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f070178" app:layout_height="UNKNOWN_DATA_0x7f070178" />
+                </FrameLayout>
+                <FrameLayout app:id="@+id/avatar_container" app:visibility="invisible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/community_header_icon_offset" app:foreground="?attr/selectableItemBackground" app:layout_marginStart="@dimen/double_pad">
+                    <com.reddit.frontpage.widgets.ShapedIconView app:id="@id/avatar" app:layout_width="UNKNOWN_DATA_0x7f070083" app:layout_height="UNKNOWN_DATA_0x7f070083" app:scaleType="centerCrop" app:tint="#7d353535" style="?attr/shaped_icon_view_bordered_style" />
+                    <android.support.v7.widget.AppCompatImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/avatar_camera" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/half_pad" app:src="@drawable/ic_icon_camera_add" app:tint="?attr/rdt_light_text_color" app:layout_marginStart="@dimen/three_quarter_pad" />
+                    <ProgressBar app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/avatar_preloader" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f070178" app:layout_height="UNKNOWN_DATA_0x7f070178" />
+                </FrameLayout>
+            </FrameLayout>
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/double_pad" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/double_pad">
+                <TextView app:textAppearance="?attr/textAppearanceRedditBodyMedium" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/title_display_name" />
+                <com.reddit.social.presentation.EditTextWithCounter app:id="@+id/display_name" app:background="@drawable/profile_settings_field_background" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f070179" app:layout_marginTop="@dimen/single_pad" app:hint="@string/hint_display_name" app:maxLength="30" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/double_pad" />
+                <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/single_pad" app:text="@string/summary_display_name" />
+            </LinearLayout>
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/double_pad" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/double_pad">
+                <TextView app:textAppearance="?attr/textAppearanceRedditBodyMedium" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/title_profile_description" />
+                <com.reddit.social.presentation.EditTextWithCounter app:id="@+id/about" app:background="@drawable/profile_settings_field_background" app:paddingTop="@dimen/profile_editing_textedit_vertical_padding" app:paddingBottom="@dimen/profile_editing_textedit_vertical_padding" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/single_pad" app:hint="@string/hint_profile_description" app:minLines="5" app:maxLength="200" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/double_pad" />
+            </LinearLayout>
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@+id/content_visible_row" app:paddingTop="@dimen/single_pad" app:paddingBottom="@dimen/single_pad" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/single_pad" app:foreground="?attr/selectableItemBackground" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/double_pad"
+                <LinearLayout app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_weight="1.0" app:paddingEnd="@dimen/single_pad">
+                    <TextView app:textAppearance="?attr/textAppearanceRedditBodyMedium" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/title_content_visibility" />
+                    <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/summary_content_visibility" />
+                </LinearLayout>
+                <Switch app:id="@+id/content_visible_switch" app:layout_width="wrap_content" app:layout_height="wrap_content" app:checked="false" />
+            </LinearLayout>
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@+id/show_active_row" app:paddingTop="@dimen/single_pad" app:paddingBottom="@dimen/single_pad" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:foreground="?attr/selectableItemBackground" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/double_pad"
+                <LinearLayout app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_weight="1.0" app:paddingEnd="@dimen/single_pad">
+                    <TextView app:textAppearance="?attr/textAppearanceRedditBodyMedium" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/title_show_active_communities" />
+                    <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/summary_show_active_communities" />
+                </LinearLayout>
+                <Switch app:id="@+id/show_active_switch" app:layout_width="wrap_content" app:layout_height="wrap_content" app:checked="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

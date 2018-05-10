@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f070157">
+    <Button app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/selectedItem" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginStart="@dimen/single_half_pad" style="?unknown_attr_ref: 101032b" />
+    <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+    <android.support.v7.widget.AppCompatImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/filter" app:background="?attr/selectableItemBackground" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_icon_filter" app:layout_marginEnd="@dimen/single_half_pad" app:tint="?attr/rdt_body_text_color" />
+    <android.support.v7.widget.AppCompatImageView app:id="@+id/view_mode" app:background="?attr/selectableItemBackground" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f07020c" app:src="@drawable/ic_view_card" app:layout_marginEnd="@dimen/single_half_pad" app:tint="?attr/rdt_body_text_color" />
+</merge>

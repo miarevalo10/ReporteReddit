@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="?attr/selectableItemBackground" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3001">
+    <ImageView app:id="@id/checkbox" app:layout_width="UNKNOWN_DATA_0x1001" app:layout_height="UNKNOWN_DATA_0x1001" app:src="@drawable/flair_selector_16" app:layout_marginStart="@dimen/double_pad" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <TextView app:id="@+id/flair_text" app:layout_width="wrap_content" app:layout_height="wrap_content" app:lines="1" app:layout_marginStart="@dimen/double_pad" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/edit" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/checkbox" app:layout_constraintTop_toTopOf="0" style="?attr/flairTextStyle" />
+    <Button app:id="@+id/edit" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/action_edit" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" style="?unknown_attr_ref: 101032b" />
+</android.support.constraint.ConstraintLayout>

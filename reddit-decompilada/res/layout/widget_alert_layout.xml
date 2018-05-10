@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="@dimen/double_pad" android:paddingBottom="@dimen/double_pad" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/header_login" />
+    <TextView android:textAppearance="?attr/textAppearanceRedditTitle" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/title" android:paddingTop="@dimen/single_pad" android:paddingBottom="@dimen/double_pad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="this is a title" />
+    <View android:background="@drawable/shadow_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070194" />
+    <ScrollView android:padding="@dimen/double_pad" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?attr/textAppearanceRedditBody" android:id="@id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="oieah roi eroiheafoia oifheaoif eaho ifaoie hfaoie foia efoiahefoi eaif aefhoea hfoiehrfoiafi haeif heahfoiehfoieahfoi e  oiaehrfoiea hoif haeifh oearhfaoie hfoia  aieh froieahr f" />
+            <TextView android:textAppearance="?attr/textAppearanceRedditSubheader" android:id="@+id/sub_message" android:paddingTop="@dimen/single_pad" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="oieah roi eroiheafoia oifheaoif eaho ifaoie hfaoie foia efoiahefoi eaif aefhoea hfoiehrfoiafi haeif heahfoiehfoieahfoi e  oiaehrfoiea hoif haeifh oearhfaoie hfoia  aieh froieahr f" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

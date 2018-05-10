@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="horizontal" app:background="?attr/rdt_body_color" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <com.reddit.frontpage.widgets.comment.CommentIndentView app:id="@+id/indent_indicator" app:layout_width="wrap_content" app:layout_height="match_parent" app:lineBottomMargin="@dimen/double_pad" style="@style/rdt_indent_view" />
+    <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/num_replies" app:background="?attr/rdt_canvas_color" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1801" app:layout_marginLeft="@dimen/comment_indent" app:layout_marginRight="@dimen/comment_indent" app:layout_marginBottom="@dimen/double_pad" app:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003" app:layout_alignParentTop="true" app:elevation="@dimen/appbar_elevation">
+        <com.reddit.frontpage.presentation.common.ui.view.RedditSearchView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/search_view" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f07018b" app:layout_marginEnd="@dimen/single_pad" app:iconifiedByDefault="false" style="@style/Widget_RedditBase_SearchView" />
+    </android.support.v7.widget.Toolbar>
+    <View app:id="@+id/progress_bar" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f07017d" app:layout_height="UNKNOWN_DATA_0x7f07017d" app:layout_centerInParent="true" />
+    <android.support.v7.widget.RecyclerView app:id="@+id/result_list" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/toolbar" style="@style/Widget_RedditBase_RecyclerView" />
+    <include app:id="@+id/error_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/toolbar" layout="@layout/widget_listing_error" />
+    <include app:id="@+id/no_results_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/toolbar" layout="@layout/listing_empty" />
+</RelativeLayout>

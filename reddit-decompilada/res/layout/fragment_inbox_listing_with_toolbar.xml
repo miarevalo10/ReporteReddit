@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay_RedditBase_Toolbar_LightForeground" android:id="@id/toolbar" android:background="0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003">
+        <TextView android:textAppearance="@style/TextAppearance_RedditBase_Title_Nav" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/toolbar_title" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" />
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout android:background="?attr/rdt_canvas_color" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/sort_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/widget_sort_bar" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/sort_container">
+            <include android:id="@+id/content_container" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/widget_link_list" />
+            <include android:id="@+id/error_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/widget_listing_error" />
+            <ViewStub android:id="@+id/empty_container_stub" android:layout="@layout/listing_empty" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

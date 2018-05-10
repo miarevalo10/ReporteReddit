@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/rdt_canvas_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f040003" />
+    <android.support.v7.widget.RecyclerView android:id="@+id/message_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/reply_to_message_button" android:layout_below="@id/toolbar" style="@style/Widget_RedditBase_RecyclerView" />
+    <View android:background="@drawable/shadow_up" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070194" android:layout_below="@id/toolbar" android:rotationX="180.0" />
+    <TextView android:textAppearance="?attr/textAppearanceRedditHint" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/reply_to_message_button" android:background="@drawable/post_reply_bar_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070173" android:foreground="?attr/selectableItemBackground" android:text="@string/title_reply_to_message" android:layout_alignParentBottom="true" android:paddingStart="@dimen/double_pad" android:elevation="@dimen/post_reply_bar_elevation" />
+</RelativeLayout>

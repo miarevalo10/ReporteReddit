@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:paddingLeft="@dimen/double_pad" app:paddingTop="@dimen/single_pad" app:paddingRight="@dimen/double_pad" app:paddingBottom="@dimen/single_pad" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <TextView app:textAppearance="?attr/textAppearanceRedditBody" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/show_me_less_item" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f07018f" app:text="@string/carousel_hide_option_text" app:drawableLeft="@drawable/icon_unsubscribe" app:drawablePadding="@dimen/double_pad" />
+</LinearLayout>

@@ -1,0 +1,3406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialog.AppCompat">
+    </style>
+    <style name="AlertDialog.AppCompat.Light">
+    </style>
+    <style name="AlertDialog.RedditBase">
+        <item>@layout/alertdialog_listitem</item>
+    </style>
+    <style name="Animation.AppCompat.Dialog">
+    </style>
+    <style name="Animation.AppCompat.DropDownUp">
+    </style>
+    <style name="Animation.AppCompat.Tooltip">
+    </style>
+    <style name="Animation.Design.BottomSheetDialog">
+        <item>@anim/design_bottom_sheet_slide_in</item>
+        <item>@anim/design_bottom_sheet_slide_out</item>
+    </style>
+    <style name="AppTheme">
+        <item>?attr/rdt_canvas_color</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>?attr/rdt_meta_text_color</item>
+        <item>?attr/tertiaryButtonStyle</item>
+        <item>?attr/rdt_canvas_color</item>
+        <item>@style/Widget.RedditBase.CompoundButton.CheckBox</item>
+        <item>@style/Widget.RedditBase.EditText</item>
+        <item>@style/Widget.RedditBase.CompoundButton.RadioButton</item>
+        <item>?attr/rdt_canvas_color</item>
+        <item>@style/Widget.RedditBase.ActionButton.Overflow</item>
+        <item>@style/Widget.RedditBase.PopupMenu</item>
+        <item>@style/Widget.RedditBase.Button.Borderless</item>
+        <item>@style/Widget.RedditBase.Switch</item>
+        <item>@style/ThemeOverlay.RedditBase.PopupMenu</item>
+        <item>?attr/rdt_button_link_text_color</item>
+        <item>@style/ThemeOverlay.RedditBase.PopupMenu</item>
+        <item>@style/Widget.RedditBase.ActionButton.Overflow</item>
+        <item>@style/AlertDialog.RedditBase</item>
+        <item>@style/ThemeOverlay.RedditBase.Dialog.Alert</item>
+        <item>@style/Widget.RedditBase.Button.Borderless.Colored</item>
+        <item>@drawable/button_bottomaction_background</item>
+        <item>@style/Widget.RedditBase.Button.BottomAction</item>
+        <item>@style/ThemeOverlay.RedditBase.BottomSheetDialog</item>
+        <item>?unknown_attr_ref: 101006c</item>
+        <item>?attr/rdt_active_color</item>
+        <item>?attr/rdt_body_color</item>
+        <item>?attr/rdt_field_color</item>
+        <item>?attr/rdt_body_color</item>
+        <item>@dimen/dialog_side_padding</item>
+        <item>@style/ThemeOverlay.RedditBase.Dialog</item>
+        <item>@style/Widget.RedditBase.EditText.Field</item>
+        <item>?unknown_attr_ref: 101006e</item>
+        <item>@style/Widget.RedditBase.FlairText</item>
+        <item>@style/Widget.RedditBase.LinkFooterView</item>
+        <item>@style/Widget.RedditBase.LinkStatusView</item>
+        <item>@color/live_highlight</item>
+        <item>@style/Widget.RedditBase.PopupMenu</item>
+        <item>@style/ThemeOverlay.RedditBase.PopupMenu</item>
+        <item>@drawable/button_primary_background</item>
+        <item>@style/Widget.RedditBase.Button.Colored</item>
+        <item>@style/Widget.RedditBase.Button.Colored.Small</item>
+        <item>?unknown_attr_ref: 101007e</item>
+        <item>@drawable/radio_checkbox_selector</item>
+        <item>?attr/rdt_meta_text_color</item>
+        <item>?attr/rdt_button_text_color</item>
+        <item>?attr/rdt_button_text_color</item>
+        <item>@drawable/ban_in_context_border</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>@drawable/border_rectangle</item>
+        <item>?attr/rdt_body_color</item>
+        <item>@drawable/background_bottom_sheet</item>
+        <item>?attr/rdt_light_text_color</item>
+        <item>@drawable/chat_input_field_bg</item>
+        <item>@drawable/chat_message_other_background</item>
+        <item>@color/message_bubble_grey</item>
+        <item>@drawable/chat_message_self_background</item>
+        <item>@color/message_bubble_grey</item>
+        <item>@drawable/avatar_missing_background</item>
+        <item>@drawable/circle_active_color</item>
+        <item>@array/rdt_comment_indent</item>
+        <item>@drawable/rounded_corners_bottom</item>
+        <item>@drawable/crosspost_border</item>
+        <item>?attr/rdt_active_color</item>
+        <item>?attr/rdt_active_color</item>
+        <item>?attr/rdt_active_color</item>
+        <item>@drawable/fab_label_background</item>
+        <item>@drawable/background_link_flair</item>
+        <item>?attr/rdt_button_text_color</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>@drawable/horizontal_divider</item>
+        <item>@drawable/horizontal_divider</item>
+        <item>@drawable/horizontal_divider_large</item>
+        <item>@drawable/image_placeholder</item>
+        <item>@drawable/background_live_link</item>
+        <item>?attr/rdt_nav_icon_color</item>
+        <item>?attr/rdt_meta_text_color</item>
+        <item>@drawable/background_link_nsfw</item>
+        <item>?attr/rdt_active_color</item>
+        <item>?attr/rdt_nav_icon_color</item>
+        <item>@drawable/background_link_quarantined</item>
+        <item>@drawable/background_link_removed</item>
+        <item>@drawable/background_link_spoiler</item>
+        <item>?attr/rdt_meta_text_color</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>?attr/rdt_body_color</item>
+        <item>?attr/rdt_active_color</item>
+        <item>@drawable/vertical_divider</item>
+        <item>@drawable/rounded_rectangle_white</item>
+        <item>@drawable/searchview_background</item>
+        <item>@drawable/button_secondary_background</item>
+        <item>@style/Widget.RedditBase.Button.Outlined</item>
+        <item>@style/Widget.RedditBase.Button.Outlined.Small</item>
+        <item>@style/Widget.RedditBase.ShapedIconView.Bordered</item>
+        <item>@style/Widget.RedditBase.ShapedIconView</item>
+        <item>@style/Widget.RedditBase.Switch</item>
+        <item>@drawable/button_tertiary_background</item>
+        <item>@style/Widget.RedditBase.Button</item>
+        <item>?attr/textAppearanceRedditBodyMedium</item>
+        <item>@style/rdt_lightboxheader_details</item>
+        <item>@style/rdt_lightboxheader_title</item>
+        <item>@style/TextAppearance.RedditBase.Action</item>
+        <item>@style/TextAppearance.RedditBase.Address</item>
+        <item>@style/TextAppearance.RedditBase.Badge</item>
+        <item>@style/TextAppearance.RedditBase.Body</item>
+        <item>@style/TextAppearance.RedditBase.Body.Medium</item>
+        <item>@style/TextAppearance.RedditBase.Body.Small</item>
+        <item>@style/TextAppearance.RedditBase.Button</item>
+        <item>@style/TextAppearance.RedditBase.Button.Borderless</item>
+        <item>@style/TextAppearance.RedditBase.Button.Colored</item>
+        <item>@style/TextAppearance.RedditBase.Button.Link</item>
+        <item>@style/TextAppearance.RedditBase.Flair</item>
+        <item>@style/TextAppearance.RedditBase.H2</item>
+        <item>@style/TextAppearance.RedditBase.H4</item>
+        <item>@style/TextAppearance.RedditBase.Headline</item>
+        <item>@style/TextAppearance.RedditBase.Hint</item>
+        <item>@style/TextAppearance.RedditBase.Metadata</item>
+        <item>@style/TextAppearance.RedditBase.Subheader</item>
+        <item>@style/TextAppearance.RedditBase.Tab</item>
+        <item>@style/TextAppearance.RedditBase.Title</item>
+        <item>@style/TextAppearance.RedditBase.UserFlair</item>
+        <item>?attr/textAppearanceRedditBodyMedium</item>
+        <item>@drawable/logo_reddit</item>
+        <item>@style/Widget.RedditBase.Toolbar.Button.Navigation</item>
+        <item>@style/Widget.RedditBase.Toolbar</item>
+        <item>@style/Widget.RedditBase.VoteView</item>
+        <item>true</item>
+    </style>
+    <style name="AppTheme">
+        <item>?attr/rdt_canvas_color</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>?attr/rdt_meta_text_color</item>
+        <item>?attr/tertiaryButtonStyle</item>
+        <item>?attr/rdt_canvas_color</item>
+        <item>@style/Widget.RedditBase.CompoundButton.CheckBox</item>
+        <item>@style/Widget.RedditBase.EditText</item>
+        <item>@style/Widget.RedditBase.CompoundButton.RadioButton</item>
+        <item>?attr/rdt_canvas_color</item>
+        <item>@style/Widget.RedditBase.ActionButton.Overflow</item>
+        <item>@style/Widget.RedditBase.PopupMenu</item>
+        <item>@style/Widget.RedditBase.Button.Borderless</item>
+        <item>@style/Widget.RedditBase.Switch</item>
+        <item>?attr/colorBackgroundFloating</item>
+        <item>@style/ThemeOverlay.RedditBase.PopupMenu</item>
+        <item>?attr/rdt_button_link_text_color</item>
+        <item>@style/ThemeOverlay.RedditBase.PopupMenu</item>
+        <item>@style/Widget.RedditBase.ActionButton.Overflow</item>
+        <item>@style/AlertDialog.RedditBase</item>
+        <item>@style/ThemeOverlay.RedditBase.Dialog.Alert</item>
+        <item>@style/Widget.RedditBase.Button.Borderless.Colored</item>
+        <item>@drawable/button_bottomaction_background</item>
+        <item>@style/Widget.RedditBase.Button.BottomAction</item>
+        <item>@style/ThemeOverlay.RedditBase.BottomSheetDialog</item>
+        <item>?unknown_attr_ref: 101006c</item>
+        <item>?attr/rdt_active_color</item>
+        <item>?attr/rdt_body_color</item>
+        <item>?attr/rdt_field_color</item>
+        <item>?attr/rdt_body_color</item>
+        <item>@dimen/dialog_side_padding</item>
+        <item>@style/ThemeOverlay.RedditBase.Dialog</item>
+        <item>@style/Widget.RedditBase.EditText.Field</item>
+        <item>?unknown_attr_ref: 101006e</item>
+        <item>@style/Widget.RedditBase.FlairText</item>
+        <item>@style/Widget.RedditBase.LinkFooterView</item>
+        <item>@style/Widget.RedditBase.LinkStatusView</item>
+        <item>@color/live_highlight</item>
+        <item>@style/Widget.RedditBase.PopupMenu</item>
+        <item>@style/ThemeOverlay.RedditBase.PopupMenu</item>
+        <item>@drawable/button_primary_background</item>
+        <item>@style/Widget.RedditBase.Button.Colored</item>
+        <item>@style/Widget.RedditBase.Button.Colored.Small</item>
+        <item>?unknown_attr_ref: 101007e</item>
+        <item>@drawable/radio_checkbox_selector</item>
+        <item>?attr/rdt_meta_text_color</item>
+        <item>?attr/rdt_button_text_color</item>
+        <item>?attr/rdt_button_text_color</item>
+        <item>@drawable/ban_in_context_border</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>@drawable/border_rectangle</item>
+        <item>?attr/rdt_body_color</item>
+        <item>@drawable/background_bottom_sheet</item>
+        <item>?attr/rdt_light_text_color</item>
+        <item>@drawable/chat_input_field_bg</item>
+        <item>@drawable/chat_message_other_background</item>
+        <item>@color/message_bubble_grey</item>
+        <item>@drawable/chat_message_self_background</item>
+        <item>@color/message_bubble_grey</item>
+        <item>@drawable/avatar_missing_background</item>
+        <item>@drawable/circle_active_color</item>
+        <item>@array/rdt_comment_indent</item>
+        <item>@drawable/rounded_corners_bottom</item>
+        <item>@drawable/crosspost_border</item>
+        <item>?attr/rdt_active_color</item>
+        <item>?attr/rdt_active_color</item>
+        <item>?attr/rdt_active_color</item>
+        <item>@drawable/fab_label_background</item>
+        <item>@drawable/background_link_flair</item>
+        <item>?attr/rdt_button_text_color</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>@drawable/horizontal_divider</item>
+        <item>@drawable/horizontal_divider</item>
+        <item>@drawable/horizontal_divider_large</item>
+        <item>@drawable/image_placeholder</item>
+        <item>@drawable/background_live_link</item>
+        <item>?attr/rdt_nav_icon_color</item>
+        <item>?attr/rdt_meta_text_color</item>
+        <item>@drawable/background_link_nsfw</item>
+        <item>?attr/rdt_active_color</item>
+        <item>?attr/rdt_nav_icon_color</item>
+        <item>@drawable/background_link_quarantined</item>
+        <item>@drawable/background_link_removed</item>
+        <item>@drawable/background_link_spoiler</item>
+        <item>?attr/rdt_meta_text_color</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>?attr/rdt_body_color</item>
+        <item>?attr/rdt_active_color</item>
+        <item>@drawable/vertical_divider</item>
+        <item>@drawable/rounded_rectangle_white</item>
+        <item>@drawable/searchview_background</item>
+        <item>@drawable/button_secondary_background</item>
+        <item>@style/Widget.RedditBase.Button.Outlined</item>
+        <item>@style/Widget.RedditBase.Button.Outlined.Small</item>
+        <item>@style/Widget.RedditBase.ShapedIconView.Bordered</item>
+        <item>@style/Widget.RedditBase.ShapedIconView</item>
+        <item>@style/Widget.RedditBase.Switch</item>
+        <item>@drawable/button_tertiary_background</item>
+        <item>@style/Widget.RedditBase.Button</item>
+        <item>?attr/textAppearanceRedditBodyMedium</item>
+        <item>@style/rdt_lightboxheader_details</item>
+        <item>@style/rdt_lightboxheader_title</item>
+        <item>@style/TextAppearance.RedditBase.Action</item>
+        <item>@style/TextAppearance.RedditBase.Address</item>
+        <item>@style/TextAppearance.RedditBase.Badge</item>
+        <item>@style/TextAppearance.RedditBase.Body</item>
+        <item>@style/TextAppearance.RedditBase.Body.Medium</item>
+        <item>@style/TextAppearance.RedditBase.Body.Small</item>
+        <item>@style/TextAppearance.RedditBase.Button</item>
+        <item>@style/TextAppearance.RedditBase.Button.Borderless</item>
+        <item>@style/TextAppearance.RedditBase.Button.Colored</item>
+        <item>@style/TextAppearance.RedditBase.Button.Link</item>
+        <item>@style/TextAppearance.RedditBase.Flair</item>
+        <item>@style/TextAppearance.RedditBase.H2</item>
+        <item>@style/TextAppearance.RedditBase.H4</item>
+        <item>@style/TextAppearance.RedditBase.Headline</item>
+        <item>@style/TextAppearance.RedditBase.Hint</item>
+        <item>@style/TextAppearance.RedditBase.Metadata</item>
+        <item>@style/TextAppearance.RedditBase.Subheader</item>
+        <item>@style/TextAppearance.RedditBase.Tab</item>
+        <item>@style/TextAppearance.RedditBase.Title</item>
+        <item>@style/TextAppearance.RedditBase.UserFlair</item>
+        <item>?attr/textAppearanceRedditBodyMedium</item>
+        <item>@drawable/logo_reddit</item>
+        <item>@style/Widget.RedditBase.Toolbar.Button.Navigation</item>
+        <item>@style/Widget.RedditBase.Toolbar</item>
+        <item>@style/Widget.RedditBase.VoteView</item>
+        <item>true</item>
+    </style>
+    <style name="AppTheme.Active">
+        <item>?attr/rdt_active_color</item>
+    </style>
+    <style name="AppTheme.AlienBlue">
+        <item>@color/rdt_text_body_alienblue</item>
+        <item>@color/rdt_text_meta_alienblue</item>
+    </style>
+    <style name="AppTheme.AlienBlue">
+    </style>
+    <style name="AppTheme.Amoled">
+        <item>true</item>
+        <item>@color/rdt_night_action_grey</item>
+        <item>@color/rdt_alien_blue</item>
+        <item>@color/rdt_black</item>
+        <item>@color/rdt_night_body_text</item>
+        <item>@color/rdt_blue</item>
+        <item>@color/rdt_night_canvas</item>
+        <item>@color/rdt_night_field_grey</item>
+        <item>?attr/rdt_active_color</item>
+        <item>@color/rdt_blue</item>
+        <item>@color/rdt_night_body</item>
+        <item>@color/rdt_night_meta_text</item>
+        <item>@color/rdt_highlight_blue_dark</item>
+        <item>@color/rdt_night_white_translucent_60p</item>
+        <item>@color/rdt_night_inactive_grey</item>
+        <item>@color/rdt_text_light_redditbase</item>
+        <item>@color/rdt_night_inactive_grey</item>
+        <item>@color/rdt_blue</item>
+        <item>?attr/rdt_active_color</item>
+        <item>@color/rdt_night_meta_text</item>
+        <item>@color/rdt_night_body_text</item>
+        <item>@color/rdt_night_placeholder_grey</item>
+        <item>@color/rdt_night_white_translucent_60p</item>
+        <item>?attr/rdt_body_color</item>
+        <item>@drawable/toast_snoo</item>
+        <item>?attr/rdt_body_text_color</item>
+    </style>
+    <style name="AppTheme.Mint">
+        <item>@color/rdt_text_body_mint</item>
+        <item>@color/rdt_text_meta_mint</item>
+    </style>
+    <style name="AppTheme.Mint">
+    </style>
+    <style name="AppTheme.Night">
+        <item>@color/rdt_text_body_night</item>
+        <item>@color/rdt_text_meta_night</item>
+    </style>
+    <style name="AppTheme.Night">
+    </style>
+    <style name="AppTheme.Night.Lightbox">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+        <item>?unknown_ref: 0</item>
+        <item>@color/rdt_field_grey</item>
+    </style>
+    <style name="AppTheme.Night.VideoPreview">
+        <item>@color/rdt_meta_text</item>
+        <item>@color/rdt_black</item>
+        <item>@color/rdt_white</item>
+        <item>@color/rdt_white</item>
+    </style>
+    <style name="AppTheme.Pony">
+        <item>false</item>
+        <item>@color/rdt_pony_action_pink</item>
+        <item>@color/rdt_pony_active_pink</item>
+        <item>@color/rdt_white</item>
+        <item>@color/rdt_pony_body_text</item>
+        <item>@color/rdt_pony_button_pink</item>
+        <item>@color/rdt_pony_canvas_grey</item>
+        <item>@color/rdt_night_field_grey</item>
+        <item>?attr/rdt_active_color</item>
+        <item>@color/rdt_pony_action_pink</item>
+        <item>@color/rdt_pony_field_grey</item>
+        <item>@color/rdt_pony_meta_text</item>
+        <item>@color/rdt_pony_highlight_pink</item>
+        <item>@color/rdt_dark_grey_translucent_60p</item>
+        <item>@color/rdt_pony_canvas_grey</item>
+        <item>@color/rdt_text_light_redditbase</item>
+        <item>@color/rdt_pony_canvas_grey</item>
+        <item>@color/rdt_pony_button_pink</item>
+        <item>?attr/rdt_active_color</item>
+        <item>@color/rdt_pony_meta_text</item>
+        <item>@color/rdt_pony_body_text</item>
+        <item>@color/rdt_pony_placeholder_pink</item>
+        <item>@color/rdt_dark_grey_translucent_60p</item>
+        <item>?attr/rdt_nav_icon_color</item>
+        <item>@drawable/toast_snoo_dark</item>
+        <item>?attr/rdt_light_text_color</item>
+    </style>
+    <style name="AppTheme.Trees">
+        <item>false</item>
+        <item>@color/rdt_trees_action_green</item>
+        <item>@color/rdt_trees_active_green</item>
+        <item>@color/rdt_white</item>
+        <item>@color/rdt_trees_body_text</item>
+        <item>@color/rdt_trees_button_green</item>
+        <item>@color/rdt_trees_canvas_green</item>
+        <item>@color/rdt_night_field_grey</item>
+        <item>?attr/rdt_active_color</item>
+        <item>@color/rdt_trees_action_green</item>
+        <item>@color/rdt_trees_field_grey</item>
+        <item>@color/rdt_trees_meta_text</item>
+        <item>@color/rdt_trees_highlight_green</item>
+        <item>@color/rdt_dark_grey_translucent_60p</item>
+        <item>@color/rdt_trees_canvas_green</item>
+        <item>@color/rdt_text_light_redditbase</item>
+        <item>@color/rdt_trees_canvas_green</item>
+        <item>@color/rdt_trees_button_green</item>
+        <item>?attr/rdt_active_color</item>
+        <item>@color/rdt_trees_meta_text</item>
+        <item>@color/rdt_trees_body_text</item>
+        <item>@color/rdt_trees_placeholder_green</item>
+        <item>@color/rdt_dark_grey_translucent_60p</item>
+        <item>?attr/rdt_nav_icon_color</item>
+        <item>@drawable/toast_snoo_dark</item>
+        <item>?attr/rdt_light_text_color</item>
+    </style>
+    <style name="Base.AlertDialog.AppCompat">
+        <item>@layout/abc_alert_dialog_material</item>
+        <item>@layout/select_dialog_item_material</item>
+        <item>@layout/abc_select_dialog_material</item>
+        <item>@layout/select_dialog_multichoice_material</item>
+        <item>@layout/select_dialog_singlechoice_material</item>
+    </style>
+    <style name="Base.AlertDialog.AppCompat.Light">
+    </style>
+    <style name="Base.AlertDialog.RedditBase">
+    </style>
+    <style name="Base.AlertDialog.RedditBase">
+    </style>
+    <style name="Base.Animation.AppCompat.Dialog">
+        <item>@anim/abc_popup_enter</item>
+        <item>@anim/abc_popup_exit</item>
+    </style>
+    <style name="Base.Animation.AppCompat.DropDownUp">
+        <item>@anim/abc_grow_fade_in_from_bottom</item>
+        <item>@anim/abc_shrink_fade_out_from_bottom</item>
+    </style>
+    <style name="Base.Animation.AppCompat.Tooltip">
+        <item>@anim/tooltip_enter</item>
+        <item>@anim/tooltip_exit</item>
+    </style>
+    <style name="Base.AppTheme">
+    </style>
+    <style name="Base.AppTheme">
+    </style>
+    <style name="Base.AppTheme">
+    </style>
+    <style name="Base.AppTheme.AlienBlue">
+        <item>@color/rdt_button_tertiary_alienblue</item>
+        <item>false</item>
+        <item>@color/rdt_action_grey</item>
+        <item>@color/rdt_blue</item>
+        <item>@color/selector_active_enabled_else_canvas_alienblue</item>
+        <item>@color/selector_active_selected_else_canvas_alienblue</item>
+        <item>@color/rdt_white</item>
+        <item>@color/rdt_body_text</item>
+        <item>@color/rdt_button_primary_alienblue</item>
+        <item>@color/rdt_blue</item>
+        <item>@color/selector_button_link_text_alienblue</item>
+        <item>@color/rdt_canvas_grey</item>
+        <item>@color/rdt_night_field_grey</item>
+        <item>@color/selector_downvote_color_alienblue</item>
+        <item>@color/rdt_blue</item>
+        <item>@color/rdt_alien_blue</item>
+        <item>@color/selector_favorite_color_alienblue</item>
+        <item>@color/rdt_field_grey</item>
+        <item>@color/rdt_meta_text</item>
+        <item>@color/rdt_highlight_blue</item>
+        <item>@color/rdt_dark_grey_translucent_60p</item>
+        <item>@color/selector_nav_icon_alienblue</item>
+        <item>@color/rdt_canvas_grey</item>
+        <item>@color/rdt_text_light_redditbase</item>
+        <item>@color/rdt_canvas_grey</item>
+        <item>@color/rdt_alien_blue</item>
+        <item>@color/rdt_blue</item>
+        <item>@color/rdt_meta_text</item>
+        <item>@color/rdt_body_text</item>
+        <item>@color/selector_white_color_alienblue</item>
+        <item>@color/rdt_placeholder_grey</item>
+        <item>@color/selector_listitem_popup_text_alienblue</item>
+        <item>@color/selector_token_text_color_alienblue</item>
+        <item>@color/rdt_button_text_subscribe_alienblue</item>
+        <item>@color/selector_tab_color_alienblue</item>
+        <item>@color/rdt_dark_grey_translucent_60p</item>
+        <item>?attr/rdt_nav_icon_color</item>
+        <item>@drawable/toast_snoo_dark</item>
+        <item>?attr/rdt_light_text_color</item>
+        <item>@color/selector_upvote_color_alienblue</item>
+    </style>
+    <style name="Base.AppTheme.Mint">
+        <item>@color/rdt_button_tertiary_mint</item>
+        <item>false</item>
+        <item>@color/rdt_mint_action_grey</item>
+        <item>@color/rdt_mint</item>
+        <item>@color/selector_active_enabled_else_canvas_mint</item>
+        <item>@color/selector_active_selected_else_canvas_mint</item>
+        <item>@color/rdt_white</item>
+        <item>@color/rdt_mint_body_text</item>
+        <item>@color/rdt_button_primary_mint</item>
+        <item>@color/rdt_teal</item>
+        <item>@color/selector_button_link_text_mint</item>
+        <item>@color/rdt_mint_canvas</item>
+        <item>@color/rdt_night_field_grey</item>
+        <item>@color/selector_downvote_color_mint</item>
+        <item>@color/rdt_mint</item>
+        <item>@color/rdt_teal</item>
+        <item>@color/selector_favorite_color_mint</item>
+        <item>@color/rdt_mint_field_grey</item>
+        <item>@color/rdt_mint_meta_text</item>
+        <item>@color/rdt_mint_highlight</item>
+        <item>@color/rdt_mint_dark_grey_translucent_60p</item>
+        <item>@color/selector_nav_icon_mint</item>
+        <item>@color/rdt_mint_canvas</item>
+        <item>@color/rdt_text_light_redditbase</item>
+        <item>@color/rdt_mint_canvas</item>
+        <item>@color/rdt_teal</item>
+        <item>@color/rdt_orangered</item>
+        <item>@color/rdt_mint_meta_text</item>
+        <item>@color/rdt_mint_body_text</item>
+        <item>@color/selector_white_color_mint</item>
+        <item>@color/rdt_mint_placeholder_grey</item>
+        <item>@color/selector_listitem_popup_text_mint</item>
+        <item>@color/selector_token_text_color_mint</item>
+        <item>@color/rdt_button_text_subscribe_mint</item>
+        <item>@color/selector_tab_color_mint</item>
+        <item>@color/rdt_mint_dark_grey_translucent_60p</item>
+        <item>?attr/rdt_nav_icon_color</item>
+        <item>@drawable/toast_snoo_dark</item>
+        <item>?attr/rdt_light_text_color</item>
+        <item>@color/selector_upvote_color_mint</item>
+    </style>
+    <style name="Base.AppTheme.Night">
+        <item>@color/rdt_black</item>
+        <item>@color/rdt_button_tertiary_night</item>
+        <item>true</item>
+        <item>@color/rdt_night_action_grey</item>
+        <item>@color/rdt_alien_blue</item>
+        <item>@color/selector_active_enabled_else_canvas_night</item>
+        <item>@color/selector_active_selected_else_canvas_night</item>
+        <item>@color/rdt_night_body</item>
+        <item>@color/rdt_night_body_text</item>
+        <item>?attr/rdt_field_color</item>
+        <item>@color/rdt_button_primary_alienblue</item>
+        <item>@color/rdt_blue</item>
+        <item>@color/selector_button_link_text_night</item>
+        <item>@color/rdt_night_canvas</item>
+        <item>@color/rdt_night_field_grey</item>
+        <item>@color/selector_downvote_color_night</item>
+        <item>@color/rdt_alien_blue</item>
+        <item>@color/rdt_blue</item>
+        <item>@color/selector_favorite_color_night</item>
+        <item>@color/rdt_night_field_grey</item>
+        <item>@color/rdt_night_meta_text</item>
+        <item>@color/rdt_highlight_blue_dark</item>
+        <item>@color/rdt_night_white_translucent_60p</item>
+        <item>@drawable/horizontal_divider_night_alt</item>
+        <item>@color/selector_nav_icon_night</item>
+        <item>@color/rdt_night_inactive_grey</item>
+        <item>@color/rdt_text_light_redditbase</item>
+        <item>@color/rdt_night_inactive_grey</item>
+        <item>@color/rdt_blue</item>
+        <item>@color/rdt_alien_blue</item>
+        <item>@color/rdt_night_meta_text</item>
+        <item>@color/rdt_night_body_text</item>
+        <item>@color/selector_white_color_night</item>
+        <item>@color/rdt_night_placeholder_grey</item>
+        <item>@color/selector_listitem_popup_text_night</item>
+        <item>@color/selector_token_text_color_night</item>
+        <item>@color/rdt_button_text_subscribe_night</item>
+        <item>@color/selector_tab_color_night</item>
+        <item>@color/rdt_night_white_translucent_60p</item>
+        <item>?attr/rdt_body_color</item>
+        <item>@drawable/toast_snoo</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>@color/selector_upvote_color_night</item>
+        <item>@drawable/rounded_rectangle_semi_black</item>
+        <item>@drawable/logo_reddit_darkbg</item>
+    </style>
+    <style name="Base.CardView">
+        <item>@dimen/cardview_default_radius</item>
+        <item>@dimen/cardview_default_elevation</item>
+        <item>@dimen/cardview_default_elevation</item>
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Base.DialogWindowTitle.AppCompat">
+        <item>@style/TextAppearance.AppCompat.Title</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="Base.DialogWindowTitleBackground.AppCompat">
+        <item>?unknown_ref: 0</item>
+        <item>?attr/dialogPreferredPadding</item>
+        <item>@dimen/abc_dialog_padding_top_material</item>
+        <item>?attr/dialogPreferredPadding</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body1">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body2">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Button">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display1">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display2">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display3">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display4">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Headline">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult">
+        <item>0</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>?unknown_attr_ref: 101009a</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead.Inverse">
+        <item>?unknown_attr_ref: 1010039</item>
+        <item>?unknown_attr_ref: 101034f</item>
+        <item>?unknown_attr_ref: 101003f</item>
+        <item>?unknown_attr_ref: 1010350</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title.Inverse">
+        <item>?unknown_attr_ref: 1010039</item>
+        <item>?unknown_attr_ref: 101034f</item>
+        <item>?unknown_attr_ref: 101003f</item>
+        <item>?unknown_attr_ref: 1010350</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Tooltip">
+        <item>14sp</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item>?attr/actionMenuTextColor</item>
+        <item>@bool/abc_config_actionMenuItemAllCaps</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored">
+        <item>@color/abc_btn_colored_borderless_text_material</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Colored">
+        <item>@color/abc_btn_colored_text_material</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Colored">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse">
+        <item>?unknown_attr_ref: 1010039</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.DropDownItem">
+        <item>?unknown_attr_ref: 1010037</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Header">
+        <item>@dimen/abc_text_size_menu_header_material</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>@string/abc_font_family_title_material</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Switch">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
+        <item>?unknown_attr_ref: 1010037</item>
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.CompactMenu">
+        <item>@style/Widget.AppCompat.ListView.Menu</item>
+        <item>@style/Animation.AppCompat.DropDownUp</item>
+        <item>?unknown_attr_ref: 1010041</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog">
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog.Alert">
+        <item>@dimen/abc_dialog_min_width_major</item>
+        <item>@dimen/abc_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog.FixedSize">
+        <item>@dimen/abc_dialog_fixed_height_major</item>
+        <item>@dimen/abc_dialog_fixed_height_minor</item>
+        <item>@dimen/abc_dialog_fixed_width_major</item>
+        <item>@dimen/abc_dialog_fixed_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog.MinWidth">
+        <item>@dimen/abc_dialog_min_width_major</item>
+        <item>@dimen/abc_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge">
+    </style>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item>@style/ThemeOverlay.AppCompat.Light</item>
+        <item>@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item>?unknown_ref: 0</item>
+        <item>@color/primary_material_dark</item>
+        <item>@color/primary_dark_material_dark</item>
+        <item>@drawable/abc_list_selector_holo_dark</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item>@dimen/abc_dialog_min_width_major</item>
+        <item>@dimen/abc_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.FixedSize">
+        <item>@dimen/abc_dialog_fixed_height_major</item>
+        <item>@dimen/abc_dialog_fixed_height_minor</item>
+        <item>@dimen/abc_dialog_fixed_width_major</item>
+        <item>@dimen/abc_dialog_fixed_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.MinWidth">
+        <item>@dimen/abc_dialog_min_width_major</item>
+        <item>@dimen/abc_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>@style/Widget.AppCompat.SearchView.ActionBar</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark">
+        <item>@color/foreground_material_dark</item>
+        <item>@color/background_material_dark</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>@color/abc_primary_text_disable_only_material_dark</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_hint_foreground_material_light</item>
+        <item>@color/background_material_dark</item>
+        <item>@color/highlighted_text_material_dark</item>
+        <item>@color/abc_hint_foreground_material_dark</item>
+        <item>@color/foreground_material_light</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_background_cache_hint_selector_material_dark</item>
+        <item>@color/background_floating_material_dark</item>
+        <item>@color/button_material_dark</item>
+        <item>@color/ripple_material_dark</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>@color/switch_thumb_material_dark</item>
+        <item>false</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>@style/Widget.AppCompat.SearchView.ActionBar</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dialog">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dialog.Alert">
+        <item>@dimen/abc_dialog_min_width_major</item>
+        <item>@dimen/abc_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Light">
+        <item>@color/foreground_material_light</item>
+        <item>@color/background_material_light</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>@color/abc_primary_text_disable_only_material_light</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_hint_foreground_material_dark</item>
+        <item>@color/background_material_light</item>
+        <item>@color/highlighted_text_material_light</item>
+        <item>@color/abc_hint_foreground_material_light</item>
+        <item>@color/foreground_material_dark</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_primary_text_disable_only_material_dark</item>
+        <item>@color/abc_background_cache_hint_selector_material_light</item>
+        <item>@color/background_floating_material_light</item>
+        <item>@color/button_material_light</item>
+        <item>@color/ripple_material_light</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>@color/switch_thumb_material_light</item>
+        <item>true</item>
+    </style>
+    <style name="Base.ThemeOverlay.RedditBase.PopupMenu">
+    </style>
+    <style name="Base.ThemeOverlay.RedditBase.PopupMenu">
+    </style>
+    <style name="Base.V11.Theme.AppCompat.Dialog">
+        <item>@style/Widget.AppCompat.Button.Borderless</item>
+        <item>@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item>@bool/abc_config_closeDialogWhenTouchOutside</item>
+    </style>
+    <style name="Base.V11.Theme.AppCompat.Light.Dialog">
+        <item>@style/Widget.AppCompat.Button.Borderless</item>
+        <item>@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item>@bool/abc_config_closeDialogWhenTouchOutside</item>
+    </style>
+    <style name="Base.V11.ThemeOverlay.AppCompat.Dialog">
+        <item>@style/Widget.AppCompat.Button.Borderless</item>
+        <item>@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item>@bool/abc_config_closeDialogWhenTouchOutside</item>
+    </style>
+    <style name="Base.V12.Widget.AppCompat.AutoCompleteTextView">
+        <item>@drawable/abc_text_cursor_material</item>
+    </style>
+    <style name="Base.V12.Widget.AppCompat.EditText">
+        <item>@drawable/abc_text_cursor_material</item>
+    </style>
+    <style name="Base.V14.Widget.Design.AppBarLayout">
+        <item>?attr/colorPrimary</item>
+    </style>
+    <style name="Base.V21.AppTheme">
+    </style>
+    <style name="Base.V21.Theme.AppCompat">
+        <item>?attr/colorControlNormal</item>
+        <item>?attr/colorControlActivated</item>
+        <item>?attr/colorButtonNormal</item>
+        <item>?attr/colorControlHighlight</item>
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimaryDark</item>
+        <item>?attr/colorAccent</item>
+        <item>?unknown_attr_ref: 101039b</item>
+        <item>@drawable/abc_action_bar_item_background_material</item>
+        <item>?unknown_attr_ref: 10102eb</item>
+        <item>?unknown_attr_ref: 10102d8</item>
+        <item>?unknown_attr_ref: 10102db</item>
+        <item>?unknown_attr_ref: 10102dc</item>
+        <item>?unknown_attr_ref: 10102f6</item>
+        <item>?unknown_attr_ref: 101032b</item>
+        <item>?unknown_attr_ref: 1010048</item>
+        <item>?unknown_attr_ref: 1010049</item>
+        <item>?unknown_attr_ref: 101006c</item>
+        <item>?unknown_attr_ref: 10103c8</item>
+        <item>?unknown_attr_ref: 101032c</item>
+        <item>?unknown_attr_ref: 101030a</item>
+        <item>@drawable/abc_edit_text_material</item>
+        <item>?unknown_attr_ref: 1010351</item>
+        <item>?unknown_attr_ref: 101030b</item>
+        <item>?unknown_attr_ref: 10102f0</item>
+        <item>?unknown_attr_ref: 1010387</item>
+        <item>?unknown_attr_ref: 101007e</item>
+        <item>?unknown_attr_ref: 101007c</item>
+        <item>?unknown_attr_ref: 101030e</item>
+        <item>?unknown_attr_ref: 101045c</item>
+        <item>?unknown_attr_ref: 1010081</item>
+        <item>?unknown_attr_ref: 1010301</item>
+        <item>?unknown_attr_ref: 1010302</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Dialog">
+        <item>@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Light">
+        <item>?attr/colorControlNormal</item>
+        <item>?attr/colorControlActivated</item>
+        <item>?attr/colorButtonNormal</item>
+        <item>?attr/colorControlHighlight</item>
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimaryDark</item>
+        <item>?attr/colorAccent</item>
+        <item>?unknown_attr_ref: 101039b</item>
+        <item>@drawable/abc_action_bar_item_background_material</item>
+        <item>?unknown_attr_ref: 10102eb</item>
+        <item>?unknown_attr_ref: 10102d8</item>
+        <item>?unknown_attr_ref: 10102db</item>
+        <item>?unknown_attr_ref: 10102dc</item>
+        <item>?unknown_attr_ref: 10102f6</item>
+        <item>?unknown_attr_ref: 101032b</item>
+        <item>?unknown_attr_ref: 1010048</item>
+        <item>?unknown_attr_ref: 1010049</item>
+        <item>?unknown_attr_ref: 101006c</item>
+        <item>?unknown_attr_ref: 10103c8</item>
+        <item>?unknown_attr_ref: 101032c</item>
+        <item>?unknown_attr_ref: 101030a</item>
+        <item>@drawable/abc_edit_text_material</item>
+        <item>?unknown_attr_ref: 1010351</item>
+        <item>?unknown_attr_ref: 101030b</item>
+        <item>?unknown_attr_ref: 10102f0</item>
+        <item>?unknown_attr_ref: 1010387</item>
+        <item>?unknown_attr_ref: 101007e</item>
+        <item>?unknown_attr_ref: 101007c</item>
+        <item>?unknown_attr_ref: 101030e</item>
+        <item>?unknown_attr_ref: 101045c</item>
+        <item>?unknown_attr_ref: 1010081</item>
+        <item>?unknown_attr_ref: 1010301</item>
+        <item>?unknown_attr_ref: 1010302</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Light.Dialog">
+        <item>@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="Base.V21.ThemeOverlay.AppCompat.Dialog">
+        <item>@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="Base.V21.Widget.Design.AppBarLayout">
+        <item>@animator/design_appbar_state_list_animator</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat">
+        <item>?unknown_attr_ref: 1010479</item>
+        <item>?unknown_attr_ref: 1010352</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat.Light">
+        <item>?unknown_attr_ref: 1010479</item>
+        <item>?unknown_attr_ref: 1010352</item>
+    </style>
+    <style name="Base.V23.AppTheme">
+        <item>@color/rdt_button_tertiary</item>
+        <item>@color/selector_active_enabled_else_canvas</item>
+        <item>@color/selector_active_selected_else_canvas</item>
+        <item>@color/rdt_text_body</item>
+        <item>@color/rdt_button_primary</item>
+        <item>@color/selector_button_link_text</item>
+        <item>@color/selector_downvote_color</item>
+        <item>@color/selector_favorite_color</item>
+        <item>@color/selector_nav_icon</item>
+        <item>@color/rdt_text_meta</item>
+        <item>@color/selector_listitem_popup_text</item>
+        <item>@color/selector_token_text_color</item>
+        <item>@color/rdt_button_text_subscribe</item>
+        <item>@color/selector_tab_color</item>
+        <item>@color/selector_upvote_color</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat">
+        <item>?unknown_attr_ref: 101039c</item>
+        <item>?unknown_attr_ref: 1010360</item>
+        <item>?unknown_attr_ref: 1010361</item>
+        <item>@drawable/abc_control_background_material</item>
+        <item>?unknown_attr_ref: 1010210</item>
+        <item>?unknown_attr_ref: 101007d</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light">
+        <item>?unknown_attr_ref: 101039c</item>
+        <item>?unknown_attr_ref: 1010360</item>
+        <item>?unknown_attr_ref: 1010361</item>
+        <item>@drawable/abc_control_background_material</item>
+        <item>?unknown_attr_ref: 1010210</item>
+        <item>?unknown_attr_ref: 101007d</item>
+    </style>
+    <style name="Base.V26.AppTheme">
+        <item>true</item>
+        <item>?attr/rdt_canvas_color</item>
+        <item>?attr/rdt_body_color</item>
+        <item>?attr/rdt_line_color</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat">
+        <item>?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat.Light">
+        <item>?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="Base.V26.Widget.AppCompat.Toolbar">
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="Base.V26.Widget.Design.AppBarLayout">
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat">
+        <item>?unknown_ref: 106000d</item>
+        <item>@style/Widget.AppCompat.ListView.DropDown</item>
+        <item>@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item>@style/Widget.AppCompat.TextView.SpinnerItem</item>
+        <item>@style/TextAppearance.AppCompat.Widget.Button</item>
+        <item>?attr/dividerVertical</item>
+        <item>?attr/selectableItemBackgroundBorderless</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abc_action_bar_default_height_material</item>
+        <item>?attr/actionBarStyle</item>
+        <item>@style/Widget.AppCompat.ActionBar.Solid</item>
+        <item>@style/Widget.AppCompat.ActionBar.TabBar</item>
+        <item>@style/Widget.AppCompat.ActionBar.TabView</item>
+        <item>@style/Widget.AppCompat.ActionBar.TabText</item>
+        <item>@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/Widget.AppCompat.ActionButton</item>
+        <item>@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
+        <item>@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+        <item>?unknown_attr_ref: 1010037</item>
+        <item>@drawable/abc_cab_background_top_material</item>
+        <item>@style/Widget.AppCompat.ActionButton.CloseMode</item>
+        <item>@drawable/abc_ic_ab_back_material</item>
+        <item>@drawable/abc_ic_menu_copy_mtrl_am_alpha</item>
+        <item>@drawable/abc_ic_menu_cut_mtrl_alpha</item>
+        <item>@drawable/abc_ic_menu_paste_mtrl_am_alpha</item>
+        <item>@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
+        <item>@drawable/abc_ic_menu_share_mtrl_alpha</item>
+        <item>?attr/colorPrimaryDark</item>
+        <item>@style/Widget.AppCompat.ActionMode</item>
+        <item>@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item>@style/Widget.AppCompat.PopupMenu.Overflow</item>
+        <item>@style/Widget.AppCompat.ActivityChooserView</item>
+        <item>false</item>
+        <item>@style/AlertDialog.AppCompat</item>
+        <item>@style/ThemeOverlay.AppCompat.Dialog.Alert</item>
+        <item>@style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item>@style/Widget.AppCompat.Button.Borderless</item>
+        <item>@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>@style/Widget.AppCompat.ButtonBar</item>
+        <item>@style/Widget.AppCompat.Button</item>
+        <item>@style/Widget.AppCompat.Button.Small</item>
+        <item>@style/Widget.AppCompat.CompoundButton.CheckBox</item>
+        <item>@color/accent_material_dark</item>
+        <item>@color/background_floating_material_dark</item>
+        <item>@color/button_material_dark</item>
+        <item>?attr/colorAccent</item>
+        <item>@color/ripple_material_dark</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>@color/error_color_material</item>
+        <item>@color/primary_material_dark</item>
+        <item>@color/primary_dark_material_dark</item>
+        <item>@color/switch_thumb_material_dark</item>
+        <item>?attr/selectableItemBackgroundBorderless</item>
+        <item>@dimen/abc_dialog_padding_material</item>
+        <item>@style/ThemeOverlay.AppCompat.Dialog</item>
+        <item>@drawable/abc_list_divider_mtrl_alpha</item>
+        <item>@drawable/abc_list_divider_mtrl_alpha</item>
+        <item>@style/Widget.AppCompat.DrawerArrowToggle</item>
+        <item>?unknown_attr_ref: 101006d</item>
+        <item>?attr/listPreferredItemHeightSmall</item>
+        <item>@drawable/abc_edit_text_material</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>@style/Widget.AppCompat.EditText</item>
+        <item>@drawable/abc_ic_ab_back_material</item>
+        <item>@style/Widget.AppCompat.ImageButton</item>
+        <item>false</item>
+        <item>@drawable/abc_list_selector_holo_dark</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/Widget.AppCompat.ListMenuView</item>
+        <item>@style/Widget.AppCompat.ListPopupWindow</item>
+        <item>64dp</item>
+        <item>80dp</item>
+        <item>48dp</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+        <item>@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
+        <item>@style/Theme.AppCompat.CompactMenu</item>
+        <item>@dimen/abc_panel_menu_list_width</item>
+        <item>@style/Widget.AppCompat.PopupMenu</item>
+        <item>@style/Widget.AppCompat.CompoundButton.RadioButton</item>
+        <item>@style/Widget.AppCompat.RatingBar</item>
+        <item>@style/Widget.AppCompat.RatingBar.Indicator</item>
+        <item>@style/Widget.AppCompat.RatingBar.Small</item>
+        <item>@style/Widget.AppCompat.SearchView</item>
+        <item>@style/Widget.AppCompat.SeekBar</item>
+        <item>@drawable/abc_item_background_holo_dark</item>
+        <item>?attr/selectableItemBackground</item>
+        <item>@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item>@style/Widget.AppCompat.Spinner</item>
+        <item>@style/Widget.AppCompat.CompoundButton.Switch</item>
+        <item>@style/TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
+        <item>@style/TextAppearance.AppCompat.Subhead</item>
+        <item>@style/TextAppearance.AppCompat.Body1</item>
+        <item>@style/TextAppearance.AppCompat.Subhead</item>
+        <item>@style/TextAppearance.AppCompat.Widget.PopupMenu.Header</item>
+        <item>@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
+        <item>@style/TextAppearance.AppCompat.SearchResult.Title</item>
+        <item>@style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>@color/abc_search_url_text</item>
+        <item>@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
+        <item>@style/Widget.AppCompat.Toolbar</item>
+        <item>@color/foreground_material_light</item>
+        <item>@drawable/tooltip_frame_light</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Dialog">
+        <item>?attr/colorBackgroundFloating</item>
+        <item>@drawable/abc_dialog_material_background</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/RtlOverlay.DialogWindowTitle.AppCompat</item>
+        <item>@style/Base.DialogWindowTitleBackground.AppCompat</item>
+        <item>@style/Animation.AppCompat.Dialog</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>20</item>
+        <item>?unknown_ref: 0</item>
+        <item>24dp</item>
+        <item>24dp</item>
+        <item>false</item>
+        <item>true</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Light">
+        <item>?unknown_ref: 106000d</item>
+        <item>@style/Widget.AppCompat.ListView.DropDown</item>
+        <item>@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item>@style/Widget.AppCompat.TextView.SpinnerItem</item>
+        <item>@style/TextAppearance.AppCompat.Widget.Button</item>
+        <item>?attr/dividerVertical</item>
+        <item>?attr/selectableItemBackgroundBorderless</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abc_action_bar_default_height_material</item>
+        <item>?attr/actionBarStyle</item>
+        <item>@style/Widget.AppCompat.Light.ActionBar.Solid</item>
+        <item>@style/Widget.AppCompat.Light.ActionBar.TabBar</item>
+        <item>@style/Widget.AppCompat.Light.ActionBar.TabView</item>
+        <item>@style/Widget.AppCompat.Light.ActionBar.TabText</item>
+        <item>@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/Widget.AppCompat.Light.ActionButton</item>
+        <item>@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
+        <item>@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+        <item>?unknown_attr_ref: 1010037</item>
+        <item>@drawable/abc_cab_background_top_material</item>
+        <item>@style/Widget.AppCompat.ActionButton.CloseMode</item>
+        <item>@drawable/abc_ic_ab_back_material</item>
+        <item>@drawable/abc_ic_menu_copy_mtrl_am_alpha</item>
+        <item>@drawable/abc_ic_menu_cut_mtrl_alpha</item>
+        <item>@drawable/abc_ic_menu_paste_mtrl_am_alpha</item>
+        <item>@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
+        <item>@drawable/abc_ic_menu_share_mtrl_alpha</item>
+        <item>?attr/colorPrimaryDark</item>
+        <item>@style/Widget.AppCompat.ActionMode</item>
+        <item>@style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+        <item>@style/Widget.AppCompat.Light.PopupMenu.Overflow</item>
+        <item>@style/Widget.AppCompat.ActivityChooserView</item>
+        <item>false</item>
+        <item>@style/AlertDialog.AppCompat.Light</item>
+        <item>@style/ThemeOverlay.AppCompat.Dialog.Alert</item>
+        <item>@style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item>@style/Widget.AppCompat.Button.Borderless</item>
+        <item>@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>@style/Widget.AppCompat.ButtonBar</item>
+        <item>@style/Widget.AppCompat.Button</item>
+        <item>@style/Widget.AppCompat.Button.Small</item>
+        <item>@style/Widget.AppCompat.CompoundButton.CheckBox</item>
+        <item>@color/accent_material_light</item>
+        <item>@color/background_floating_material_light</item>
+        <item>@color/button_material_light</item>
+        <item>?attr/colorAccent</item>
+        <item>@color/ripple_material_light</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>@color/error_color_material</item>
+        <item>@color/primary_material_light</item>
+        <item>@color/primary_dark_material_light</item>
+        <item>@color/switch_thumb_material_light</item>
+        <item>?attr/selectableItemBackgroundBorderless</item>
+        <item>@dimen/abc_dialog_padding_material</item>
+        <item>@style/ThemeOverlay.AppCompat.Dialog</item>
+        <item>@drawable/abc_list_divider_mtrl_alpha</item>
+        <item>@drawable/abc_list_divider_mtrl_alpha</item>
+        <item>@style/Widget.AppCompat.DrawerArrowToggle</item>
+        <item>?unknown_attr_ref: 101006d</item>
+        <item>?attr/listPreferredItemHeightSmall</item>
+        <item>@drawable/abc_edit_text_material</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>@style/Widget.AppCompat.EditText</item>
+        <item>@drawable/abc_ic_ab_back_material</item>
+        <item>@style/Widget.AppCompat.ImageButton</item>
+        <item>true</item>
+        <item>@drawable/abc_list_selector_holo_light</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/Widget.AppCompat.ListMenuView</item>
+        <item>@style/Widget.AppCompat.ListPopupWindow</item>
+        <item>64dp</item>
+        <item>80dp</item>
+        <item>48dp</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+        <item>@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
+        <item>@style/Theme.AppCompat.CompactMenu</item>
+        <item>@dimen/abc_panel_menu_list_width</item>
+        <item>@style/Widget.AppCompat.Light.PopupMenu</item>
+        <item>@style/Widget.AppCompat.CompoundButton.RadioButton</item>
+        <item>@style/Widget.AppCompat.RatingBar</item>
+        <item>@style/Widget.AppCompat.RatingBar.Indicator</item>
+        <item>@style/Widget.AppCompat.RatingBar.Small</item>
+        <item>@style/Widget.AppCompat.Light.SearchView</item>
+        <item>@style/Widget.AppCompat.SeekBar</item>
+        <item>@drawable/abc_item_background_holo_light</item>
+        <item>?attr/selectableItemBackground</item>
+        <item>@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item>@style/Widget.AppCompat.Spinner</item>
+        <item>@style/Widget.AppCompat.CompoundButton.Switch</item>
+        <item>@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
+        <item>@style/TextAppearance.AppCompat.Subhead</item>
+        <item>@style/TextAppearance.AppCompat.Body1</item>
+        <item>@style/TextAppearance.AppCompat.Subhead</item>
+        <item>@style/TextAppearance.AppCompat.Widget.PopupMenu.Header</item>
+        <item>@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
+        <item>@style/TextAppearance.AppCompat.SearchResult.Title</item>
+        <item>@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>@color/abc_search_url_text</item>
+        <item>@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
+        <item>@style/Widget.AppCompat.Toolbar</item>
+        <item>@color/foreground_material_dark</item>
+        <item>@drawable/tooltip_frame_dark</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Light.Dialog">
+        <item>?attr/colorBackgroundFloating</item>
+        <item>@drawable/abc_dialog_material_background</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/RtlOverlay.DialogWindowTitle.AppCompat</item>
+        <item>@style/Base.DialogWindowTitleBackground.AppCompat</item>
+        <item>@style/Animation.AppCompat.Dialog</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>20</item>
+        <item>?unknown_ref: 0</item>
+        <item>24dp</item>
+        <item>24dp</item>
+        <item>false</item>
+        <item>true</item>
+    </style>
+    <style name="Base.V7.ThemeOverlay.AppCompat.Dialog">
+        <item>?attr/colorBackgroundFloating</item>
+        <item>@drawable/abc_dialog_material_background</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/RtlOverlay.DialogWindowTitle.AppCompat</item>
+        <item>@style/Base.DialogWindowTitleBackground.AppCompat</item>
+        <item>@style/Animation.AppCompat.Dialog</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>20</item>
+        <item>?unknown_ref: 0</item>
+        <item>24dp</item>
+        <item>24dp</item>
+        <item>false</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Base.V7.Widget.AppCompat.AutoCompleteTextView">
+        <item>?unknown_attr_ref: 1010044</item>
+        <item>?attr/editTextColor</item>
+        <item>?attr/editTextBackground</item>
+        <item>?attr/listChoiceBackgroundIndicator</item>
+        <item>@drawable/abc_popup_background_mtrl_mult</item>
+    </style>
+    <style name="Base.V7.Widget.AppCompat.EditText">
+        <item>?unknown_attr_ref: 1010044</item>
+        <item>?attr/editTextColor</item>
+        <item>?attr/editTextBackground</item>
+    </style>
+    <style name="Base.V7.Widget.AppCompat.Toolbar">
+        <item>@dimen/abc_action_bar_default_padding_start_material</item>
+        <item>@dimen/abc_action_bar_default_padding_end_material</item>
+        <item>?attr/actionBarSize</item>
+        <item>30</item>
+        <item>@string/abc_toolbar_collapse_description</item>
+        <item>?attr/homeAsUpIndicator</item>
+        <item>16dp</item>
+        <item>@dimen/abc_action_bar_content_inset_with_nav</item>
+        <item>@dimen/abc_action_bar_default_height_material</item>
+        <item>@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle</item>
+        <item>4dp</item>
+        <item>@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar">
+        <item>10</item>
+        <item>@style/Widget.AppCompat.ActionButton</item>
+        <item>@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abc_action_bar_content_inset_material</item>
+        <item>@dimen/abc_action_bar_content_inset_material</item>
+        <item>@dimen/abc_action_bar_content_inset_with_nav</item>
+        <item>8</item>
+        <item>?attr/dividerVertical</item>
+        <item>@dimen/abc_action_bar_elevation_material</item>
+        <item>?attr/actionBarSize</item>
+        <item>?attr/actionBarPopupTheme</item>
+        <item>@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle</item>
+        <item>@style/TextAppearance.AppCompat.Widget.ActionBar.Title</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.Solid">
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimary</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabBar">
+        <item>?attr/actionBarDivider</item>
+        <item>8dp</item>
+        <item>2</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabText">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabView">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.CloseMode">
+        <item>56dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionMode">
+        <item>?attr/actionModeBackground</item>
+        <item>?attr/actionModeSplitBackground</item>
+        <item>@layout/abc_action_mode_close_item_material</item>
+        <item>?attr/actionBarSize</item>
+        <item>@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle</item>
+        <item>@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActivityChooserView">
+        <item>11</item>
+        <item>@drawable/abc_ab_share_pack_mtrl_alpha</item>
+        <item>?attr/dividerVertical</item>
+        <item>6dp</item>
+        <item>2</item>
+    </style>
+    <style name="Base.Widget.AppCompat.AutoCompleteTextView">
+        <item>?attr/editTextBackground</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored">
+        <item>@color/abc_btn_colored_borderless_text_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item>64dp</item>
+        <item>@dimen/abc_alert_dialog_button_bar_height</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Colored">
+        <item>@style/TextAppearance.AppCompat.Widget.Button.Colored</item>
+        <item>@drawable/abc_btn_colored_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Colored">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Small">
+    </style>
+    <style name="Base.Widget.AppCompat.ButtonBar">
+    </style>
+    <style name="Base.Widget.AppCompat.ButtonBar.AlertDialog">
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.CheckBox">
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.RadioButton">
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.Switch">
+        <item>?attr/controlBackground</item>
+        <item>@string/abc_capital_on</item>
+        <item>@string/abc_capital_off</item>
+        <item>@drawable/abc_switch_thumb_material</item>
+        <item>false</item>
+        <item>@dimen/abc_switch_padding</item>
+        <item>@style/TextAppearance.AppCompat.Widget.Switch</item>
+        <item>@drawable/abc_switch_track_mtrl_alpha</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item>18dp</item>
+        <item>24dp</item>
+        <item>3dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item>18.66dp</item>
+        <item>24dp</item>
+        <item>3.33dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+        <item>8dp</item>
+        <item>16dp</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>true</item>
+        <item>2dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DropDownItem.Spinner">
+    </style>
+    <style name="Base.Widget.AppCompat.EditText">
+        <item>?attr/editTextBackground</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ImageButton">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar">
+        <item>@style/Widget.AppCompat.Light.ActionButton</item>
+        <item>@style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.Solid">
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimary</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabBar">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item>-4dp</item>
+        <item>true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListMenuView">
+        <item>@drawable/abc_ic_arrow_drop_right_black_24dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListPopupWindow">
+    </style>
+    <style name="Base.Widget.AppCompat.ListView">
+    </style>
+    <style name="Base.Widget.AppCompat.ListView.DropDown">
+    </style>
+    <style name="Base.Widget.AppCompat.ListView.Menu">
+    </style>
+    <style name="Base.Widget.AppCompat.PopupMenu">
+    </style>
+    <style name="Base.Widget.AppCompat.PopupMenu.Overflow">
+        <item>-4dp</item>
+        <item>true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.PopupWindow">
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar">
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar.Horizontal">
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar">
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator">
+        <item>36dp</item>
+        <item>@drawable/abc_ratingbar_indicator_material</item>
+        <item>@drawable/abc_ratingbar_indicator_material</item>
+        <item>36dp</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator">
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Small">
+        <item>16dp</item>
+        <item>@drawable/abc_ratingbar_small_material</item>
+        <item>@drawable/abc_ratingbar_small_material</item>
+        <item>16dp</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Small">
+    </style>
+    <style name="Base.Widget.AppCompat.SearchView">
+        <item>@drawable/abc_ic_clear_material</item>
+        <item>@drawable/abc_ic_commit_search_api_mtrl_alpha</item>
+        <item>@drawable/abc_ic_go_search_api_material</item>
+        <item>@layout/abc_search_view</item>
+        <item>@drawable/abc_textfield_search_material</item>
+        <item>@drawable/abc_ic_search_api_material</item>
+        <item>@drawable/abc_ic_search_api_material</item>
+        <item>@drawable/abc_textfield_search_material</item>
+        <item>@layout/abc_search_dropdown_item_icons_2line</item>
+        <item>@drawable/abc_ic_voice_search_api_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.SearchView.ActionBar">
+        <item>@string/abc_search_hint</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Base.Widget.AppCompat.SeekBar">
+    </style>
+    <style name="Base.Widget.AppCompat.SeekBar.Discrete">
+        <item>@drawable/abc_seekbar_tick_mark_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner">
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined">
+        <item>@drawable/abc_spinner_textfield_background_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined">
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined">
+    </style>
+    <style name="Base.Widget.AppCompat.TextView.SpinnerItem">
+    </style>
+    <style name="Base.Widget.AppCompat.Toolbar">
+    </style>
+    <style name="Base.Widget.AppCompat.Toolbar">
+    </style>
+    <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation">
+    </style>
+    <style name="Base.Widget.Design.AppBarLayout">
+    </style>
+    <style name="Base.Widget.Design.AppBarLayout">
+    </style>
+    <style name="Base.Widget.Design.TabLayout">
+        <item>?attr/selectableItemBackground</item>
+        <item>?attr/colorAccent</item>
+        <item>2dp</item>
+        <item>@dimen/design_tab_max_width</item>
+        <item>12dp</item>
+        <item>12dp</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>@style/TextAppearance.Design.Tab</item>
+    </style>
+    <style name="Base.Widget.RedditBase.PopupMenu">
+    </style>
+    <style name="Base.Widget.RedditBase.PopupMenu">
+    </style>
+    <style name="CardView">
+    </style>
+    <style name="CardView">
+        <item>?unknown_attr_ref: 10104e2</item>
+    </style>
+    <style name="CardView.Dark">
+        <item>@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light">
+        <item>@color/cardview_light_background</item>
+    </style>
+    <style name="ExoMediaButton">
+        <item>?unknown_attr_ref: 101030e</item>
+        <item>@dimen/exo_media_button_width</item>
+        <item>@dimen/exo_media_button_height</item>
+    </style>
+    <style name="ExoMediaButton.FastForward">
+        <item>@drawable/exo_controls_fastforward</item>
+        <item>@string/exo_controls_fastforward_description</item>
+    </style>
+    <style name="ExoMediaButton.Next">
+        <item>@drawable/exo_controls_next</item>
+        <item>@string/exo_controls_next_description</item>
+    </style>
+    <style name="ExoMediaButton.Pause">
+        <item>@drawable/exo_controls_pause</item>
+        <item>@string/exo_controls_pause_description</item>
+    </style>
+    <style name="ExoMediaButton.Play">
+        <item>@drawable/exo_controls_play</item>
+        <item>@string/exo_controls_play_description</item>
+    </style>
+    <style name="ExoMediaButton.Previous">
+        <item>@drawable/exo_controls_previous</item>
+        <item>@string/exo_controls_previous_description</item>
+    </style>
+    <style name="ExoMediaButton.Rewind">
+        <item>@drawable/exo_controls_rewind</item>
+        <item>@string/exo_controls_rewind_description</item>
+    </style>
+    <style name="ExoPlayerMediaButton">
+        <item>@drawable/player_button_background</item>
+        <item>8dp</item>
+        <item>@dimen/exoplayer_control_button_dimension</item>
+        <item>@dimen/exoplayer_control_button_dimension</item>
+    </style>
+    <style name="ExoPlayerMediaButton.Pause">
+        <item>@drawable/btn_pause</item>
+        <item>@string/exo_controls_pause_description</item>
+    </style>
+    <style name="ExoPlayerMediaButton.Play">
+        <item>@drawable/btn_play</item>
+        <item>@string/exo_controls_play_description</item>
+    </style>
+    <style name="ExoPlayerMediaButton.Replay">
+        <item>@drawable/btn_replay</item>
+        <item>@string/exo_controls_play_description</item>
+    </style>
+    <style name="HockeyApp.ButtonStyle">
+        <item>15sp</item>
+        <item>@color/hockeyapp_text_white</item>
+        <item>11</item>
+        <item>@drawable/hockeyapp_btn_background</item>
+    </style>
+    <style name="HockeyApp.EditTextStyle">
+        <item>15sp</item>
+        <item>0</item>
+        <item>@color/hockeyapp_text_normal</item>
+        <item>@color/hockeyapp_text_light</item>
+        <item>20dp</item>
+        <item>10dp</item>
+        <item>20dp</item>
+        <item>10dp</item>
+        <item>5</item>
+    </style>
+    <style name="HockeyApp.SingleLineInputStyle">
+        <item>true</item>
+    </style>
+    <style name="InstabugAnnotationColorIconContainer">
+        <item>4dp</item>
+        <item>4dp</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>11</item>
+    </style>
+    <style name="InstabugAnnotationColorIconImage">
+        <item>36dp</item>
+        <item>36dp</item>
+        <item>3</item>
+        <item>true</item>
+    </style>
+    <style name="InstabugAnnotationContainer">
+        <item>?unknown_ref: 106000d</item>
+    </style>
+    <style name="InstabugBaseContainer">
+        <item>10</item>
+        <item>1</item>
+        <item>?attr/instabug_background_color</item>
+        <item>true</item>
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="InstabugBaseText">
+        <item>?attr/instabug_foreground_color</item>
+        <item>10</item>
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="InstabugBaseToolbarContainer">
+        <item>?attr/instabug_primary_color</item>
+        <item>-1</item>
+        <item>?unknown_attr_ref: 10102eb</item>
+    </style>
+    <style name="InstabugBorderlessDialog">
+        <item>@color/instabug_transparent_color</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 1030002</item>
+        <item>20</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="InstabugBottomBarContainer">
+        <item>11</item>
+        <item>50</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>10dp</item>
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="InstabugBottomSheetContainer">
+        <item>50</item>
+        <item>@dimen/instabug_container_padding</item>
+        <item>@dimen/instabug_container_padding</item>
+        <item>@dimen/instabug_bottom_sheet_padding</item>
+    </style>
+    <style name="InstabugBottomSheetItemBaseImage">
+        <item>10</item>
+        <item>24dp</item>
+        <item>24dp</item>
+    </style>
+    <style name="InstabugBottomSheetItemContainer">
+        <item>-1</item>
+        <item>48dp</item>
+    </style>
+    <style name="InstabugBottomSheetItemImage">
+        <item>10</item>
+        <item>2dp</item>
+    </style>
+    <style name="InstabugBottomSheetItemText">
+        <item>@dimen/instabug_normal_text_size</item>
+        <item>-1</item>
+    </style>
+    <style name="InstabugChatsItemContainer">
+        <item>10</item>
+        <item>16dp</item>
+        <item>2dp</item>
+        <item>16dp</item>
+        <item>1dp</item>
+        <item>-1</item>
+        <item>72dp</item>
+    </style>
+    <style name="InstabugDialogButton">
+        <item>?unknown_ref: 106000d</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="InstabugDialogButtonText">
+        <item>?attr/instabug_dialog_button_text_color</item>
+        <item>11</item>
+        <item>?attr/instabug_background_color</item>
+    </style>
+    <style name="InstabugDialogComposeMessageContainer">
+        <item>10</item>
+        <item>8dp</item>
+        <item>8dp</item>
+        <item>-1</item>
+        <item>52dp</item>
+    </style>
+    <style name="InstabugDialogContainer">
+        <item>@color/instabug_dialog_bg_color</item>
+        <item>true</item>
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="InstabugDialogItemBaseImage">
+        <item>10</item>
+        <item>40dp</item>
+        <item>40dp</item>
+    </style>
+    <style name="InstabugDialogItemContainer">
+        <item>10</item>
+        <item>?attr/instabug_background_color</item>
+        <item>6dp</item>
+        <item>6dp</item>
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="InstabugDialogItemImage">
+        <item>8dp</item>
+        <item>16dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="InstabugDialogItemText">
+        <item>@dimen/instabug_normal_text_size</item>
+        <item>?attr/instabug_dialog_item_text_color</item>
+    </style>
+    <style name="InstabugDialogToolbarContainer">
+        <item>?attr/instabug_background_color</item>
+        <item>16dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="InstabugEditTextStyle">
+        <item>800003</item>
+        <item>?attr/instabug_background_color</item>
+        <item>20dp</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>?unknown_attr_ref: 101004d</item>
+    </style>
+    <style name="InstabugImageButton">
+        <item>?unknown_ref: 0</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>3</item>
+    </style>
+    <style name="InstabugNotificationCountIcon">
+        <item>#ffffff</item>
+        <item>11</item>
+        <item>2dp</item>
+    </style>
+    <style name="InstabugSdkTheme">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>false</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="InstabugSdkTheme.Base.Dark">
+        <item>?unknown_ref: 1030269</item>
+        <item>#ffdfe1e2</item>
+        <item>?unknown_ref: 106000d</item>
+    </style>
+    <style name="InstabugSdkTheme.Base.Light">
+        <item>?unknown_ref: 10302aa</item>
+        <item>#ff273646</item>
+        <item>?unknown_ref: 106000d</item>
+    </style>
+    <style name="InstabugSdkTheme.Dark">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>#535353</item>
+        <item>?unknown_ref: 106000b</item>
+        <item>#363636</item>
+        <item>#ffffff</item>
+        <item>#ffffff</item>
+        <item>@drawable/instabug_bg_divider_list_dark</item>
+        <item>#575757</item>
+        <item>#ffffff</item>
+        <item>@drawable/instabug_bg_border_dark</item>
+        <item>#b4b4b4</item>
+        <item>#ebebeb</item>
+        <item>#d0d0d0</item>
+        <item>#252525</item>
+        <item>?attr/instabug_background_color</item>
+        <item>?attr/instabug_foreground_color</item>
+        <item>@drawable/instabug_bg_with_bottom_gray_stroke_dark</item>
+        <item>@drawable/instabug_transition_from_default_bg_to_default_bg_with_thin_top_gray_stroke_dark</item>
+        <item>@drawable/instabug_transition_from_default_bg_to_default_bg_with_thin_bottom_gray_stroke_dark</item>
+        <item>#ffffff</item>
+        <item>#9b9b9b</item>
+        <item>#424242</item>
+        <item>#c7c7c7</item>
+        <item>#c7c7c7</item>
+        <item>#c7c7c7</item>
+        <item>@color/instabug_dark_theme_hint_text_color</item>
+        <item>@color/instabug_theme_tinting_color_dark</item>
+        <item>#313131</item>
+    </style>
+    <style name="InstabugSdkTheme.Light">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>#f8f8f8</item>
+        <item>?unknown_ref: 106000c</item>
+        <item>#ffffff</item>
+        <item>#2f8bf7</item>
+        <item>#767575</item>
+        <item>@drawable/instabug_bg_divider_list_light</item>
+        <item>#ececec</item>
+        <item>#000000</item>
+        <item>@drawable/instabug_bg_border_light</item>
+        <item>#9a9a9a</item>
+        <item>#000000</item>
+        <item>#737373</item>
+        <item>#eceff1</item>
+        <item>?attr/instabug_foreground_color</item>
+        <item>?attr/instabug_background_color</item>
+        <item>@drawable/instabug_bg_with_bottom_gray_stroke_light</item>
+        <item>@drawable/instabug_transition_from_default_bg_to_default_bg_with_thin_top_gray_stroke_light</item>
+        <item>@drawable/instabug_transition_from_default_bg_to_default_bg_with_thin_bottom_gray_stroke_light</item>
+        <item>#000000</item>
+        <item>#6e6e6e</item>
+        <item>#f0f0f0</item>
+        <item>#898989</item>
+        <item>#4c4c4c</item>
+        <item>#535353</item>
+        <item>@color/instabug_light_theme_hint_text_color</item>
+        <item>@color/instabug_theme_tinting_color_light</item>
+        <item>#f9f9f9</item>
+    </style>
+    <style name="InstabugSurveyDark">
+        <item>@drawable/survey_container_bg_dark</item>
+    </style>
+    <style name="InstabugSurveyDialogQuestion">
+        <item>@dimen/Instabug_text_medium</item>
+        <item>1</item>
+        <item>?attr/instabug_foreground_color</item>
+        <item>11</item>
+        <item>6</item>
+    </style>
+    <style name="InstabugSurveyLight">
+        <item>@drawable/survey_container_bg_light</item>
+    </style>
+    <style name="InstabugText">
+        <item>@dimen/instabug_normal_text_size</item>
+        <item>?attr/instabug_background_color</item>
+    </style>
+    <style name="InstabugToolbarTitle">
+        <item>@dimen/Instabug_text_medium</item>
+        <item>?attr/instabug_foreground_color</item>
+        <item>800003</item>
+        <item>10</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>@string/font_fontFamily_medium</item>
+    </style>
+    <style name="InstabugTopDialogButton">
+        <item>800013</item>
+        <item>10</item>
+        <item>8dp</item>
+        <item>8dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="InstabugTranslucentSdkTheme">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="InstabugUnreadMessagesCountIcon">
+        <item>#ffffff</item>
+        <item>11</item>
+        <item>2dp</item>
+    </style>
+    <style name="MediaTheme">
+        <item>?unknown_ref: 106000c</item>
+    </style>
+    <style name="Platform.AppCompat">
+    </style>
+    <style name="Platform.AppCompat">
+    </style>
+    <style name="Platform.AppCompat.Light">
+    </style>
+    <style name="Platform.AppCompat.Light">
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat">
+        <item>?attr/colorControlNormal</item>
+        <item>?attr/colorControlActivated</item>
+        <item>?attr/colorButtonNormal</item>
+        <item>?attr/colorControlHighlight</item>
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimaryDark</item>
+        <item>?attr/colorAccent</item>
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Dark">
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Light">
+    </style>
+    <style name="Platform.V11.AppCompat">
+        <item>@color/foreground_material_dark</item>
+        <item>@color/background_material_dark</item>
+        <item>0.6</item>
+        <item>@dimen/abc_disabled_alpha_material_dark</item>
+        <item>@style/TextAppearance.AppCompat</item>
+        <item>@style/TextAppearance.AppCompat.Inverse</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>@color/abc_primary_text_disable_only_material_dark</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_hint_foreground_material_light</item>
+        <item>@style/TextAppearance.AppCompat.Large</item>
+        <item>@style/TextAppearance.AppCompat.Medium</item>
+        <item>@style/TextAppearance.AppCompat.Small</item>
+        <item>@style/TextAppearance.AppCompat.Large.Inverse</item>
+        <item>@style/TextAppearance.AppCompat.Medium.Inverse</item>
+        <item>@style/TextAppearance.AppCompat.Small.Inverse</item>
+        <item>@color/background_material_dark</item>
+        <item>true</item>
+        <item>@color/highlighted_text_material_dark</item>
+        <item>@color/abc_hint_foreground_material_dark</item>
+        <item>?attr/colorAccent</item>
+        <item>@color/foreground_material_light</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@drawable/abc_btn_radio_material</item>
+        <item>@drawable/abc_btn_check_material</item>
+        <item>@color/abc_background_cache_hint_selector_material_dark</item>
+        <item>@drawable/abc_text_select_handle_left_mtrl_dark</item>
+        <item>@drawable/abc_text_select_handle_right_mtrl_dark</item>
+        <item>@drawable/abc_text_select_handle_middle_mtrl_dark</item>
+        <item>false</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>?attr/actionModeCutDrawable</item>
+        <item>?attr/actionModeCopyDrawable</item>
+        <item>?attr/actionModePasteDrawable</item>
+        <item>?attr/borderlessButtonStyle</item>
+        <item>?attr/buttonBarStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>@color/highlighted_text_material_light</item>
+        <item>?attr/colorAccent</item>
+    </style>
+    <style name="Platform.V11.AppCompat.Light">
+        <item>@color/foreground_material_light</item>
+        <item>@color/background_material_light</item>
+        <item>0.6</item>
+        <item>@dimen/abc_disabled_alpha_material_light</item>
+        <item>@style/TextAppearance.AppCompat</item>
+        <item>@style/TextAppearance.AppCompat.Inverse</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>@color/abc_primary_text_disable_only_material_light</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_hint_foreground_material_dark</item>
+        <item>@style/TextAppearance.AppCompat.Large</item>
+        <item>@style/TextAppearance.AppCompat.Medium</item>
+        <item>@style/TextAppearance.AppCompat.Small</item>
+        <item>@style/TextAppearance.AppCompat.Large.Inverse</item>
+        <item>@style/TextAppearance.AppCompat.Medium.Inverse</item>
+        <item>@style/TextAppearance.AppCompat.Small.Inverse</item>
+        <item>@color/background_material_light</item>
+        <item>true</item>
+        <item>@color/highlighted_text_material_light</item>
+        <item>@color/abc_hint_foreground_material_light</item>
+        <item>?attr/colorAccent</item>
+        <item>@color/foreground_material_dark</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@drawable/abc_btn_radio_material</item>
+        <item>@drawable/abc_btn_check_material</item>
+        <item>@color/abc_primary_text_disable_only_material_dark</item>
+        <item>@color/abc_background_cache_hint_selector_material_light</item>
+        <item>@drawable/abc_text_select_handle_left_mtrl_light</item>
+        <item>@drawable/abc_text_select_handle_right_mtrl_light</item>
+        <item>@drawable/abc_text_select_handle_middle_mtrl_light</item>
+        <item>false</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>?attr/actionModeCutDrawable</item>
+        <item>?attr/actionModeCopyDrawable</item>
+        <item>?attr/actionModePasteDrawable</item>
+        <item>?attr/borderlessButtonStyle</item>
+        <item>?attr/buttonBarStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>@color/highlighted_text_material_dark</item>
+        <item>?attr/colorAccent</item>
+    </style>
+    <style name="Platform.V14.AppCompat">
+        <item>?attr/actionModeSelectAllDrawable</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="Platform.V14.AppCompat.Light">
+        <item>?attr/actionModeSelectAllDrawable</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="Platform.V21.AppCompat">
+        <item>@color/abc_hint_foreground_material_light</item>
+        <item>@color/abc_hint_foreground_material_dark</item>
+        <item>?unknown_attr_ref: 1010435</item>
+        <item>?attr/buttonBarStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>?unknown_attr_ref: 1010435</item>
+    </style>
+    <style name="Platform.V21.AppCompat.Light">
+        <item>@color/abc_hint_foreground_material_dark</item>
+        <item>@color/abc_hint_foreground_material_light</item>
+        <item>?unknown_attr_ref: 1010435</item>
+        <item>?attr/buttonBarStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>?unknown_attr_ref: 1010435</item>
+    </style>
+    <style name="Platform.V25.AppCompat">
+    </style>
+    <style name="Platform.V25.AppCompat.Light">
+    </style>
+    <style name="Platform.Widget.AppCompat.Spinner">
+    </style>
+    <style name="Preference">
+        <item>@layout/preference</item>
+    </style>
+    <style name="Preference.Category">
+        <item>@layout/preference_category</item>
+        <item>false</item>
+        <item>false</item>
+    </style>
+    <style name="Preference.Category.RedditBase">
+        <item>@layout/listitem_subreddit_header</item>
+    </style>
+    <style name="Preference.CheckBoxPreference">
+        <item>@layout/preference_widget_checkbox</item>
+    </style>
+    <style name="Preference.DialogPreference">
+        <item>?unknown_ref: 104000a</item>
+        <item>?unknown_ref: 1040000</item>
+    </style>
+    <style name="Preference.DialogPreference.EditTextPreference">
+        <item>@layout/preference_dialog_edittext</item>
+    </style>
+    <style name="Preference.DialogPreference.EditTextPreference.RedditBase">
+        <item>@layout/preference_twoline</item>
+    </style>
+    <style name="Preference.DialogPreference.RedditBase">
+        <item>@layout/preference_chooser</item>
+    </style>
+    <style name="Preference.DropDown">
+        <item>@layout/preference_dropdown</item>
+    </style>
+    <style name="Preference.Information">
+        <item>false</item>
+        <item>@layout/preference_information</item>
+        <item>false</item>
+    </style>
+    <style name="Preference.Information.RedditBase">
+        <item>@layout/preference_chooser</item>
+    </style>
+    <style name="Preference.PreferenceScreen">
+    </style>
+    <style name="Preference.RedditBase">
+        <item>@layout/preference_more</item>
+    </style>
+    <style name="Preference.SeekBarPreference">
+        <item>@layout/preference_widget_seekbar</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="Preference.SwitchPreferenceCompat">
+        <item>@layout/preference_widget_switch_compat</item>
+        <item>@string/v7_preference_on</item>
+        <item>@string/v7_preference_off</item>
+    </style>
+    <style name="Preference.SwitchPreferenceCompat.RedditBase">
+        <item>@layout/preference_chooser</item>
+    </style>
+    <style name="PreferenceFragment">
+        <item>?unknown_attr_ref: 1010214</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="PreferenceFragment.RedditBase">
+        <item>?unknown_ref: 106000d</item>
+    </style>
+    <style name="PreferenceFragmentList">
+        <item>16dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="PreferenceFragmentList.RedditBase">
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="PreferenceThemeOverlay">
+        <item>@style/Preference.CheckBoxPreference</item>
+        <item>@style/Preference.DialogPreference</item>
+        <item>@style/Preference.DropDown</item>
+        <item>@style/Preference.DialogPreference.EditTextPreference</item>
+        <item>@style/Preference.Category</item>
+        <item>@style/PreferenceFragment</item>
+        <item>@style/PreferenceFragmentList</item>
+        <item>@style/Preference.Information</item>
+        <item>@style/Preference.PreferenceScreen</item>
+        <item>@style/Preference</item>
+        <item>@style/Preference.SeekBarPreference</item>
+        <item>@style/Preference.SwitchPreferenceCompat</item>
+    </style>
+    <style name="PreferenceThemeOverlay.RedditBase">
+        <item>@style/Preference.DialogPreference.RedditBase</item>
+        <item>@style/Preference.DialogPreference.EditTextPreference.RedditBase</item>
+        <item>@style/Preference.Category.RedditBase</item>
+        <item>@style/PreferenceFragment.RedditBase</item>
+        <item>@style/PreferenceFragmentList.RedditBase</item>
+        <item>@style/Preference.Information.RedditBase</item>
+        <item>@style/Preference.RedditBase</item>
+        <item>@style/Preference.SwitchPreferenceCompat.RedditBase</item>
+    </style>
+    <style name="Reddit.Splash">
+        <item>@drawable/window_splash</item>
+    </style>
+    <style name="Reddit.Splash">
+        <item>@color/rdt_body_text</item>
+        <item>@drawable/window_splash</item>
+    </style>
+    <style name="Reddit.Theme.Versioned">
+        <item>true</item>
+        <item>@style/PreferenceThemeOverlay.RedditBase</item>
+    </style>
+    <style name="Reddit.Widget.Design.AppBarLayout">
+        <item>?attr/rdt_toolbar_color</item>
+    </style>
+    <style name="RtlOverlay.DialogWindowTitle.AppCompat">
+        <item>5</item>
+    </style>
+    <style name="RtlOverlay.DialogWindowTitle.RedditBase">
+        <item>?attr/textAppearanceRedditTitle</item>
+        <item>1</item>
+    </style>
+    <style name="RtlOverlay.DialogWindowTitle.RedditBase">
+        <item>?attr/textAppearanceRedditTitle</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem">
+        <item>800013</item>
+        <item>8dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon">
+        <item>8dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem">
+        <item>16dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup">
+        <item>16dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text">
+        <item>5</item>
+        <item>true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown">
+        <item>@dimen/abc_dropdownitem_text_padding_left</item>
+        <item>4dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1">
+        <item>true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2">
+        <item>@id/edit_query</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Query">
+        <item>true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Text">
+        <item>?unknown_ref: 1020008</item>
+        <item>?unknown_ref: 1020007</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon">
+        <item>@dimen/abc_dropdownitem_text_padding_left</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton">
+        <item>12dp</item>
+        <item>12dp</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow">
+        <item>@dimen/abc_action_bar_overflow_padding_start_material</item>
+        <item>@dimen/abc_action_bar_overflow_padding_end_material</item>
+    </style>
+    <style name="TextAppearance.AppCompat">
+    </style>
+    <style name="TextAppearance.AppCompat.Body1">
+    </style>
+    <style name="TextAppearance.AppCompat.Body2">
+    </style>
+    <style name="TextAppearance.AppCompat.Button">
+    </style>
+    <style name="TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.AppCompat.Display1">
+    </style>
+    <style name="TextAppearance.AppCompat.Display2">
+    </style>
+    <style name="TextAppearance.AppCompat.Display3">
+    </style>
+    <style name="TextAppearance.AppCompat.Display4">
+    </style>
+    <style name="TextAppearance.AppCompat.Headline">
+    </style>
+    <style name="TextAppearance.AppCompat.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Large">
+    </style>
+    <style name="TextAppearance.AppCompat.Large.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Subtitle">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">
+    </style>
+    <style name="TextAppearance.AppCompat.Medium">
+    </style>
+    <style name="TextAppearance.AppCompat.Medium.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Menu">
+    </style>
+    <style name="TextAppearance.AppCompat.SearchResult.Subtitle">
+    </style>
+    <style name="TextAppearance.AppCompat.SearchResult.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Small">
+    </style>
+    <style name="TextAppearance.AppCompat.Small.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Subhead">
+    </style>
+    <style name="TextAppearance.AppCompat.Subhead.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Title.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Tooltip">
+        <item>14sp</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Button">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Button.Borderless.Colored">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Button.Colored">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Button.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.DropDownItem">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Header">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Switch">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+    </style>
+    <style name="TextAppearance.Compat.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media">
+        <item>@color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Media">
+        <item>@color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media">
+        <item>@color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title.Media">
+        <item>@color/primary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title.Media">
+    </style>
+    <style name="TextAppearance.Design.CollapsingToolbar.Expanded">
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="TextAppearance.Design.Counter">
+    </style>
+    <style name="TextAppearance.Design.Counter.Overflow">
+        <item>@color/design_error</item>
+    </style>
+    <style name="TextAppearance.Design.Error">
+        <item>@color/design_error</item>
+    </style>
+    <style name="TextAppearance.Design.Hint">
+        <item>?attr/colorControlActivated</item>
+    </style>
+    <style name="TextAppearance.Design.Snackbar.Message">
+        <item>@dimen/design_snackbar_text_size</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="TextAppearance.Design.Tab">
+        <item>@dimen/design_tab_text_size</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>true</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Action">
+        <item>@dimen/action_text_size</item>
+        <item>?attr/rdt_action_text_color</item>
+        <item>@font/rdt_medium</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Address">
+        <item>@dimen/address_text_size</item>
+        <item>?attr/rdt_address_text_color</item>
+        <item>@font/rdt_medium</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Badge">
+        <item>@dimen/badge_text_size</item>
+        <item>?attr/rdt_badge_text_color</item>
+        <item>@font/rdt_medium</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Body">
+        <item>@dimen/body_text_size</item>
+        <item>?attr/rdt_body_text_color</item>
+        <item>?attr/rdt_hint_text_color</item>
+        <item>@dimen/line_spacing_medium</item>
+        <item>@font/rdt_regular</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Body.Medium">
+        <item>@dimen/body_medium_text_size</item>
+        <item>?attr/rdt_body_medium_text_color</item>
+        <item>@dimen/line_spacing_medium</item>
+        <item>@font/rdt_medium</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Body.Small">
+        <item>@dimen/body_small_text_size</item>
+        <item>?attr/rdt_body_small_text_color</item>
+        <item>@dimen/line_spacing_medium</item>
+        <item>@font/rdt_regular</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Button">
+        <item>@dimen/button_text_size</item>
+        <item>?attr/rdt_action_text_color</item>
+        <item>true</item>
+        <item>@font/rdt_bold</item>
+        <item>0.05</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Button.Borderless">
+        <item>?attr/rdt_body_text_color</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Button.Colored">
+        <item>?attr/rdt_button_text_color</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Button.Link">
+        <item>@dimen/button_link_text_size</item>
+        <item>?attr/rdt_button_link_text_color</item>
+        <item>true</item>
+        <item>@font/rdt_bold</item>
+        <item>0.05</item>
+    </style>
+    <style name="TextAppearance.RedditBase.ExoPlayer">
+        <item>@dimen/exoplayer_control_text_size</item>
+        <item>@color/exoplayer_control_text_color</item>
+        <item>@font/rdt_regular</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Flair">
+        <item>@dimen/flair_text_size</item>
+        <item>?attr/rdt_flair_text_color</item>
+        <item>@dimen/line_spacing_small</item>
+        <item>@font/rdt_medium</item>
+    </style>
+    <style name="TextAppearance.RedditBase.H2">
+        <item>@dimen/h2_text_size</item>
+        <item>?attr/rdt_h2_text_color</item>
+        <item>@dimen/line_spacing_medium</item>
+        <item>@font/rdt_medium</item>
+    </style>
+    <style name="TextAppearance.RedditBase.H4">
+        <item>@dimen/h4_text_size</item>
+        <item>?attr/rdt_h4_text_color</item>
+        <item>@dimen/line_spacing_medium</item>
+        <item>@font/rdt_medium</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Headline">
+        <item>@dimen/headline_text_size</item>
+        <item>?attr/rdt_headline_text_color</item>
+        <item>@dimen/line_spacing_medium</item>
+        <item>@font/rdt_medium</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Hint">
+        <item>@dimen/hint_text_size</item>
+        <item>?attr/rdt_hint_text_color</item>
+        <item>@font/rdt_regular</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Metadata">
+        <item>@dimen/metadata_text_size</item>
+        <item>?attr/rdt_metadata_text_color</item>
+        <item>@dimen/line_spacing_small</item>
+        <item>@font/rdt_regular</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Metadata.BodyColor">
+        <item>?attr/rdt_body_text_color</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Metadata.LinkColor">
+        <item>?attr/rdt_link_text_color</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Subheader">
+        <item>@dimen/subheader_text_size</item>
+        <item>?attr/rdt_subheader_text_color</item>
+        <item>true</item>
+        <item>@font/rdt_bold</item>
+        <item>0.05</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Tab">
+        <item>@dimen/tab_text_size</item>
+        <item>@font/rdt_medium</item>
+        <item>@color/selector_tab_color_alienblue</item>
+        <item>false</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Title">
+        <item>@dimen/title_text_size</item>
+        <item>?attr/rdt_title_text_color</item>
+        <item>@dimen/line_spacing_medium</item>
+        <item>@font/rdt_medium</item>
+    </style>
+    <style name="TextAppearance.RedditBase.Title.Compact">
+    </style>
+    <style name="TextAppearance.RedditBase.Title.Nav">
+        <item>?attr/rdt_light_text_color</item>
+    </style>
+    <style name="TextAppearance.RedditBase.UserFlair">
+        <item>@dimen/user_flair_text_size</item>
+        <item>?attr/rdt_user_flair_text_color</item>
+        <item>@dimen/line_spacing_small</item>
+        <item>@font/rdt_regular</item>
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title">
+    </style>
+    <style name="Theme.AppCompat">
+    </style>
+    <style name="Theme.AppCompat.CompactMenu">
+    </style>
+    <style name="Theme.AppCompat.DayNight">
+    </style>
+    <style name="Theme.AppCompat.DayNight">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.AppCompat.Dialog">
+    </style>
+    <style name="Theme.AppCompat.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.Light">
+    </style>
+    <style name="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.Light.Dialog">
+    </style>
+    <style name="Theme.AppCompat.Light.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.Light.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.Light.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.Light.NoActionBar">
+        <item>false</item>
+        <item>true</item>
+    </style>
+    <style name="Theme.AppCompat.NoActionBar">
+        <item>false</item>
+        <item>true</item>
+    </style>
+    <style name="Theme.Design">
+        <item>?attr/colorError</item>
+    </style>
+    <style name="Theme.Design.BottomSheetDialog">
+        <item>?unknown_ref: 106000d</item>
+        <item>@style/Animation.Design.BottomSheetDialog</item>
+        <item>@style/Widget.Design.BottomSheet.Modal</item>
+    </style>
+    <style name="Theme.Design.Light">
+        <item>?attr/colorError</item>
+    </style>
+    <style name="Theme.Design.Light.BottomSheetDialog">
+        <item>?unknown_ref: 106000d</item>
+        <item>@style/Animation.Design.BottomSheetDialog</item>
+        <item>@style/Widget.Design.BottomSheet.Modal</item>
+    </style>
+    <style name="Theme.Design.Light.NoActionBar">
+        <item>false</item>
+        <item>true</item>
+    </style>
+    <style name="Theme.Design.NoActionBar">
+        <item>false</item>
+        <item>true</item>
+    </style>
+    <style name="Theme.IAPTheme">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat">
+    </style>
+    <style name="ThemeOverlay.AppCompat.ActionBar">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dark">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dialog">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dialog.Alert">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Light">
+    </style>
+    <style name="ThemeOverlay.RedditBase.BottomSheetDialog">
+    </style>
+    <style name="ThemeOverlay.RedditBase.BottomSheetDialog">
+    </style>
+    <style name="ThemeOverlay.RedditBase.Dialog">
+        <item>@style/RtlOverlay.DialogWindowTitle.RedditBase</item>
+        <item>false</item>
+    </style>
+    <style name="ThemeOverlay.RedditBase.Dialog.Alert">
+        <item>@style/RtlOverlay.DialogWindowTitle.RedditBase</item>
+    </style>
+    <style name="ThemeOverlay.RedditBase.PopupMenu">
+        <item>?attr/rdt_bottomsheet_background_color</item>
+        <item>?attr/rdt_bottomsheet_background_color</item>
+    </style>
+    <style name="ThemeOverlay.RedditBase.SelectableDownvoteTheme">
+        <item>@color/rdt_periwinkle</item>
+    </style>
+    <style name="ThemeOverlay.RedditBase.SelectableUpvoteTheme">
+        <item>@color/rdt_orangered</item>
+    </style>
+    <style name="ThemeOverlay.RedditBase.Toolbar.LightForeground">
+        <item>@style/Widget.RedditBase.ActionButton.Overflow.Light</item>
+        <item>?attr/rdt_light_text_color</item>
+        <item>@style/Widget.RedditBase.Toolbar.Button.Navigation.Light</item>
+    </style>
+    <style name="ThemeOverlay.RedditBase.Toolbar.LightForeground">
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.AppCompat.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.ActionBar.Solid">
+    </style>
+    <style name="Widget.AppCompat.ActionBar.TabBar">
+    </style>
+    <style name="Widget.AppCompat.ActionBar.TabText">
+    </style>
+    <style name="Widget.AppCompat.ActionBar.TabView">
+    </style>
+    <style name="Widget.AppCompat.ActionButton">
+    </style>
+    <style name="Widget.AppCompat.ActionButton.CloseMode">
+    </style>
+    <style name="Widget.AppCompat.ActionButton.Overflow">
+    </style>
+    <style name="Widget.AppCompat.ActionMode">
+    </style>
+    <style name="Widget.AppCompat.ActivityChooserView">
+    </style>
+    <style name="Widget.AppCompat.AutoCompleteTextView">
+    </style>
+    <style name="Widget.AppCompat.Button">
+    </style>
+    <style name="Widget.AppCompat.Button.Borderless">
+    </style>
+    <style name="Widget.AppCompat.Button.Borderless.Colored">
+    </style>
+    <style name="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+    </style>
+    <style name="Widget.AppCompat.Button.Colored">
+    </style>
+    <style name="Widget.AppCompat.Button.Small">
+    </style>
+    <style name="Widget.AppCompat.ButtonBar">
+    </style>
+    <style name="Widget.AppCompat.ButtonBar.AlertDialog">
+    </style>
+    <style name="Widget.AppCompat.CompoundButton.CheckBox">
+    </style>
+    <style name="Widget.AppCompat.CompoundButton.RadioButton">
+    </style>
+    <style name="Widget.AppCompat.CompoundButton.Switch">
+    </style>
+    <style name="Widget.AppCompat.DrawerArrowToggle">
+        <item>?attr/colorControlNormal</item>
+    </style>
+    <style name="Widget.AppCompat.DropDownItem.Spinner">
+    </style>
+    <style name="Widget.AppCompat.EditText">
+    </style>
+    <style name="Widget.AppCompat.ImageButton">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.Solid">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabText">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabText.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabView">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabView.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionButton">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionButton.CloseMode">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionButton.Overflow">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionMode.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ActivityChooserView">
+    </style>
+    <style name="Widget.AppCompat.Light.AutoCompleteTextView">
+    </style>
+    <style name="Widget.AppCompat.Light.DropDownItem.Spinner">
+    </style>
+    <style name="Widget.AppCompat.Light.ListPopupWindow">
+    </style>
+    <style name="Widget.AppCompat.Light.ListView.DropDown">
+    </style>
+    <style name="Widget.AppCompat.Light.PopupMenu">
+    </style>
+    <style name="Widget.AppCompat.Light.PopupMenu.Overflow">
+    </style>
+    <style name="Widget.AppCompat.Light.SearchView">
+    </style>
+    <style name="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.ListMenuView">
+    </style>
+    <style name="Widget.AppCompat.ListPopupWindow">
+    </style>
+    <style name="Widget.AppCompat.ListView">
+    </style>
+    <style name="Widget.AppCompat.ListView.DropDown">
+    </style>
+    <style name="Widget.AppCompat.ListView.Menu">
+    </style>
+    <style name="Widget.AppCompat.PopupMenu">
+    </style>
+    <style name="Widget.AppCompat.PopupMenu.Overflow">
+    </style>
+    <style name="Widget.AppCompat.PopupWindow">
+    </style>
+    <style name="Widget.AppCompat.ProgressBar">
+    </style>
+    <style name="Widget.AppCompat.ProgressBar.Horizontal">
+    </style>
+    <style name="Widget.AppCompat.RatingBar">
+    </style>
+    <style name="Widget.AppCompat.RatingBar.Indicator">
+    </style>
+    <style name="Widget.AppCompat.RatingBar.Small">
+    </style>
+    <style name="Widget.AppCompat.SearchView">
+    </style>
+    <style name="Widget.AppCompat.SearchView.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.SeekBar">
+    </style>
+    <style name="Widget.AppCompat.SeekBar.Discrete">
+    </style>
+    <style name="Widget.AppCompat.Spinner">
+    </style>
+    <style name="Widget.AppCompat.Spinner.DropDown">
+    </style>
+    <style name="Widget.AppCompat.Spinner.DropDown.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.Spinner.Underlined">
+    </style>
+    <style name="Widget.AppCompat.TextView.SpinnerItem">
+    </style>
+    <style name="Widget.AppCompat.Toolbar">
+    </style>
+    <style name="Widget.AppCompat.Toolbar.Button.Navigation">
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer">
+        <item>@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionText">
+        <item>?unknown_attr_ref: 1010207</item>
+        <item>@dimen/notification_action_text_size</item>
+        <item>@color/secondary_text_default_material_light</item>
+    </style>
+    <style name="Widget.Design.AppBarLayout">
+    </style>
+    <style name="Widget.Design.BottomNavigationView">
+        <item>@dimen/design_bottom_navigation_elevation</item>
+        <item>?attr/selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="Widget.Design.BottomSheet.Modal">
+        <item>?unknown_attr_ref: 1010031</item>
+        <item>@dimen/design_bottom_sheet_modal_elevation</item>
+        <item>true</item>
+        <item>-1</item>
+        <item>false</item>
+    </style>
+    <style name="Widget.Design.CollapsingToolbar">
+        <item>32dp</item>
+        <item>?attr/colorPrimaryDark</item>
+    </style>
+    <style name="Widget.Design.CoordinatorLayout">
+        <item>?attr/colorPrimaryDark</item>
+    </style>
+    <style name="Widget.Design.FloatingActionButton">
+        <item>@drawable/design_fab_background</item>
+        <item>?attr/colorAccent</item>
+        <item>@dimen/design_fab_border_width</item>
+        <item>@dimen/design_fab_elevation</item>
+        <item>-1</item>
+        <item>@dimen/design_fab_translation_z_pressed</item>
+        <item>?attr/colorControlHighlight</item>
+    </style>
+    <style name="Widget.Design.NavigationView">
+        <item>?unknown_attr_ref: 1010054</item>
+        <item>true</item>
+        <item>@dimen/design_navigation_max_width</item>
+        <item>@dimen/design_navigation_elevation</item>
+    </style>
+    <style name="Widget.Design.ScrimInsetsFrameLayout">
+        <item>#0000</item>
+    </style>
+    <style name="Widget.Design.Snackbar">
+        <item>@drawable/design_snackbar_background</item>
+        <item>@dimen/design_snackbar_padding_horizontal</item>
+        <item>@dimen/design_snackbar_padding_horizontal</item>
+        <item>@dimen/design_snackbar_max_width</item>
+        <item>@dimen/design_snackbar_min_width</item>
+        <item>@dimen/design_snackbar_elevation</item>
+        <item>@dimen/design_snackbar_action_inline_max_width</item>
+    </style>
+    <style name="Widget.Design.TabLayout">
+        <item>0</item>
+        <item>1</item>
+    </style>
+    <style name="Widget.Design.TabLayout">
+        <item>1</item>
+        <item>1</item>
+    </style>
+    <style name="Widget.Design.TabLayout">
+        <item>1</item>
+        <item>1</item>
+    </style>
+    <style name="Widget.Design.TextInputLayout">
+        <item>@style/TextAppearance.Design.Counter.Overflow</item>
+        <item>@style/TextAppearance.Design.Counter</item>
+        <item>@style/TextAppearance.Design.Error</item>
+        <item>@style/TextAppearance.Design.Hint</item>
+        <item>@string/password_toggle_content_description</item>
+        <item>@drawable/design_password_eye</item>
+        <item>@color/design_tint_password_toggle</item>
+    </style>
+    <style name="Widget.RedditBase">
+    </style>
+    <style name="Widget.RedditBase.ActionButton.Overflow">
+        <item>@drawable/ic_icon_overflow</item>
+        <item>?attr/rdt_nav_icon_color</item>
+    </style>
+    <style name="Widget.RedditBase.ActionButton.Overflow.Light">
+        <item>?attr/rdt_light_text_color</item>
+    </style>
+    <style name="Widget.RedditBase.Button">
+        <item>?attr/textAppearanceRedditButton</item>
+        <item>?attr/tertiaryButtonBackground</item>
+        <item>@dimen/rdt_button_min_height</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Widget.RedditBase.Button.Borderless">
+        <item>?attr/textAppearanceRedditButtonBorderless</item>
+        <item>@dimen/rdt_button_min_height</item>
+    </style>
+    <style name="Widget.RedditBase.Button.Borderless.Colored">
+        <item>?attr/rdt_button_color</item>
+    </style>
+    <style name="Widget.RedditBase.Button.BottomAction">
+        <item>?attr/bottomActionButtonBackground</item>
+    </style>
+    <style name="Widget.RedditBase.Button.Colored">
+        <item>?attr/textAppearanceRedditButtonColored</item>
+        <item>?attr/primaryButtonBackground</item>
+    </style>
+    <style name="Widget.RedditBase.Button.Colored.Small">
+        <item>@dimen/rdt_button_small_min_height</item>
+    </style>
+    <style name="Widget.RedditBase.Button.Outlined">
+        <item>?attr/rdt_button_color</item>
+        <item>?attr/secondaryButtonBackground</item>
+    </style>
+    <style name="Widget.RedditBase.Button.Outlined.Small">
+        <item>@dimen/rdt_button_small_min_height</item>
+    </style>
+    <style name="Widget.RedditBase.Button.Small">
+        <item>@dimen/rdt_button_small_min_height</item>
+    </style>
+    <style name="Widget.RedditBase.Button.Small.OnboardingSubscribe">
+        <item>?attr/textAppearanceRedditButtonColored</item>
+        <item>@drawable/button_onboarding_subscribe_background_selector</item>
+        <item>@dimen/rdt_button_small_min_height</item>
+        <item>@drawable/button_onboarding_subscribe_icon_selector</item>
+    </style>
+    <style name="Widget.RedditBase.Button.Small.Subscribe">
+        <item>?attr/textAppearanceRedditButtonColored</item>
+        <item>?attr/rdt_subscribe_button_text_color</item>
+        <item>@drawable/button_subscribe_background_selector</item>
+        <item>@dimen/half_pad</item>
+        <item>@drawable/button_subscribe_icon_selector</item>
+    </style>
+    <style name="Widget.RedditBase.CompoundButton.CheckBox">
+        <item>?attr/textAppearanceRedditBody</item>
+        <item>?attr/rdt_body_text_color</item>
+    </style>
+    <style name="Widget.RedditBase.CompoundButton.RadioButton">
+        <item>?attr/rdt_body_text_color</item>
+        <item>?attr/radioCheckboxSelector</item>
+    </style>
+    <style name="Widget.RedditBase.EditText">
+        <item>?attr/rdt_hint_text_color</item>
+    </style>
+    <style name="Widget.RedditBase.EditText.Field">
+        <item>@drawable/rounded_corners_field</item>
+    </style>
+    <style name="Widget.RedditBase.FlairText">
+        <item>?attr/textAppearanceRedditFlair</item>
+        <item>?attr/rdt_flair_background_drawable</item>
+        <item>@dimen/half_pad</item>
+        <item>@dimen/half_pad</item>
+    </style>
+    <style name="Widget.RedditBase.LinkFooterView">
+        <item>0</item>
+    </style>
+    <style name="Widget.RedditBase.LinkStatusView">
+        <item>@drawable/ind_archived</item>
+        <item>@style/TextAppearance.RedditBase.Metadata</item>
+        <item>@drawable/ind_locked</item>
+        <item>@drawable/ind_pinned</item>
+    </style>
+    <style name="Widget.RedditBase.ModViewIcon">
+        <item>?attr/selectableItemBackground</item>
+        <item>@dimen/mod_view_icons_padding_vertical</item>
+        <item>@dimen/mod_view_icons_padding_vertical</item>
+        <item>@dimen/mod_view_icons_padding_horizontal</item>
+        <item>@dimen/mod_view_icons_padding_horizontal</item>
+    </style>
+    <style name="Widget.RedditBase.PopupMenu">
+        <item>?attr/rdt_bottomsheet_background_color</item>
+        <item>?attr/rdt_bottomsheet_background_color</item>
+    </style>
+    <style name="Widget.RedditBase.RecyclerView">
+        <item>200</item>
+    </style>
+    <style name="Widget.RedditBase.SearchView">
+        <item>?attr/searchViewBackground</item>
+        <item>?unknown_ref: 0</item>
+        <item>@drawable/ic_icon_search</item>
+    </style>
+    <style name="Widget.RedditBase.ShapedIconView">
+        <item>@drawable/circle_white_inset</item>
+        <item>@drawable/circle_black_inset</item>
+        <item>@drawable/rounded_corners_background_white</item>
+        <item>@drawable/rounded_corners_background_black</item>
+    </style>
+    <style name="Widget.RedditBase.ShapedIconView.Bordered">
+        <item>@drawable/circle_border</item>
+        <item>@drawable/rounded_corners_border</item>
+    </style>
+    <style name="Widget.RedditBase.Switch">
+        <item>@drawable/switch_thumb</item>
+        <item>@drawable/switch_track</item>
+        <item>false</item>
+        <item>@drawable/switch_track</item>
+    </style>
+    <style name="Widget.RedditBase.TabLayout">
+        <item>?attr/rdt_body_color</item>
+        <item>@dimen/half_pad</item>
+        <item>?attr/rdt_active_color</item>
+        <item>1</item>
+        <item>@style/TextAppearance.RedditBase.Tab</item>
+    </style>
+    <style name="Widget.RedditBase.TabLayout.Onboarding">
+        <item>?attr/rdt_body_color</item>
+        <item>1</item>
+        <item>?unknown_ref: 0</item>
+        <item>0dp</item>
+        <item>0</item>
+    </style>
+    <style name="Widget.RedditBase.Toolbar">
+        <item>?attr/rdt_toolbar_color</item>
+        <item>@dimen/double_pad</item>
+        <item>0dp</item>
+        <item>?attr/textAppearanceRedditTitle</item>
+    </style>
+    <style name="Widget.RedditBase.Toolbar.Button.Navigation">
+        <item>?attr/rdt_nav_icon_color</item>
+    </style>
+    <style name="Widget.RedditBase.Toolbar.Button.Navigation.Light">
+        <item>?attr/rdt_light_text_color</item>
+    </style>
+    <style name="Widget.RedditBase.Tweet">
+        <item>?attr/rdt_body_color</item>
+    </style>
+    <style name="Widget.RedditBase.Tweet">
+        <item>?attr/rdt_body_color</item>
+    </style>
+    <style name="Widget.RedditBase.VoteView">
+        <item>11</item>
+        <item>0</item>
+        <item>false</item>
+    </style>
+    <style name="listitem_subreddit">
+        <item>0</item>
+        <item>?attr/rdt_body_color</item>
+        <item>@dimen/horizontal_margin_default</item>
+        <item>@dimen/horizontal_margin_default</item>
+        <item>-1</item>
+        <item>@dimen/list_item_height</item>
+        <item>?attr/selectableItemBackground</item>
+    </style>
+    <style name="menu_labels_style">
+        <item>?attr/rdt_light_text_color</item>
+        <item>?attr/rdt_fab_label_background_drawable</item>
+    </style>
+    <style name="rdt_auth_header_text_style">
+        <item>?attr/textAppearanceRedditHeadline</item>
+        <item>800003</item>
+        <item>@dimen/quad_pad</item>
+        <item>@dimen/quad_pad</item>
+    </style>
+    <style name="rdt_auth_input_text_style">
+        <item>?attr/textAppearanceRedditTitle</item>
+        <item>?attr/rdt_hint_text_color</item>
+        <item>30dp</item>
+        <item>@dimen/triple_half_pad</item>
+        <item>@dimen/double_pad</item>
+        <item>48sp</item>
+    </style>
+    <style name="rdt_auth_meta_text_style">
+        <item>?attr/textAppearanceRedditMetadata</item>
+        <item>800003</item>
+        <item>@dimen/quad_pad</item>
+        <item>@dimen/double_pad</item>
+        <item>@dimen/quad_pad</item>
+    </style>
+    <style name="rdt_auth_toggle_text_style">
+        <item>?attr/textAppearanceRedditButtonLink</item>
+        <item>@dimen/quad_pad</item>
+        <item>@dimen/single_pad</item>
+        <item>@dimen/quad_pad</item>
+    </style>
+    <style name="rdt_checkbox">
+        <item>?attr/rdt_active_color</item>
+        <item>?attr/rdt_action_icon_color</item>
+    </style>
+    <style name="rdt_checkbox_green">
+        <item>@color/rdt_green</item>
+        <item>@color/rdt_action_grey</item>
+    </style>
+    <style name="rdt_indent_view">
+        <item>@dimen/comment_indent</item>
+        <item>?attr/rdt_comment_indent_colors</item>
+        <item>@dimen/comment_indent_line</item>
+    </style>
+    <style name="rdt_lightboxheader_details">
+        <item>@dimen/body_small_text_size</item>
+        <item>@color/rdt_white_opaque</item>
+        <item>sans-serif-regular</item>
+    </style>
+    <style name="rdt_lightboxheader_title">
+        <item>@dimen/link_header_title_size</item>
+        <item>@color/rdt_white_opaque</item>
+        <item>sans-serif-medium</item>
+    </style>
+    <style name="rdt_list_header_title_style">
+        <item>@color/rdt_transparent</item>
+        <item>@dimen/double_pad</item>
+        <item>@dimen/single_pad</item>
+        <item>@dimen/single_pad</item>
+    </style>
+    <style name="rdt_listitem_popup_text">
+        <item>@dimen/body_text_size</item>
+        <item>?attr/rdt_popup_listitem_color</item>
+        <item>@font/rdt_medium</item>
+    </style>
+    <style name="rdt_status_view_icon_simple_style">
+        <item>@dimen/half_pad</item>
+        <item>@dimen/half_pad</item>
+    </style>
+    <style name="rdt_status_view_icon_style">
+        <item>@dimen/double_pad</item>
+        <item>-1</item>
+    </style>
+    <style name="rdt_status_view_icon_text_style">
+        <item>@dimen/half_pad</item>
+    </style>
+    <style name="rdt_status_view_text_style">
+        <item>11</item>
+        <item>@dimen/quarter_pad</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>@dimen/half_pad</item>
+        <item>@dimen/single_half_pad</item>
+    </style>
+    <style name="tw__AttributionText">
+        <item>@dimen/tw__text_size_medium</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>true</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="tw__Badge">
+        <item>11</item>
+        <item>2</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="tw__Badge.VideoDuration">
+        <item>@dimen/tw__text_size_small</item>
+        <item>1</item>
+        <item>?unknown_ref: 106000b</item>
+        <item>@drawable/tw__bg_media_badge</item>
+        <item>2dp</item>
+        <item>false</item>
+    </style>
+    <style name="tw__Button">
+        <item>@dimen/tw__login_btn_text_size</item>
+        <item>1</item>
+        <item>@color/tw__solid_white</item>
+        <item>@drawable/tw__login_btn</item>
+        <item>@dimen/tw__login_btn_left_padding</item>
+        <item>@dimen/tw__login_btn_right_padding</item>
+    </style>
+    <style name="tw__Button.Light">
+        <item>@drawable/tw__login_btn_text_color_light</item>
+        <item>@drawable/tw__login_btn_light</item>
+    </style>
+    <style name="tw__ButtonBar">
+        <item>0dp</item>
+        <item>32dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="tw__CompactAttributionLine">
+        <item>-2</item>
+        <item>-2</item>
+        <item>@dimen/tw__compact_tweet_attribution_line_margin_right</item>
+        <item>4</item>
+    </style>
+    <style name="tw__CompactTweetContainer">
+        <item>@dimen/tw__compact_tweet_container_padding_top</item>
+    </style>
+    <style name="tw__Permission_Container">
+        <item>@dimen/tw__padding_permission_horizontal_container</item>
+        <item>@dimen/tw__padding_permission_vertical_container</item>
+        <item>@dimen/tw__padding_permission_horizontal_container</item>
+        <item>@dimen/tw__padding_permission_vertical_container</item>
+    </style>
+    <style name="tw__Permission_Description">
+        <item>@dimen/tw__permission_description_text_size</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="tw__Permission_Title">
+        <item>@dimen/tw__permission_title_text_size</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>30dp</item>
+        <item>5dp</item>
+    </style>
+    <style name="tw__TweetActionButton">
+        <item>-2</item>
+        <item>-2</item>
+        <item>@dimen/tw__tweet_action_button_margin_top</item>
+    </style>
+    <style name="tw__TweetActionButton.Heart">
+        <item>@dimen/tw__tweet_action_heart_size</item>
+        <item>@dimen/tw__tweet_action_heart_size</item>
+    </style>
+    <style name="tw__TweetActionButton.Share">
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/tw__tweet_action_share_padding</item>
+    </style>
+    <style name="tw__TweetActionButtonBar">
+        <item>@dimen/tw__tweet_action_bar_offset_left</item>
+        <item>@dimen/tw__tweet_action_bar_offset_bottom</item>
+    </style>
+    <style name="tw__TweetActionButtonBar.Compact">
+        <item>@dimen/tw__compact_tweet_action_bar_offset_left</item>
+        <item>@dimen/tw__tweet_action_bar_offset_bottom</item>
+    </style>
+    <style name="tw__TweetAvatar">
+        <item>false</item>
+        <item>@dimen/tw__tweet_avatar_size</item>
+        <item>@dimen/tw__tweet_avatar_size</item>
+        <item>@dimen/tw__tweet_avatar_margin_left</item>
+        <item>@dimen/tw__tweet_avatar_margin_top</item>
+        <item>@dimen/tw__tweet_avatar_margin_right</item>
+    </style>
+    <style name="tw__TweetAvatar.Compact">
+        <item>false</item>
+        <item>@dimen/tw__tweet_avatar_size</item>
+        <item>@dimen/tw__tweet_avatar_size</item>
+        <item>@dimen/tw__compact_tweet_avatar_margin_left</item>
+        <item>@dimen/tw__compact_tweet_avatar_margin_top</item>
+        <item>@dimen/tw__compact_tweet_avatar_margin_right</item>
+    </style>
+    <style name="tw__TweetBadge">
+        <item>53</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>@dimen/tw__tweet_media_badge_margin</item>
+        <item>@dimen/tw__tweet_media_badge_margin</item>
+    </style>
+    <style name="tw__TweetContainer">
+        <item>@dimen/tw__tweet_container_padding_top</item>
+    </style>
+    <style name="tw__TweetDarkStyle">
+        <item>@color/tw__tweet_action_color</item>
+        <item>@color/tw__tweet_action_dark_highlight_color</item>
+        <item>@color/tw__tweet_dark_container_bg_color</item>
+        <item>@color/tw__tweet_dark_primary_text_color</item>
+    </style>
+    <style name="tw__TweetDarkWithActionsStyle">
+        <item>true</item>
+    </style>
+    <style name="tw__TweetFillWidth">
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="tw__TweetFullName">
+        <item>2</item>
+        <item>sans-serif-medium</item>
+    </style>
+    <style name="tw__TweetFullName.Compact">
+        <item>0</item>
+        <item>@dimen/tw__compact_tweet_full_name_margin_top</item>
+    </style>
+    <style name="tw__TweetFullNameBase">
+        <item>@dimen/tw__text_size_large</item>
+        <item>@color/tw__tweet_light_primary_text_color</item>
+        <item>false</item>
+        <item>@dimen/tw__tweet_full_name_margin_top</item>
+    </style>
+    <style name="tw__TweetImage">
+        <item>false</item>
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="tw__TweetLightStyle">
+        <item>@color/tw__tweet_action_color</item>
+        <item>@color/tw__tweet_action_light_highlight_color</item>
+        <item>@color/tw__tweet_light_container_bg_color</item>
+        <item>@color/tw__tweet_light_primary_text_color</item>
+    </style>
+    <style name="tw__TweetLightWithActionsStyle">
+        <item>true</item>
+    </style>
+    <style name="tw__TweetMedia">
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="tw__TweetMediaContainer">
+        <item>2</item>
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="tw__TweetMediaContainer.Compact">
+        <item>2</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>@dimen/tw__compact_tweet_media_margin_top</item>
+        <item>@dimen/tw__compact_tweet_media_margin_right</item>
+        <item>@dimen/tw__compact_tweet_media_margin_bottom</item>
+    </style>
+    <style name="tw__TweetRetweetedBy">
+        <item>@dimen/tw__text_size_medium</item>
+        <item>3</item>
+        <item>false</item>
+        <item>2</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>@dimen/tw__tweet_retweeted_by_margin_left</item>
+        <item>@dimen/tw__tweet_retweeted_by_margin_top</item>
+        <item>@dimen/tw__tweet_retweeted_by_margin_bottom</item>
+        <item>true</item>
+        <item>@drawable/tw__ic_retweet_light</item>
+        <item>@dimen/tw__tweet_retweeted_by_drawable_padding</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="tw__TweetRetweetedBy.Compact">
+        <item>@dimen/tw__compact_tweet_retweeted_by_margin_left</item>
+        <item>@dimen/tw__compact_tweet_retweeted_by_margin_top</item>
+        <item>@dimen/tw__compact_tweet_retweeted_by_margin_bottom</item>
+        <item>@dimen/tw__compact_tweet_retweeted_by_drawable_padding</item>
+    </style>
+    <style name="tw__TweetScreenName">
+        <item>3</item>
+        <item>false</item>
+        <item>@dimen/tw__tweet_screen_name_margin_top</item>
+        <item>@dimen/tw__tweet_screen_name_margin_bottom</item>
+        <item>2</item>
+    </style>
+    <style name="tw__TweetScreenName.Compact">
+        <item>@dimen/tw__text_size_medium</item>
+        <item>3</item>
+        <item>@dimen/tw__compact_tweet_screen_name_padding_left</item>
+        <item>@dimen/tw__compact_tweet_screen_name_layout_width</item>
+        <item>@dimen/tw__compact_tweet_screen_name_margin_top</item>
+        <item>@dimen/tw__compact_tweet_screen_name_margin_bottom</item>
+        <item>1.0</item>
+        <item>sans-serif-light</item>
+    </style>
+    <style name="tw__TweetText">
+        <item>@dimen/tw__text_size_large</item>
+        <item>@color/tw__tweet_light_primary_text_color</item>
+        <item>@color/tw__tweet_action_color</item>
+        <item>false</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>@dimen/tw__tweet_text_margin_left</item>
+        <item>@dimen/tw__tweet_text_margin_top</item>
+        <item>@dimen/tw__tweet_text_margin_right</item>
+        <item>2dp</item>
+        <item>2</item>
+        <item>sans-serif-light</item>
+    </style>
+    <style name="tw__TweetText.Compact">
+        <item>@dimen/tw__text_size_large</item>
+        <item>@dimen/tw__compact_tweet_text_margin_left</item>
+        <item>@dimen/tw__compact_tweet_text_margin_top</item>
+        <item>@dimen/tw__compact_tweet_text_margin_right</item>
+        <item>sans-serif-light</item>
+    </style>
+    <style name="tw__TweetTimestamp">
+        <item>0</item>
+        <item>@dimen/tw__tweet_timestamp_padding_left</item>
+        <item>false</item>
+        <item>@dimen/tw__tweet_timestamp_margin_top</item>
+        <item>2</item>
+    </style>
+    <style name="tw__TweetTimestamp.Compact">
+        <item>@dimen/tw__text_size_medium</item>
+        <item>0</item>
+        <item>@dimen/tw__compact_tweet_timestamp_margin_top</item>
+        <item>sans-serif-light</item>
+    </style>
+    <style name="tw__TweetVerifiedCheck">
+        <item>@dimen/tw__tweet_verified_check_padding_left</item>
+        <item>false</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>@dimen/tw__tweet_verified_margin_bottom</item>
+        <item>@drawable/tw__ic_tweet_verified</item>
+    </style>
+    <style name="tw__TwitterLogo">
+        <item>false</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>@dimen/tw__tweet_logo_margin_top</item>
+        <item>@dimen/tw__tweet_logo_margin_right</item>
+        <item>@drawable/tw__ic_logo_blue</item>
+    </style>
+    <style name="tw__TwitterLogo.Compact">
+        <item>-2</item>
+        <item>-2</item>
+        <item>@dimen/tw__compact_tweet_logo_margin_top</item>
+        <item>@dimen/tw__compact_tweet_logo_margin_right</item>
+        <item>@drawable/tw__ic_logo_blue</item>
+    </style>
+</resources>

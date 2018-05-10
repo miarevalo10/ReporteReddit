@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <View app:id="@+id/transparent_overlay" app:background="@color/rdt_transparent" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <ViewStub app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/menu_stub" app:layout="@layout/stub_floating_action_view" app:inflatedId="@+id/floating_action_menu" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="16dp" />
+    <com.getbase.floatingactionbutton.FloatingActionButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/floating_action_button" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="16dp" app:elevation="@dimen/fab_elevation" app:fab_colorNormal="?attr/rdt_button_color" app:fab_colorPressed="?attr/rdt_active_color" app:fab_size="0" />
+</merge>

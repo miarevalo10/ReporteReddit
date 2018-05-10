@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.reddit.frontpage.widgets.BaseHtmlTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textAppearance="?attr/textAppearanceRedditBody" android:id="@+id/live_update_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/double_pad" android:layout_marginTop="@dimen/half_pad" android:layout_marginRight="@dimen/double_pad" android:includeFontPadding="false" android:layout_below="@+id/live_update_author" android:layout_alignLeft="@+id/live_update_author" />

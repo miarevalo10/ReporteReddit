@@ -1,0 +1,121 @@
+package com.google.android.gms.internal;
+
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageInfo;
+import android.os.Bundle;
+import java.util.List;
+import java.util.concurrent.Future;
+
+@zzzv
+public final class zzaau {
+    public final float f6019A;
+    public final boolean f6020B;
+    public final int f6021C;
+    public final int f6022D;
+    public final boolean f6023E;
+    public final boolean f6024F;
+    public final Future<String> f6025G;
+    public final String f6026H;
+    public final boolean f6027I;
+    public final int f6028J;
+    public final Bundle f6029K;
+    public final String f6030L;
+    public final zzlr f6031M;
+    public final boolean f6032N;
+    public final Bundle f6033O;
+    public final boolean f6034P;
+    public final Future<String> f6035Q;
+    public final List<Integer> f6036R;
+    public final String f6037S;
+    public final int f6038T;
+    public final boolean f6039U;
+    public final boolean f6040V;
+    public final boolean f6041W;
+    public final Bundle f6042a;
+    public final zzjj f6043b;
+    public final zzjn f6044c;
+    public final String f6045d;
+    public final ApplicationInfo f6046e;
+    public final PackageInfo f6047f;
+    public final String f6048g;
+    public final String f6049h;
+    public final Bundle f6050i;
+    public final zzakd f6051j;
+    public final int f6052k;
+    public final List<String> f6053l;
+    public final List<String> f6054m;
+    public final List<String> f6055n;
+    public final Bundle f6056o;
+    public final boolean f6057p;
+    public final int f6058q;
+    public final int f6059r;
+    public final float f6060s;
+    public final String f6061t;
+    public final long f6062u;
+    public final String f6063v;
+    public final List<String> f6064w;
+    public final String f6065x;
+    public final zzpe f6066y;
+    public final String f6067z;
+
+    public zzaau(Bundle bundle, zzjj com_google_android_gms_internal_zzjj, zzjn com_google_android_gms_internal_zzjn, String str, ApplicationInfo applicationInfo, PackageInfo packageInfo, String str2, String str3, zzakd com_google_android_gms_internal_zzakd, Bundle bundle2, List<String> list, List<String> list2, Bundle bundle3, boolean z, int i, int i2, float f, String str4, long j, String str5, List<String> list3, String str6, zzpe com_google_android_gms_internal_zzpe, String str7, float f2, boolean z2, int i3, int i4, boolean z3, boolean z4, Future<String> future, String str8, boolean z5, int i5, Bundle bundle4, String str9, zzlr com_google_android_gms_internal_zzlr, boolean z6, Bundle bundle5, boolean z7, Future<String> future2, List<Integer> list4, String str10, List<String> list5, int i6, boolean z8, boolean z9, boolean z10) {
+        List list6;
+        List<String> list7 = list;
+        this.f6042a = bundle;
+        this.f6043b = com_google_android_gms_internal_zzjj;
+        this.f6044c = com_google_android_gms_internal_zzjn;
+        this.f6045d = str;
+        this.f6046e = applicationInfo;
+        this.f6047f = packageInfo;
+        this.f6048g = str2;
+        this.f6049h = str3;
+        this.f6051j = com_google_android_gms_internal_zzakd;
+        this.f6050i = bundle2;
+        this.f6057p = z;
+        this.f6058q = i;
+        this.f6059r = i2;
+        this.f6060s = f;
+        if (list7 == null || list7.size() <= 0) {
+            r0.f6052k = 0;
+            list6 = null;
+            r0.f6053l = null;
+        } else {
+            r0.f6052k = 3;
+            r0.f6053l = list7;
+            list6 = list2;
+        }
+        r0.f6054m = list6;
+        r0.f6056o = bundle3;
+        r0.f6061t = str4;
+        r0.f6062u = j;
+        r0.f6063v = str5;
+        r0.f6064w = list3;
+        r0.f6065x = str6;
+        r0.f6066y = com_google_android_gms_internal_zzpe;
+        r0.f6067z = str7;
+        r0.f6019A = f2;
+        r0.f6020B = z2;
+        r0.f6021C = i3;
+        r0.f6022D = i4;
+        r0.f6023E = z3;
+        r0.f6024F = z4;
+        r0.f6025G = future;
+        r0.f6026H = str8;
+        r0.f6027I = z5;
+        r0.f6028J = i5;
+        r0.f6029K = bundle4;
+        r0.f6030L = str9;
+        r0.f6031M = com_google_android_gms_internal_zzlr;
+        r0.f6032N = z6;
+        r0.f6033O = bundle5;
+        r0.f6034P = z7;
+        r0.f6035Q = future2;
+        r0.f6036R = list4;
+        r0.f6037S = str10;
+        r0.f6055n = list5;
+        r0.f6038T = i6;
+        r0.f6039U = z8;
+        r0.f6040V = z9;
+        r0.f6041W = z10;
+    }
+}

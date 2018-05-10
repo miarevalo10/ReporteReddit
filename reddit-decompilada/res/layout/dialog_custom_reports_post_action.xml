@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/single_half_pad" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/single_half_pad" android:paddingEnd="@dimen/single_half_pad">
+        <TextView android:textAppearance="?attr/textAppearanceRedditBodySmall" android:id="@+id/select_reason" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/custom_report_subtitle_margin_bottom" android:text="@string/success_report_thanks" />
+        <LinearLayout android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/user_icon" android:layout_width="UNKNOWN_DATA_0x7f070097" android:layout_height="UNKNOWN_DATA_0x7f070096" android:src="@drawable/ic_icon_redditor" android:tint="?attr/rdt_active_color" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6dp">
+                <TextView android:textAppearance="?attr/textAppearanceRedditBody" android:id="@+id/action" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textAppearance="?attr/textAppearanceRedditBodySmall" android:id="@+id/terms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/custom_report_terms_margin_top" android:layout_marginBottom="@dimen/custom_report_terms_margin_bottom" android:text="@string/mod_report_rules" />
+    </LinearLayout>
+    <Button android:id="@id/cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/half_pad" android:text="@string/action_close" style="?attr/tertiaryButtonStyle" />
+</LinearLayout>

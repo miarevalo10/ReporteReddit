@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <FrameLayout app:id="@+id/fast_scroll_thumb" app:background="@drawable/circle_white" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:elevation="@dimen/recycler_fast_scroll_thumb_elevation" app:stateListAnimator="@animator/fast_scroll_thumb" app:layout_constraintDimensionRatio="W,1:1" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+        <TextView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/fast_scroll_thumb_text" app:layout_width="match_parent" app:layout_height="match_parent" />
+        <ImageView app:id="@+id/fast_scroll_thumb_icon" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="centerInside" />
+    </FrameLayout>
+</merge>

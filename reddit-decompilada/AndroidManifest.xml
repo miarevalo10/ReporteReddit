@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="com.reddit.reddit" android:versionCode="209200" android:versionName="3.1.2" android:sharedUserLabel="@string/label_reddituser" package="com.reddit.frontpage">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" android:maxSdkVersion="22" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.reddit.frontpage.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <permission android:name="com.reddit.frontpage.permission.C2D_MESSAGE" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <application android:theme="@style/Base_AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.reddit.frontpage.FrontpageApplication" android:allowBackup="true" android:largeHeap="true">
+        <activity android:theme="@style/Reddit_Splash" android:label="@string/app_name" android:name="com.reddit.frontpage.StartActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.reddit.frontpage.IntroductionActivity" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="com.reddit.frontpage.MainActivity" android:launchMode="singleTop" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
+        </activity>
+        <activity android:theme="@style/AppTheme_Night" android:label="@string/app_name" android:name="com.reddit.frontpage.LiveThreadActivity" android:screenOrientation="portrait" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:label="@string/app_name" android:name="com.reddit.frontpage.WebBrowserActivity" android:screenOrientation="portrait" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:label="@string/app_name" android:name="com.reddit.frontpage.ModMailActivity" android:screenOrientation="portrait" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:label="@string/app_name" android:name="com.reddit.frontpage.GatewayBrowserActivity" android:screenOrientation="portrait" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:label="@string/label_acknowledgements" android:name="com.reddit.frontpage.AcknowledgementsActivity" android:screenOrientation="portrait" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:label="@string/label_submit" android:name="com.reddit.frontpage.presentation.detail.ReplyActivity" android:screenOrientation="portrait" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:label="@string/label_submit" android:name="com.reddit.frontpage.ReplyActivityLegacy" android:screenOrientation="portrait" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:label="@string/label_submit" android:name="com.reddit.frontpage.presentation.detail.EditActivity" android:screenOrientation="portrait" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:label="@string/label_submit" android:name="com.reddit.frontpage.EditActivityLegacy" android:screenOrientation="portrait" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:label="@string/label_settings" android:name="com.reddit.frontpage.ui.preferences.PreferencesActivity" android:screenOrientation="portrait" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:theme="@style/AppTheme_Night_Lightbox" android:label="@string/app_name" android:name="com.reddit.frontpage.LightboxActivity" android:screenOrientation="user" android:configChanges="orientation|screenSize" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:label="@string/label_sign_in" android:name="com.reddit.frontpage.redditauth_private.ui.AuthActivity" android:exported="true" android:screenOrientation="portrait" />
+        <activity android:label="debug" android:name="com.reddit.frontpage.debug.DebugActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme_Night_VideoPreview" android:label="debug" android:name="com.reddit.frontpage.VideoPreviewActivity" android:configChanges="orientation|screenSize" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:theme="@*android:style/Theme.NoDisplay" android:name="com.reddit.frontpage.DeepLinkFallbackActivity" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:name="com.reddit.frontpage.notifications.NotificationActivity" />
+        <activity android:name="com.reddit.frontpage.com.reddit.social.notifications.SocialMessagingActivity" android:parentActivityName="com.reddit.frontpage.MainActivity" />
+        <activity android:theme="@*android:style/Theme.NoDisplay" android:name="com.reddit.frontpage.RedditDeepLinkActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="www.reddit.com" />
+                <data android:scheme="http" android:host="www.reddit.com" />
+                <data android:scheme="https" android:host="reddit.com" />
+                <data android:scheme="http" android:host="reddit.com" />
+                <data android:scheme="https" android:host="m.reddit.com" />
+                <data android:scheme="http" android:host="m.reddit.com" />
+                <data android:scheme="https" android:host="np.reddit.com" />
+                <data android:scheme="http" android:host="np.reddit.com" />
+                <data android:scheme="https" android:host="redd.it" />
+                <data android:scheme="http" android:host="redd.it" />
+                <data android:scheme="reddit" android:host="reddit" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="www.google.com" android:pathPrefix="/amp/s/amp.reddit.com" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Reddit_Splash" android:label="@string/app_name" android:name="com.reddit.frontpage.BranchLinkActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="reddit.app.link" />
+                <data android:scheme="http" android:host="reddit.app.link" />
+                <data android:scheme="https" android:host="reddit-alternate.app.link" />
+                <data android:scheme="http" android:host="reddit-alternate.app.link" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Data Logging" android:name="com.reddit.frontpage.debug.DataLoggingActivity" android:screenOrientation="portrait" />
+        <activity android:label="Verify Reddit Email" android:name="com.reddit.frontpage.GoogleSignInActivity" android:screenOrientation="portrait" />
+        <activity android:name="com.reddit.frontpage.presentation.geopopular.GeopopularRegionSelectActivity" android:screenOrientation="portrait" />
+        <activity android:label="@string/action_post_on_reddit" android:name="com.reddit.frontpage.ui.share.ShareActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="@string/share_mime_type_text" />
+                <data android:mimeType="@string/share_mime_type_image" />
+                <data android:mimeType="@string/share_mime_type_video" />
+            </intent-filter>
+        </activity>
+        <provider android:label="@string/label_user_data_sync" android:name="com.reddit.frontpage.sync.UserDataStubProvider" android:exported="false" android:authorities="@string/provider_authority_userdata" android:syncable="true" />
+        <provider android:label="@string/label_app_data_sync" android:name="com.reddit.frontpage.sync.AppDataStubProvider" android:exported="false" android:authorities="@string/provider_authority_appdata" android:syncable="true" />
+        <provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="@string/provider_authority_file" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths" />
+        </provider>
+        <service android:name="com.reddit.datalibrary.frontpage.service.api.ReplyService" android:enabled="true" android:exported="false" />
+        <service android:name="com.reddit.datalibrary.frontpage.service.api.SubmitService" android:enabled="true" android:exported="false" />
+        <service android:name="com.reddit.datalibrary.frontpage.service.api.ComposeService" android:enabled="true" android:exported="false" />
+        <service android:name="com.reddit.datalibrary.frontpage.service.api.UploadService" android:enabled="true" android:exported="false" />
+        <service android:name="com.reddit.datalibrary.frontpage.service.db.VisitService" android:enabled="true" android:exported="false" />
+        <service android:name="com.reddit.frontpage.service.sync.PreferencesSyncService" android:enabled="true" android:exported="false" />
+        <service android:name="com.reddit.frontpage.redditauth_private.account.ForgotPasswordService" android:enabled="true" android:exported="false" />
+        <service android:name="com.reddit.frontpage.commons.analytics.AnalyticsFlushJobService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+        <service android:name="com.reddit.frontpage.commons.analytics.AnalyticsDispatchJobService" android:permission="android.permission.RECEIVE_BOOT_COMPLETED" android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+        <service android:name="com.reddit.frontpage.commons.analytics.AnalyticsHeartbeatJobService" android:permission="android.permission.RECEIVE_BOOT_COMPLETED" android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+        <service android:name="com.reddit.frontpage.redditauth_private.account.AuthService" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator" />
+        </service>
+        <service android:name="com.reddit.frontpage.sync.UserDataSyncService" android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter_userdata" />
+        </service>
+        <service android:name="com.reddit.frontpage.sync.AppDataSyncService" android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter_appdata" />
+        </service>
+        <meta-data android:name="io.fabric.ApiKey" android:value="45a20d3278f194bb985fad1828a6c477861c45be" />
+        <receiver android:name="com.reddit.frontpage.notifications.LocalNotificationReceiver">
+            <intent-filter>
+                <action android:name="com.reddit.frontpage.notifications.ACTION_SEND_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <meta-data android:name="io.branch.sdk.BranchKey" android:value="@string/branch_key" />
+        <receiver android:name="io.branch.referral.InstallListener" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.reddit.frontpage.service.fcm.RedditMessagingService" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.reddit.frontpage.service.fcm.RedditInstanceIDService" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.reddit.datalibrary.frontpage.service.api.VideoUploadService" android:exported="false" />
+        <service android:name="com.reddit.frontpage.service.video.VideoTrimService" android:exported="false" />
+        <service android:name="com.reddit.frontpage.service.video.RemoveStaleUploadsService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" />
+        <service android:name="com.reddit.datalibrary.frontpage.data.common.db2.MigrateEventsTableService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" />
+        <receiver android:name="com.reddit.frontpage.commons.analytics.ShareIntentReceiver" />
+        <meta-data android:name="android.max_aspect" android:value="2.1" />
+        <provider android:name="com.reddit.data.events.AnalyticsContentProvider" android:enabled="true" android:exported="false" android:authorities="com.reddit.frontpage.analyticscontentprovider" />
+        <provider android:name="com.crashlytics.android.CrashlyticsInitProvider" android:exported="false" android:authorities="com.reddit.frontpage.crashlyticsinitprovider" android:initOrder="100" />
+        <activity android:theme="@style/InstabugTranslucentSdkTheme" android:name="com.instabug.survey.ui.SurveyActivity" android:launchMode="singleTop" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <service android:name="com.instabug.survey.network.service.InstabugSurveysSubmitterService" />
+        <service android:name="com.instabug.crash.network.InstabugCrashesUploaderService" />
+        <activity android:theme="@style/InstabugSdkTheme" android:name="com.instabug.chat.ui.ChatActivity" android:launchMode="singleTop" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <service android:name="com.instabug.chat.network.InstabugMessageUploaderService" />
+        <service android:name="com.instabug.chat.network.InstabugPushNotificationTokenService" />
+        <activity android:theme="@style/InstabugSdkTheme" android:name="com.instabug.bug.view.BugReportingActivity" android:launchMode="singleTop" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@style/InstabugTranslucentSdkTheme" android:name="com.instabug.bug.view.SuccessActivity" android:launchMode="singleTop" />
+        <activity android:theme="@style/InstabugTranslucentSdkTheme" android:name="com.instabug.bug.view.ReportCategoriesActivity" android:launchMode="singleTop" />
+        <service android:name="com.instabug.bug.network.InstabugBugsUploaderService" />
+        <service android:name="com.instabug.bug.view.actionList.service.ReportCategoriesService" />
+        <activity android:theme="@style/InstabugTranslucentSdkTheme" android:name="com.instabug.library.ui.promptoptions.PromptOptionsActivity" android:launchMode="singleTop" android:windowSoftInputMode="adjustResize|adjustNothing">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="instabug" android:host="instabug.com" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.instabug.library.network.worker.uploader.InstabugSessionUploaderService" />
+        <service android:name="com.instabug.library.network.worker.fetcher.InstabugFeaturesFetcherService" />
+        <service android:name="com.instabug.library.internal.video.VideoProcessingService" />
+        <service android:name="com.instabug.library.analytics.network.InstabugAnalyticsUploaderService" />
+        <receiver android:name="com.instabug.library.network.InstabugNetworkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.instabug.library.internal.video.RequestPermissionActivity" />
+        <service android:name="com.instabug.library.internal.video.AutoScreenRecordingService" />
+        <service android:name="com.firebase.jobdispatcher.GooglePlayReceiver" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/MediaTheme" android:name="com.twitter.sdk.android.tweetui.PlayerActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/MediaTheme" android:name="com.twitter.sdk.android.tweetui.GalleryActivity" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:exported="false" android:excludeFromRecents="true" />
+        <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:exported="true" />
+        <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" />
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false" />
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false" />
+        <service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false" />
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.reddit.frontpage" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.reddit.frontpage.firebaseinitprovider" android:initOrder="100" />
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule" />
+        <activity android:name="com.twitter.sdk.android.core.identity.OAuthActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="orientation|screenSize" />
+        <activity android:label="@string/kit_name" android:icon="@drawable/tw__transparent" android:name="com.twitter.sdk.android.core.identity.ShareEmailActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="orientation|screenSize" />
+        <activity android:name="net.hockeyapp.android.UpdateActivity" />
+        <activity android:name="net.hockeyapp.android.FeedbackActivity" android:windowSoftInputMode="stateVisible|stateAlwaysVisible|adjustResize|adjustNothing" />
+        <activity android:name="net.hockeyapp.android.PaintActivity" />
+        <activity android:name="net.hockeyapp.android.LoginActivity" />
+        <activity android:name="net.hockeyapp.android.ExpiryInfoActivity" />
+    </application>
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="?attr/rdt_canvas_color" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay_RedditBase_Toolbar_LightForeground" app:id="@id/toolbar" app:background="?attr/rdt_active_color" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003" app:layout_alignParentTop="true" app:titleTextColor="@color/rdt_white" />
+    <android.support.design.widget.TabLayout app:id="@+id/tab_layout" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0701a1" app:layout_below="@id/toolbar" app:tabMode="1" style="@style/Widget_RedditBase_TabLayout" />
+    <com.reddit.frontpage.widgets.ScreenPager app:id="@+id/screen_pager" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@+id/tab_layout" />
+    <View app:background="@drawable/shadow_up" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f070194" app:layout_below="@+id/tab_layout" app:rotationX="180.0" />
+    <View app:background="?attr/rdt_line_color" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f07012c" app:layout_below="@+id/tab_layout" />
+</RelativeLayout>

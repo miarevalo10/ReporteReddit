@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chat_snoo" />
+        <TextView android:textAppearance="?attr/textAppearanceRedditTitle" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/single_half_pad" android:text="@string/label_empty_chat_list" />
+        <TextView android:textAppearance="?attr/textAppearanceRedditBody" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/single_half_pad" android:text="@string/label_start_chat" />
+        <Button android:id="@+id/start_chat_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/double_pad" android:layout_marginTop="@dimen/single_half_pad" android:layout_marginRight="@dimen/double_pad" android:layout_marginBottom="@dimen/single_half_pad" android:text="@string/label_start_chatting" style="?attr/primaryButtonStyle" />
+    </LinearLayout>
+</FrameLayout>

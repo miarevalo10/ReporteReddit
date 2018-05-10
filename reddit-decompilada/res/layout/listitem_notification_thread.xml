@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/rdt_body_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?unknown_attr_ref: 101030e">
+    <ImageView android:id="@+id/notification_icon" android:layout_width="UNKNOWN_DATA_0x7f070100" android:layout_height="UNKNOWN_DATA_0x7f070100" android:layout_margin="@dimen/double_pad" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/content" android:paddingTop="@dimen/single_pad" android:paddingRight="@dimen/double_pad" android:paddingBottom="@dimen/single_pad" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?attr/textAppearanceRedditBodyMedium" android:textColor="?attr/rdt_metadata_text_color" android:ellipsize="end" android:id="@+id/subject" android:paddingBottom="@dimen/half_pad" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textAppearance="?attr/textAppearanceRedditBody" android:textColor="?attr/rdt_metadata_text_color" android:ellipsize="end" android:id="@+id/preview" android:paddingBottom="@dimen/half_pad" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:ellipsize="end" android:id="@+id/metadata" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <ImageView android:id="@+id/overflowMenu" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0700ff" android:layout_height="wrap_content" android:layout_margin="@dimen/double_pad" android:src="@drawable/ic_icon_overflow" android:rotation="90.0" />
+</LinearLayout>

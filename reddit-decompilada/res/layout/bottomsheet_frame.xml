@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <LinearLayout app:orientation="vertical" app:id="@+id/bottomsheet_frame" app:background="?attr/rdt_bottomsheet_background_drawable" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/single_pad" app:layout_marginStart="@dimen/single_pad" app:layout_marginEnd="@dimen/single_pad">
+        <ViewStub app:id="@+id/bottomsheet_frame_header_stub" app:layout="@layout/bottomsheet_header" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f07005c" />
+    </LinearLayout>
+</FrameLayout>

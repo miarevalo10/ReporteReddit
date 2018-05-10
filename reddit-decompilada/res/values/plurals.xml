@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="account_suspended_temporary">
+        <item quantity="one">Your account has been suspended from Reddit for %d day</item>
+        <item quantity="other">Your account has been suspended from Reddit for %d days</item>
+    </plurals>
+    <plurals name="fmt_live_updates">
+        <item quantity="one">%1$d NEW UPDATE</item>
+        <item quantity="other">%1$d NEW UPDATES</item>
+    </plurals>
+    <plurals name="fmt_live_viewers">
+        <item quantity="one">%1$,d viewer</item>
+        <item quantity="other">%1$,d viewers</item>
+    </plurals>
+    <plurals name="fmt_num_comments">
+        <item quantity="one">%1$s comment</item>
+        <item quantity="other">%1$s comments</item>
+    </plurals>
+    <plurals name="fmt_num_communities">
+        <item quantity="one">%1$s community</item>
+        <item quantity="other">%1$s communities</item>
+    </plurals>
+    <plurals name="fmt_num_group_chat_members_1">
+        <item quantity="one">%1$d member</item>
+        <item quantity="other">%1$d members</item>
+    </plurals>
+    <plurals name="fmt_num_items_selected">
+        <item quantity="one">%1$,d item selected</item>
+        <item quantity="other">%1$,d items selected</item>
+    </plurals>
+    <plurals name="fmt_num_points">
+        <item quantity="one">%1$s point</item>
+        <item quantity="other">%1$s points</item>
+    </plurals>
+    <plurals name="fmt_num_replies">
+        <item quantity="one">%1$d more reply</item>
+        <item quantity="other">%1$d more replies</item>
+    </plurals>
+    <plurals name="fmt_num_users_in_group_chat">
+        <item quantity="one">%1$d Redditor in %2$s</item>
+        <item quantity="other">%1$d Redditors in %2$s</item>
+    </plurals>
+    <plurals name="fmt_number">
+        <item quantity="one">%1$,d</item>
+        <item quantity="other">%1$,d</item>
+    </plurals>
+    <plurals name="fmt_people_in_group">
+        <item quantity="one">%1$d person in group</item>
+        <item quantity="other">%1$d people in group</item>
+    </plurals>
+    <plurals name="fmt_title_creddits">
+        <item quantity="one">You have %d Creddit</item>
+        <item quantity="other">You have %d Creddits</item>
+    </plurals>
+    <plurals name="fmt_you_can_add_more_people">
+        <item quantity="one">You can add %1$d more person</item>
+        <item quantity="other">You can add %1$d more people</item>
+    </plurals>
+    <plurals name="tw__time_hours">
+        <item quantity="one">1h</item>
+        <item quantity="other">%dh</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1m</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
+</resources>

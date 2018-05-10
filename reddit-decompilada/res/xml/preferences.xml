@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/label_general">
+        <Preference app:icon="@drawable/ic_icon_redditor" app:title="@string/label_accounts" app:key="@string/key_pref_accounts" />
+        <Preference app:icon="@drawable/ic_icon_notify" app:title="@string/label_notifications" app:key="@string/key_pref_notifications" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/label_view_options">
+        <com.reddit.frontpage.ui.preferences.IconListPreference app:icon="@drawable/ic_view_card" app:entries="@array/view_options" app:title="@string/label_default_view" app:key="@string/key_pref_default_view" app:summary="%s" app:defaultValue="@string/option_value_card" app:entryValues="@array/view_option_values" app:entryIcons="@array/view_option_icons" />
+        <ListPreference app:icon="@drawable/ic_icon_play" app:entries="@array/autoplay_options" app:title="@string/label_autoplay" app:key="@string/key_pref_autoplay" app:summary="%s" app:defaultValue="@string/option_value_always" app:entryValues="@array/autoplay_option_values" />
+        <SwitchPreferenceCompat app:icon="@drawable/ic_icon_image" app:title="@string/label_disable_preview_images" app:key="@string/key_pref_disable_preview_images" />
+        <SwitchPreferenceCompat app:icon="@drawable/ic_icon_redditor" app:title="@string/label_over18" app:key="@string/key_pref_over18" />
+        <SwitchPreferenceCompat app:icon="@drawable/ic_icon_nsfw" app:title="@string/label_blur_nsfw_images" app:key="@string/key_pref_blur_nsfw" app:dependency="@string/key_pref_over18" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/label_theme">
+        <ListPreference app:icon="@drawable/ic_icon_show" app:entries="@array/theme_entries" app:title="@string/label_theme" app:key="@string/key_pref_theme" app:summary="%s" app:defaultValue="@string/option_value_alienblue" app:entryValues="@array/theme_values" />
+        <SwitchPreferenceCompat app:icon="@drawable/ic_icon_night" app:title="@string/label_auto_night_theme" app:key="@string/key_pref_auto_night" />
+        <SwitchPreferenceCompat app:icon="@drawable/ic_icon_settings" app:title="@string/label_amoled_night_theme" app:key="@string/key_pref_amoled" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/label_about">
+        <Preference app:icon="@drawable/ic_icon_document" app:title="@string/label_content_policy" app:key="@string/key_pref_content_policy" />
+        <Preference app:icon="@drawable/ic_icon_settings" app:title="@string/label_privacy_policy" app:key="@string/key_pref_privacy_policy" />
+        <Preference app:icon="@drawable/ic_icon_redditor" app:title="@string/label_user_agreement" app:key="@string/key_pref_user_agreement" />
+        <Preference app:icon="@drawable/ic_icon_document" app:title="@string/label_acknowledgements" app:key="@string/key_pref_acknowledgements" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/label_support">
+        <Preference app:icon="@drawable/ic_icon_help" app:title="@string/label_help_faq" app:key="@string/key_pref_help_faq" />
+        <Preference app:icon="@drawable/ic_icon_snoo_home" app:title="@string/label_visit_redditmobile" app:key="@string/key_pref_mobile_subreddit" />
+        <Preference app:icon="@drawable/ic_icon_message" app:title="@string/title_submit_bug" app:key="@string/key_pref_submit_bug" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/title_build_info">
+        <Preference app:enabled="false" app:title="Build version" app:key="@string/key_pref_build_version" />
+    </PreferenceCategory>
+</PreferenceScreen>

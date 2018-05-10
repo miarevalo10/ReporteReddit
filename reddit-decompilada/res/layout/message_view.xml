@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@+id/message_date_container" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/double_pad" app:layout_marginStart="@dimen/double_pad" app:layout_marginEnd="@dimen/double_pad">
+        <View app:background="?attr/rdt_line_color" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f07006d" app:layout_weight="1.0" />
+        <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:id="@+id/message_date" app:layout_width="wrap_content" app:layout_height="wrap_content" app:paddingStart="@dimen/single_pad" app:paddingEnd="@dimen/single_pad" />
+        <View app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:background="?attr/rdt_line_color" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f07006d" app:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout app:orientation="horizontal" app:id="@+id/message_message_container" app:layout_width="match_parent" app:layout_height="wrap_content" app:foreground="?attr/selectableItemBackground" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/double_pad">
+        <FrameLayout app:id="@+id/message_profile_icon_container" app:paddingTop="@dimen/half_pad" app:layout_width="wrap_content" app:layout_height="wrap_content">
+            <ImageView app:id="@+id/message_profile_icon" app:layout_width="UNKNOWN_DATA_0x7f070073" app:layout_height="UNKNOWN_DATA_0x7f07006e" />
+        </FrameLayout>
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginStart="10dp"
+            <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <TextView app:textAppearance="?attr/textAppearanceRedditBodyMedium" app:id="@+id/message_username" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="5dp" />
+                <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:id="@+id/message_time" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginStart="@dimen/single_pad" />
+            </LinearLayout>
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <FrameLayout app:id="@+id/message_content" app:layout_width="match_parent" app:layout_height="wrap_content" />
+                <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:id="@+id/message_sent_status" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

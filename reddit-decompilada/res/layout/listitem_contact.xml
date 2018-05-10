@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <TextView app:textAppearance="?attr/textAppearanceRedditSubheader" app:id="@+id/rest_of_reddit_text" app:background="?attr/rdt_canvas_color" app:paddingLeft="@dimen/double_pad" app:paddingTop="@dimen/single_pad" app:paddingBottom="@dimen/single_pad" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/rdt_label_tap_to_add" />
+    <RelativeLayout app:id="@+id/row" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f07006c" app:layout_marginLeft="@dimen/double_pad" app:layout_marginRight="@dimen/double_pad">
+        <CheckBox app:id="@+id/check_box" app:background="?attr/radioCheckboxSelector" app:clickable="false" app:layout_width="UNKNOWN_DATA_0x1201" app:layout_height="UNKNOWN_DATA_0x1201" app:button="0x106000d" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        <ImageView app:id="@+id/user_icon" app:layout_width="UNKNOWN_DATA_0x7f070191" app:layout_height="UNKNOWN_DATA_0x7f070192" app:layout_centerVertical="true" app:layout_marginEnd="@dimen/double_pad" app:layout_alignParentStart="true" />
+        <LinearLayout app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_toLeftOf="@+id/check_box" app:layout_toRightOf="@+id/user_icon" app:layout_centerVertical="true" app:layout_marginEnd="@dimen/double_pad">
+            <TextView app:textAppearance="?attr/textAppearanceRedditBody" app:id="@+id/username" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+            <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:id="@+id/karma_and_age" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+            <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:id="@+id/status" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

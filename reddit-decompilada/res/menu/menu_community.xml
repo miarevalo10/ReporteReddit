@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_icon_subscribe" app:id="@+id/action_subscribe" app:orderInCategory="22" app:title="@string/action_subscribe" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_icon_unsubscribe" app:id="@+id/action_unsubscribe" app:orderInCategory="23" app:title="@string/action_unsubscribe" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_icon_information" app:id="@+id/action_subreddit_info" app:orderInCategory="24" app:title="@string/action_subreddit_info" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_icon_message" app:id="@+id/action_contact_moderators" app:orderInCategory="45" app:title="@string/action_contact_moderators" app:iconTint="?attr/rdt_popup_menu_icon_color" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

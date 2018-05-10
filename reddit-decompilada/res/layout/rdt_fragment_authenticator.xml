@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/rdt_body_color" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/confirmContainer">
+        <LinearLayout android:orientation="vertical" android:id="@+id/authContainer" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:id="@id/title" android:paddingTop="@dimen/quad_pad" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/auth_title" style="@style/rdt_auth_header_text_style" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/auth_info" style="@style/rdt_auth_meta_text_style" />
+            <EditText android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/code" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLength="7" android:digits="0123456789 " android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|number|numberSigned|numberDecimal|numberPassword|phone" style="@style/rdt_auth_input_text_style" />
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/toggle" android:paddingBottom="@dimen/single_pad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/use_backup_code" style="@style/rdt_auth_toggle_text_style" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@+id/confirmContainer" android:background="@color/rdt_off_white" android:padding="@dimen/single_pad" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@+id/confirm" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/check_code" android:layout_centerInParent="true" style="?attr/primaryButtonStyle" />
+        <ProgressBar android:id="@+id/loader" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0701af" android:layout_height="UNKNOWN_DATA_0x7f0701af" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

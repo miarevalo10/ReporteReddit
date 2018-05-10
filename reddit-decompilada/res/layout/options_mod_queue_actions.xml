@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="?attr/rdt_bottomsheet_background_drawable" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.reddit.frontpage.widgets.ModQueueBulkActionItem app:id="@+id/option_approve" app:layout_width="wrap_content" app:layout_height="wrap_content" app:foreground="?attr/selectableItemBackground" app:src="@drawable/ic_icon_approve_check" app:text="@string/mod_tools_option_approve" />
+        <com.reddit.frontpage.widgets.ModQueueBulkActionItem app:id="@+id/option_remove" app:layout_width="wrap_content" app:layout_height="wrap_content" app:foreground="?attr/selectableItemBackground" app:src="@drawable/ic_icon_delete" app:text="@string/mod_tools_option_remove" />
+        <com.reddit.frontpage.widgets.ModQueueBulkActionItem app:id="@+id/option_spam" app:layout_width="wrap_content" app:layout_height="wrap_content" app:foreground="?attr/selectableItemBackground" app:src="@drawable/ic_icon_spam" app:text="@string/mod_tools_option_spam" />
+    </LinearLayout>
+    <View app:background="@color/rdt_placeholder_grey" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0700c8" app:layout_marginStart="@dimen/double_pad" app:layout_marginEnd="@dimen/double_pad" />
+    <FrameLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/single_pad" app:layout_marginBottom="@dimen/single_pad">
+        <TextView app:textAppearance="@style/TextAppearance_RedditBase_Body_Small" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/selected_number" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginStart="@dimen/double_pad" />
+        <Button app:textColor="?attr/rdt_meta_text_color" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/clear" app:layout_width="wrap_content" app:layout_height="wrap_content" app:minWidth="0dp" app:minHeight="0dp" app:text="@string/clear_clear_selection" app:layout_marginEnd="@dimen/double_pad" style="?attr/borderlessButtonStyle" />
+    </FrameLayout>
+</LinearLayout>

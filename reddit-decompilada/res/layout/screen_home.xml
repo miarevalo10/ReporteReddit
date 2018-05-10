@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NestedCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/home_screen" app:background="?attr/rdt_canvas_color" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:id="@+id/app_bar_layout" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003" app:layout_alignParentTop="true" app:layout_scrollFlags="5">
+            <include layout="@layout/toolbar_nav_search" />
+        </android.support.v7.widget.Toolbar>
+        <FrameLayout app:id="@+id/tab_layout_container" app:background="?attr/rdt_toolbar_color" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@id/toolbar" app:layout_scrollFlags="5">
+            <android.support.design.widget.TabLayout app:id="@+id/tab_layout" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0701a1" app:layout_marginLeft="@dimen/home_screen_tab_padding" app:layout_marginRight="@dimen/home_screen_tab_padding" app:tabMode="1" style="@style/Widget_RedditBase_TabLayout" />
+        </FrameLayout>
+    </android.support.design.widget.AppBarLayout>
+    <com.reddit.frontpage.widgets.ScreenPager app:id="@+id/screen_pager" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@+id/tab_layout_container" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.NestedCoordinatorLayout>

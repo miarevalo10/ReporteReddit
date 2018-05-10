@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="?attr/rdt_canvas_color" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f040003">
+        <include layout="@layout/toolbar_icon_and_title" />
+    </android.support.v7.widget.Toolbar>
+    <View app:background="@drawable/shadow_line" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f070194" />
+    <ImageView app:paddingLeft="@dimen/quad_pad" app:paddingTop="@dimen/quad_pad" app:paddingRight="@dimen/quad_pad" app:paddingBottom="@dimen/single_half_pad" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:src="@drawable/logged_out" app:layout_weight="1.0" />
+    <android.support.percent.PercentFrameLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/double_pad">
+        <TextView app:textAppearance="?attr/textAppearanceRedditTitle" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/message" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/double_pad" app:layout_marginRight="@dimen/double_pad" app:layout_marginBottom="@dimen/single_pad" app:minLines="2" app:layout_widthPercent="50%" />
+    </android.support.percent.PercentFrameLayout>
+    <include app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/single_pad" layout="@layout/login_buttons" />
+</LinearLayout>

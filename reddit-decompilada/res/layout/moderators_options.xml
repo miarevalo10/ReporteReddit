@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <com.reddit.frontpage.widgets.ModUsersOptionItemView app:id="@+id/details_option" app:layout_width="match_parent" app:layout_height="wrap_content" app:src="@drawable/ic_icon_post_edit" app:text="@string/mod_tools_edit_permissions" app:show_right_arrow="true" />
+    <com.reddit.frontpage.widgets.ModUsersOptionItemView app:id="@+id/view_profile_option" app:layout_width="match_parent" app:layout_height="wrap_content" app:src="@drawable/ic_icon_redditor" app:text="@string/mod_tools_option_view_profile" />
+    <com.reddit.frontpage.widgets.ModUsersOptionItemView app:textColor="@color/modtools_action" app:id="@+id/remove_option" app:layout_width="match_parent" app:layout_height="wrap_content" app:src="@drawable/ic_icon_close" app:text="@string/mod_tools_option_remove" app:apply_icon_tint="true" />
+</LinearLayout>

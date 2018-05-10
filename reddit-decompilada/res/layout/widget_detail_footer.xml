@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/show_rest" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4801">
+        <Button android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/show_rest_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/single_pad" android:text="@string/title_view_all_comments" style="?attr/primaryButtonStyle" />
+    </FrameLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/empty_comments" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/quad_pad">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/header_empty" />
+        <TextView android:textAppearance="?attr/textAppearanceRedditMetadata" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_empty" />
+    </LinearLayout>
+    <View android:id="@+id/comments_loading" android:layout_width="UNKNOWN_DATA_0x7f07017d" android:layout_height="UNKNOWN_DATA_0x7f07017d" android:layout_marginTop="80dp" />
+    <android.support.v4.widget.Space android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7801" />
+</LinearLayout>

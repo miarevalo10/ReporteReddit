@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/chat_divider" />
+    <com.reddit.social.widgets.WidgetKeyboardHeader android:orientation="horizontal" android:id="@+id/keyboardHeader" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:animateLayoutChanges="true" />
+    <FrameLayout android:id="@+id/keyboardMediumContainer" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" />
+</merge>

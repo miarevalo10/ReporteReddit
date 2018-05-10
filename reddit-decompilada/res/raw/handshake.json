@@ -1,0 +1,103 @@
+{
+  "experiments": {
+    "assets": {
+      "categories": {
+        "url": "https://www.reddit.com/mobile/1/categories.json",
+        "etag": null,
+        "size": null
+      }
+    },
+    "domain_name": {
+      "domain_aliases": {
+        "imgur.com": "imgur",
+        "flickr.com": "flickr",
+        "i.reddituploads.com": "reddit",
+        "i.rddt.co": "reddit"
+      }
+    },
+    "push_notification": {
+      "cadence": 604800
+    },
+    "onboarding": {
+      "active": false
+    },
+    "content_type": {
+      "image_type": {
+        "i\\.reddituploads\\.com/": "reddit",
+        "imgur\\.com/": "imgur",
+        "i\\.rddt\\.co/": "reddit",
+        "flickr\\.com/": "flickr",
+        "i\\.imgur\\.com/": "imgur"
+      },
+      "video_type_exception": {},
+      "video_type": {
+        ".*\\.gifv": "gifv",
+        ".*\\.gif": "gif"
+      },
+      "image_type_exception": {
+        "imgur\\.com/gallery/": "imgur",
+        "imgur\\.com/a/": "imgur",
+        ".*\\.gifv": "gifv",
+        ".*\\.gif": "gif"
+      },
+      "link_type_exception": {},
+      "link_type": {
+        "imgur\\.com/a/": "imgur",
+        "imgur\\.com/gallery/": "imgur"
+      }
+    },
+    "mainfeed_content_carousel": {
+      "active": false
+    },
+    "ads": {
+      "mopub": {
+        "prod_native_id": "cc012b5d63394483b7c349b8a1e6510d",
+        "prod_compact_id": "9d320a51bde64a7aaf3fd69ec344ba6c",
+        "active": true,
+        "debug_compact_id": "6e478c9066bd418a8b28b2042141ec8d",
+        "max_prod_version": 0,
+        "debug_native_id": "2f1ffa3199ab45f2821a9fe3a4ddaeba"
+      }
+    }
+  },
+  "buckets": [],
+  "global": {
+    "push_notifications": {
+      "preferences_url": "https://gateway.reddit.com/mobile/settings/push"
+    },
+    "app_version_check": {
+      "min_version": 75,
+      "update_url": "market://details?id=com.reddit.frontpage",
+      "popup_content": "A new version of the app is available, please upgrade!"
+    },
+    "upload": {
+      "active": true,
+      "image_url": "https://imgless.reddituploads.com/1/image",
+      "client_id": "OGZmZWQ0Yzc4Y2",
+      "add_reddit_token": false,
+      "disclaimer": ""
+    },
+    "info_url": {
+      "user_agreement": "https://m.reddit.com/wiki/useragreement",
+      "privacy_policy": "https://m.reddit.com/wiki/privacypolicy",
+      "content_policy": "https://m.reddit.com/wiki/contentpolicy",
+      "acknowledgements": "https://www.reddit.com/mobile/android/1/acknowledgements.html"
+    },
+    "ads": {
+      "mopub": {
+        "debug_compact_id": "6e478c9066bd418a8b28b2042141ec8d",
+        "prod_native_id": "cc012b5d63394483b7c349b8a1e6510d",
+        "debug_native_id": "2f1ffa3199ab45f2821a9fe3a4ddaeba",
+        "prod_compact_id": "9d320a51bde64a7aaf3fd69ec344ba6c",
+        "max_prod_version": 0
+      },
+      "dfp": {
+        "ad_position": 7,
+        "ad_interval": 7,
+        "debug_base_id": "/32173961/mw_card_test_1/custrendo",
+        "prod_base_id": "/32173961/android/"
+      },
+      "provider": "dfp"
+    }
+  }
+}

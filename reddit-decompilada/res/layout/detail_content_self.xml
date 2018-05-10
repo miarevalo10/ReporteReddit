@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.reddit.frontpage.widgets.BaseHtmlTextView android:textAppearance="?attr/textAppearanceRedditBody" android:id="@+id/selftext" android:background="?attr/rdt_body_color" android:paddingLeft="@dimen/double_pad" android:paddingTop="@dimen/single_pad" android:paddingRight="@dimen/double_pad" android:paddingBottom="@dimen/double_pad" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.reddit.frontpage.widgets.video.HDVideoPlayerOld xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/video_player" app:layout_width="match_parent" app:layout_height="wrap_content" app:gallery="true" />

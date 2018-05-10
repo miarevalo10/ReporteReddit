@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="match_parent" app:cardBackgroundColor="?attr/rdt_field_color" app:cardCornerRadius="@dimen/half_pad" app:cardElevation="0dp">
+        <LinearLayout app:layout_width="match_parent" app:layout_height="match_parent">
+            <TextView app:textAppearance="?attr/textAppearanceRedditBody" app:id="@+id/prefix" app:background="0x0" app:focusable="false" app:layout_width="wrap_content" app:layout_height="wrap_content" app:minHeight="@dimen/modtools_edittext_height" app:text="@string/mod_tools_prefix" app:paddingStart="@dimen/half_pad" style="?attr/editTextStyle" />
+            <EditText app:textAppearance="?attr/textAppearanceRedditBody" app:id="@+id/username" app:background="0x0" app:layout_width="match_parent" app:layout_height="match_parent" app:hint="@string/mod_tools_username_hint" app:lines="1" app:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

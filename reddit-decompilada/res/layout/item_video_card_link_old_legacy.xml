@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/rdt_body_color" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/selectableItemBackground" android:elevation="@dimen/elevation" android:outlineProvider="bounds">
+    <ViewStub android:id="@+id/link_header_stub" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.reddit.frontpage.widgets.LinkTitleView android:textAppearance="?attr/textAppearanceRedditTitle" android:id="@+id/link_title" android:background="?attr/rdt_body_color" android:paddingLeft="@dimen/double_pad" android:paddingRight="@dimen/double_pad" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.reddit.frontpage.ui.listing.newcard.LinkFlairView android:id="@+id/link_flair" android:background="?attr/rdt_body_color" android:paddingLeft="@dimen/double_pad" android:paddingRight="@dimen/double_pad" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:background="?attr/rdt_body_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f070194" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="?attr/rdt_body_color" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <com.reddit.frontpage.widgets.video.LDVideoPlayerOld android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/video_player" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:minHeight="@dimen/link_image_min_height" />
+        <View android:background="?attr/rdt_body_color" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.reddit.frontpage.widgets.LinkFooterView android:id="@+id/link_footer" android:background="?attr/rdt_body_color" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

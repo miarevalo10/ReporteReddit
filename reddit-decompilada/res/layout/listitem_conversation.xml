@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <TextView app:textAppearance="?attr/textAppearanceRedditSubheader" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/divider" app:background="?attr/rdt_canvas_color" app:visibility="gone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f07019d" app:paddingStart="@dimen/double_pad" />
+    <RelativeLayout app:id="@+id/content_container" app:background="?attr/rdt_body_color" app:paddingLeft="@dimen/double_pad" app:paddingTop="@dimen/single_pad" app:paddingRight="@dimen/double_pad" app:paddingBottom="@dimen/single_pad" app:layout_width="match_parent" app:layout_height="wrap_content" app:foreground="?attr/selectableItemBackground">
+        <FrameLayout app:id="@+id/icon_container" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerVertical="true">
+            <ImageView app:id="@id/icon" app:layout_width="UNKNOWN_DATA_0x7f070191" app:layout_height="UNKNOWN_DATA_0x7f070192" />
+            <RelativeLayout app:id="@+id/icon_pair" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x7f070192" app:layout_height="UNKNOWN_DATA_0x7f070191">
+                <ImageView app:id="@+id/icon_back" app:layout_width="UNKNOWN_DATA_0x7f070070" app:layout_height="UNKNOWN_DATA_0x7f07006f" app:layout_alignParentTop="true" app:layout_alignParentStart="true" />
+                <ImageView app:id="@+id/icon_front" app:layout_width="UNKNOWN_DATA_0x7f070070" app:layout_height="UNKNOWN_DATA_0x7f07006f" app:layout_alignParentBottom="true" app:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </FrameLayout>
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@+id/title_container" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/double_pad" app:layout_toLeftOf="@+id/text_group_channel_list_date" app:layout_toRightOf="@+id/icon_container" app:layout_alignTop="@+id/icon_container">
+            <TextView app:textAppearance="?attr/textAppearanceRedditTitle" app:ellipsize="end" app:id="@+id/chat_group_title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" />
+        </LinearLayout>
+        <LinearLayout app:orientation="horizontal" app:id="@+id/container_group_channel_list_message" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_below="@+id/title_container" app:layout_alignLeft="@+id/title_container">
+            <include app:id="@+id/container_group_channel_list_typing_indicator" app:layout_width="UNKNOWN_DATA_0x2001" app:layout_height="UNKNOWN_DATA_0x1001" app:layout_marginTop="4dp" layout="@layout/layout_typing_indicator" />
+            <TextView app:textAppearance="?attr/textAppearanceRedditBody" app:ellipsize="end" app:id="@+id/chat_message_preview" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="1" />
+        </LinearLayout>
+        <TextView app:textAppearance="?attr/textAppearanceRedditMetadata" app:id="@+id/text_group_channel_list_date" app:paddingBottom="2dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="9999/99/99" app:maxLines="1" app:layout_alignTop="@+id/title_container" app:layout_alignParentRight="true" app:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout app:id="@+id/see_all_container" app:background="?attr/rdt_body_color" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:foreground="?attr/selectableItemBackground">
+        <TextView app:textAppearance="?attr/textAppearanceRedditButtonLink" app:id="@+id/see_all_view" app:paddingLeft="@dimen/double_pad" app:paddingTop="@dimen/single_pad" app:paddingBottom="@dimen/single_pad" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</LinearLayout>

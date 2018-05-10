@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_icon_overflow" app:id="@+id/action_chat_settings" app:title="@string/action_chat_settings" app:iconTint="?attr/rdt_menu_icon_color" app:showAsAction="always" />
+</menu>

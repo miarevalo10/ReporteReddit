@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/drawer_layout" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.CoordinatorLayout app:layout_width="match_parent" app:layout_height="match_parent">
+        <com.reddit.frontpage.widgets.ScreenContainer app:id="@+id/controller_container" app:layout_width="match_parent" app:layout_height="match_parent" />
+        <com.reddit.frontpage.widgets.FloatingActionsView app:id="@+id/floating_actions_view" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_behavior="com.reddit.frontpage.ui.behavior.FloatingActionsViewBehavior" app:layout_dodgeInsetEdges="50" />
+    </android.support.design.widget.CoordinatorLayout>
+    <android.support.design.widget.NavigationView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/nav_view" app:background="?attr/rdt_body_color" app:layout_width="wrap_content" app:layout_height="match_parent" app:headerLayout="@layout/activity_main_drawer_profile_header" app:itemTextAppearance="?attr/textAppearanceRedditBodyMedium">
+        <android.support.constraint.ConstraintLayout app:layout_width="match_parent" app:layout_height="match_parent">
+            <Button app:textAppearance="?attr/textAppearanceRedditBodyMedium" app:id="@+id/nav_settings" app:background="?attr/selectableItemBackground" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0700c6" app:text="@string/action_settings" app:drawablePadding="@dimen/double_pad" app:drawableStart="@drawable/ic_icon_settings" app:paddingStart="@dimen/double_pad" app:paddingEnd="@dimen/double_pad" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" />
+            <ImageButton app:id="@+id/nav_night_theme" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f0700fc" app:layout_height="UNKNOWN_DATA_0x1" app:src="@drawable/ic_icon_night" app:tint="?attr/rdt_nav_icon_color" app:layout_marginEnd="@dimen/single_pad" app:tooltipText="@string/label_night_mode" app:layout_constraintBottom_toBottomOf="@+id/nav_settings" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="@+id/nav_settings" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

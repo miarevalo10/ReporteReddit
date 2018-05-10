@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <font name="rdt_bold">res/font/rdt_bold.ttf</font>
+    <font name="rdt_bold_italic">res/font/rdt_bold_italic.ttf</font>
+    <font name="rdt_italic">res/font/rdt_italic.ttf</font>
+    <font name="rdt_light">res/font/rdt_light.ttf</font>
+    <font name="rdt_light_italic">res/font/rdt_light_italic.ttf</font>
+    <font name="rdt_medium">res/font/rdt_medium.ttf</font>
+    <font name="rdt_medium_italic">res/font/rdt_medium_italic.ttf</font>
+    <font name="rdt_regular">res/font/rdt_regular.ttf</font>
+</resources>

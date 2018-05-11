@@ -1,0 +1,484 @@
+
+<!-- saved from url=(0153)https://device.pcloudy.com/report/1250/6dzb7fsrpr6fkvd8rwy6k6d54fjyhgnwqwj44w5h/dpdvhnckqkd2wn2fxyhnjjnh4q2qm96jpr9ymbbb/TestCycle_AAR_Online_FLUJO2.rec/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title> reddit_apk.Instrumented1526004245.apk</title>
+<style>
+body {background-color:white; font-family:Verdana, Geneva, sans-serif;}
+h1   {color:#004380;}
+h2   {color:#005199;background-color: #cce7ff;width: 98%; padding: 6px 6px 6px 10px; margin-bottom: 10px;}
+.environmentDetails tr:nth-of-type(odd) {background-color:#f1f1f1; font-family:'Comic Sans MS', cursive, sans-serif;}
+.environmentDetails tr:nth-of-type(even) {background-color:#ddeeff; font-family:'Comic Sans MS', cursive, sans-serif;}
+.environmentDetails td {padding: 3px;text-align: left;}
+.executionSteps tr:nth-of-type(odd) {
+    background-color:#f1f1f1;
+}
+.executionSteps tr:nth-of-type(even) {
+    background-color:#fff;
+}
+.executionSteps th, .executionSteps td {padding: 5px;text-align: left;}
+.pass { background-color:#8ed576; color:White; text-align: center;}
+.fail { background-color:#ffaa90; color:Red; text-align: center;}
+.notExecuted { background-color:#ffff66; text-align: center;}
+.comment { background-color:#adebad; color:#248f24; font-size:80%;}
+.testcase { background-color:#b3ccff; color:#000099; font-size:130%;}
+.executionSteps td { white-space:pre;
+max-width: 100px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;}
+table.accordion {
+background-color: #7EC8C8;
+cursor: pointer;
+padding: 10px;
+width: 98%;
+border: 5px solid white;
+outline: none;
+font-size: 20px;
+transition: 0.4s;
+}
+table.accordion.active, table.accordion:hover {
+background-color: #3E8EB3;
+}
+div.panel {
+padding: 0 18px;
+display: none;
+background-color: white;
+}
+div.panel.show {
+display: block !important;
+}
+table#t01{
+padding:40px;
+}
+button.accordion {
+background-color: #cce7ff;
+color: #005199;
+cursor: pointer;
+padding: 10px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 20px;
+transition: 0.4s;
+}
+button.accordion.active, button.accordion:hover {
+background-color: #ddd;
+}
+button {
+     background:none!important;
+     border:none; 
+     color: #005199;
+     padding:0!important;
+     font: inherit;
+}
+.white_content_popup {
+    display: none;
+    margin: auto;
+    position: absolute;
+    width: 50%;
+    height: 75%;
+    padding: 16px;
+    border: 16px light blue;
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+}
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+#customPopup
+{
+ width:50vw;
+ height:60vh;
+ z-index:11111;
+ position:fixed;
+ left: 25vw;
+ top: 25vh;
+}
+.hide {
+ display:none;
+}
+.popup-cover{
+ position:fixed;
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+ z-index:100;
+ background-color:rgba(0,0,0,0.4);
+}
+.customImageContainer{
+width:100%;
+height:100%;
+padding:20px;
+background-color:#fafafa;
+overflow:auto;
+}
+.customImage{
+user-select: none;
+max-width:100%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+max-height:100%;
+background-color:#fafafa;
+border:0;
+}
+.customImage.zoomed{
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+.close{
+position:absolute;
+right:15px;
+top:15px;
+z-index:111111;
+width: 30px;
+height: 30px;
+background-color: #2060B1;
+border-radius: 50%;
+}
+.close > i{
+color:#fff;
+text-align: center;
+width: 100%;
+height: 100%;
+line-height: 1.8em;
+}
+.close:hover{
+background-color: #003374;
+}
+.zoomed{
+transform:scale(2);
+transform-origin: left top;
+}
+.msg-for-user{
+text-align: center;
+background-color: #fff;
+font-weight: bold;
+font-size: 1.5em;
+margin: 0;
+padding: 20px;
+}
+</style>
+<script src="./HTML_files/jquery-1.10.2.js.descarga"></script>
+<script type="text/javascript" src="./HTML_files/jsapi"></script>
+<script type="text/javascript">
+  google.load('visualization', '1', {packages:['corechart']});
+  google.setOnLoadCallback(drawTestCaseChart);
+  google.setOnLoadCallback(drawStepsChart);
+  function drawTestCaseChart() {
+
+    var data = google.visualization.arrayToDataTable([
+      ['Status', 'Number of steps'],
+      ['Passed Test Cases',     1],
+      ['Failed Test Cases',     0],
+      ['NotExecuted Test Cases',  0],
+    ]);
+
+    var options = {
+      title: 'TestCases Summary',
+      is3D: true,
+      slices: {
+          0: { color: 'Green' },
+          1: { color: 'Red' },
+          2: { color: 'Yellow' }
+        }
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('testCasesPieChart'));
+
+    chart.draw(data, options);
+  }
+  function drawStepsChart() {
+
+    var data = google.visualization.arrayToDataTable([
+      ['Status', 'Number of steps'],
+      ['Passed Steps',     18],
+      ['Failed Steps',     0],
+      ['NotExecuted Steps',  0],
+    ]);
+
+    var options = {
+      title: 'Steps Summary',
+      is3D: true,
+      slices: {
+          0: { color: 'Green' },
+          1: { color: 'Red' },
+          2: { color: 'Yellow' }
+        }
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('stepsPieChart'));
+
+    chart.draw(data, options);
+  }
+</script><script src="./HTML_files/saved_resource" type="text/javascript"></script><link href="./HTML_files/ui+es.css" type="text/css" rel="stylesheet"><script src="./HTML_files/format+es,default+es,ui+es,corechart+es.I.js.descarga" type="text/javascript"></script>
+<script type="text/javascript">
+function showIt(imgsrc) {
+debugger;
+ $('#customPopup').removeClass('hide'); 
+ $('.popup-cover').removeClass('hide');
+ $('.customImage').attr('src',imgsrc);
+}
+</script>
+<script>
+$(document).keydown(function(e) {
+if (e.keyCode == 27) {
+if($('#customPopup').hasClass('hide') === false){
+$('#customPopup').addClass('hide');
+$('.popup-cover').addClass('hide');
+$('.customImage').removeClass( 'zoomed' );
+}
+}
+});
+$(document).ready(function(){
+$('.close').on('click', function(){
+$('#customPopup').addClass('hide');
+$('.customImage').removeClass( 'zoomed' );
+$('.popup-cover').addClass('hide');
+});
+$('.customImage').on('click', function() {
+$(this).toggleClass( 'zoomed' );
+if($('.customImage').hasClass('zoomed') === true){
+$('.customImage').css('cursor', 'zoom-out');
+}
+else{
+$('.customImage').css('cursor', 'zoom-in');
+}
+});
+$('.customImage').hover(function() {
+if($('.customImage').hasClass('zoomed') === true){
+$('.customImage').css('cursor', 'zoom-out');
+}
+else{
+$('.customImage').css('cursor', 'zoom-in');
+}
+});
+});
+</script>
+<link href="./HTML_files/tooltip.css" rel="stylesheet" type="text/css"></head>
+<body style="">
+<table width="100%"><tbody><tr>
+<td><img src="./HTML_files/logo.png" alt="http://www.sstsinc.com/assets/images/logo.png" height="75px"></td> <td width="70%"><center><h1>Report on  reddit apk.Instrumented1526004245.apk</h1></center></td><td><img src="./HTML_files/PCloudy_Logo_0-1.png" alt="https://www.pcloudy.com/wp-content/uploads/2015/11/PCloudy_Logo_0-1.png" height="75px"></td>
+</tr></tbody></table>
+<hr>
+<h2><u>Environment Details</u></h2>
+<table width="100%" border="0"><tbody><tr><td rowspan="2" align="center">
+<table class="environmentDetails" width="100%" border="0align=&#39;left&#39;">
+<tbody><tr><td>Execution Started On</td><td>2018-05-11T02:06:53.676</td></tr>
+<tr><td>Executed From</td><td>rbox-pc-11</td></tr>
+<tr><td>Device Name</td><td>Moto E2</td></tr>
+<tr><td>Application Name</td><td>reddit_apk.Instrumented1526004245.apk</td></tr>
+<tr><td>Device Serial</td><td>TA38501WSE</td></tr>
+<tr><td>Height x Width</td><td>960.0 x 540.0</td></tr>
+<tr><td>Android Version</td><td>6.0</td></tr>
+<tr><td>Total Time Elapsed</td><td>02:27 min</td></tr>
+</tbody></table></td>
+<td rowspan="2" align="right"><div id="testCasesPieChart" style="width: 400px; height: 300px;"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 400px; height: 300px;"><div aria-label="Un gráfico." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="400" height="300" aria-label="Un gráfico." style="overflow: hidden;"><defs id="defs"></defs><rect x="0" y="0" width="400" height="300" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><text text-anchor="start" x="77" y="38.35" font-family="Arial" font-size="11" font-weight="bold" stroke="none" stroke-width="0" fill="#000000">TestCases Summary</text><rect x="77" y="29" width="247" height="11" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><rect x="248" y="58" width="76" height="25" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><rect x="248" y="58" width="76" height="25" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="263" y="67.35" font-family="Arial" font-size="11" stroke="none" stroke-width="0" fill="#222222">Passed Test</text><text text-anchor="start" x="263" y="81.35" font-family="Arial" font-size="11" stroke="none" stroke-width="0" fill="#222222">Cases</text></g><circle cx="253.5" cy="63.5" r="5.5" stroke="none" stroke-width="0" fill="#008000"></circle></g></g><g><path d="M230,143.4L230,158.6A76,60.800000000000004,0,0,1,78,158.6L78,143.4A76,60.800000000000004,0,0,0,230,143.4" stroke="#006000" stroke-width="1" fill="#006000"></path><ellipse cx="154" cy="143.4" rx="76" ry="60.800000000000004" stroke="#008000" stroke-width="1" fill="#008000"></ellipse><text text-anchor="start" x="140" y="147.25" font-family="Arial" font-size="11" stroke="none" stroke-width="0" fill="#ffffff">100%</text></g><g></g></svg><div aria-label="Una representación tabular de los datos del gráfico." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Status</th><th>Number of steps</th></tr></thead><tbody><tr><td>Passed Test Cases</td><td>1</td></tr><tr><td>Failed Test Cases</td><td>0</td></tr><tr><td>NotExecuted Test Cases</td><td>0</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 310px; left: 410px; white-space: nowrap; font-family: Arial; font-size: 11px;">Cases</div><div></div></div></div></td>
+<td height="30%"></td>
+</tr><tr>
+<td align="left"><div id="stepsPieChart" style="width: 350px; height: 200px;"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 350px; height: 200px;"><div aria-label="Un gráfico." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="350" height="200" aria-label="Un gráfico." style="overflow: hidden;"><defs id="defs"></defs><rect x="0" y="0" width="350" height="200" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><text text-anchor="start" x="64" y="22.5" font-family="Arial" font-size="10" font-weight="bold" stroke="none" stroke-width="0" fill="#000000">Steps Summary</text><rect x="64" y="14" width="223" height="10" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><rect x="218" y="38" width="69" height="23" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><rect x="218" y="38" width="69" height="23" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="232" y="46.5" font-family="Arial" font-size="10" stroke="none" stroke-width="0" fill="#222222">Passed</text><text text-anchor="start" x="232" y="59.5" font-family="Arial" font-size="10" stroke="none" stroke-width="0" fill="#222222">Steps</text></g><circle cx="223" cy="43" r="5" stroke="none" stroke-width="0" fill="#008000"></circle></g></g><g><path d="M195,93.8L195,106.2A62,49.6,0,0,1,71,106.2L71,93.8A62,49.6,0,0,0,195,93.8" stroke="#006000" stroke-width="1" fill="#006000"></path><ellipse cx="133" cy="93.8" rx="62" ry="49.6" stroke="#008000" stroke-width="1" fill="#008000"></ellipse><text text-anchor="start" x="120" y="97.3" font-family="Arial" font-size="10" stroke="none" stroke-width="0" fill="#ffffff">100%</text></g><g></g></svg><div aria-label="Una representación tabular de los datos del gráfico." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Status</th><th>Number of steps</th></tr></thead><tbody><tr><td>Passed Steps</td><td>18</td></tr><tr><td>Failed Steps</td><td>0</td></tr><tr><td>NotExecuted Steps</td><td>0</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 210px; left: 360px; white-space: nowrap; font-family: Arial; font-size: 10px;">Steps</div><div></div></div></div></td>
+</tr></tbody></table>
+<hr>
+<h2><u>Execution Details</u></h2>
+<table align="center" cellpadding="10"><tbody><tr><td>
+<button id="expand_all_testcases">Expand All</button>
+</td><td>
+<button id="toggle_all_testcases">Toggle</button>
+</td><td>
+<button id="collapse_all_testcases">Collapse All</button>
+</td></tr></tbody></table><table>
+</table><table class="accordion active" align="center" cellpadding="2" border="0" bordercolor="white"><tbody><tr><td width="60%" align="left">Test Case</td><td width="10%" align="center">02:27 min</td><td width="20%" align="center"><table border="0" width="90%" height="28px"><tbody><tr><td title="100%" bgcolor="green" width="100%"></td></tr></tbody></table></td><td class="pass">Pass </td> </tr></tbody></table>
+<div id="foo" class="panel show">
+<div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step1.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step2.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step3.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step4.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step5.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step6.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step7.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step8.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step9.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step10.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step11.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step12.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step13.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step14.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step15.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step16.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step17.png">
+</div></div><div class="popup-cover hide">
+<p class="msg-for-user">Press Esc Key to close this window</p>
+</div><div id="customPopup" class="hide">
+<div class="customImageContainer">
+<img class="customImage" src="./HTML_files/Step18.png">
+</div></div><table class="executionSteps" width="95%" align="center" border="0">
+<tbody><tr><th> # </th> <th width="35%"> Action </th> <th width="35%"> Parameters </th> <th width="30%"> Output </th> <th width="100px"> Duration </th> <th width="200px"> ExecutedOn </th><th width="200px"> Snapshot </th><th width="150px"> Result </th> </tr>
+
+<tr><td>1 </td> <td>Click  </td> <td>Object : object{1}  </td> <td title="Step executed on coordinates"><pre>Step executed on coordinates</pre>  </td> <td>47 s  </td> <td>02:07:41 </td><td><a target="_blank" href="./HTML_files/Step1.png" onmouseover="showIt(this.href)">Step1.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>2 </td> <td>Click  </td> <td>Object : object{2}  </td> <td title="Step executed on coordinates"><pre>Step executed on coordinates</pre>  </td> <td>2 s  </td> <td>02:07:44 </td><td><a target="_blank" href="./HTML_files/Step2.png" onmouseover="showIt(this.href)">Step2.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>3 </td> <td>TypeText  </td> <td>Object : textbox{3}  </td> <td title="Step executed on coordinates"><pre>Step executed on coordinates</pre>  </td> <td>9 s  </td> <td>02:07:53 </td><td><a target="_blank" href="./HTML_files/Step3.png" onmouseover="showIt(this.href)">Step3.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>4 </td> <td>Click  </td> <td>Object : object{4}  </td> <td title="Step executed on coordinates"><pre>Step executed on coordinates</pre>  </td> <td>1 s  </td> <td>02:07:55 </td><td><a target="_blank" href="./HTML_files/Step4.png" onmouseover="showIt(this.href)">Step4.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>5 </td> <td>TypeText  </td> <td>Object : textbox{5}  </td> <td title="Step executed on coordinates"><pre>Step executed on coordinates</pre>  </td> <td>8 s  </td> <td>02:08:03 </td><td><a target="_blank" href="./HTML_files/Step5.png" onmouseover="showIt(this.href)">Step5.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>6 </td> <td>Click  </td> <td>Object : object{6}  </td> <td title="Step executed on coordinates"><pre>Step executed on coordinates</pre>  </td> <td>9 s  </td> <td>02:08:13 </td><td><a target="_blank" href="./HTML_files/Step6.png" onmouseover="showIt(this.href)">Step6.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>7 </td> <td>Click  </td> <td>Object : object{7}  </td> <td title="Step executed on coordinates"><pre>Step executed on coordinates</pre>  </td> <td>6 s  </td> <td>02:08:20 </td><td><a target="_blank" href="./HTML_files/Step7.png" onmouseover="showIt(this.href)">Step7.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>8 </td> <td>Click  </td> <td>Object : AppCompatImageView{8}  </td> <td title="Step executed on id"><pre>Step executed on id</pre>  </td> <td>25 s  </td> <td>02:08:45 </td><td><a target="_blank" href="./HTML_files/Step8.png" onmouseover="showIt(this.href)">Step8.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>9 </td> <td>Click  </td> <td>Object : FloatingActionButton{3}  </td> <td title="Step executed on id"><pre>Step executed on id</pre>  </td> <td>3 s  </td> <td>02:08:49 </td><td><a target="_blank" href="./HTML_files/Step9.png" onmouseover="showIt(this.href)">Step9.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>10 </td> <td>Click  </td> <td>Object : AppCompatEditText{0}  </td> <td title="Step executed on id"><pre>Step executed on id</pre>  </td> <td>5 s  </td> <td>02:08:55 </td><td><a target="_blank" href="./HTML_files/Step10.png" onmouseover="showIt(this.href)">Step10.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>11 </td> <td>TypeText  </td> <td>Object : AppCompatEditText{0}<br>  Value : Marisarevalo97  </td> <td title="Step executed on id"><pre>Step executed on id</pre>  </td> <td>3 s  </td> <td>02:08:58 </td><td><a target="_blank" href="./HTML_files/Step11.png" onmouseover="showIt(this.href)">Step11.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>12 </td> <td>Click  </td> <td>Object : AppCompatEditText{1}  </td> <td title="Step executed on id"><pre>Step executed on id</pre>  </td> <td>3 s  </td> <td>02:09:02 </td><td><a target="_blank" href="./HTML_files/Step12.png" onmouseover="showIt(this.href)">Step12.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>13 </td> <td>TypeText  </td> <td>Object : AppCompatEditText{1}<br>  Value : Test  </td> <td title="Step executed on id"><pre>Step executed on id</pre>  </td> <td>3 s  </td> <td>02:09:05 </td><td><a target="_blank" href="./HTML_files/Step13.png" onmouseover="showIt(this.href)">Step13.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>14 </td> <td>Click  </td> <td>Object : AppCompatEditText{2}  </td> <td title="Step executed on id"><pre>Step executed on id</pre>  </td> <td>3 s  </td> <td>02:09:08 </td><td><a target="_blank" href="./HTML_files/Step14.png" onmouseover="showIt(this.href)">Step14.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>15 </td> <td>TypeText  </td> <td>Object : AppCompatEditText{2}<br>  Value : Hello  </td> <td title="Step executed on id"><pre>Step executed on id</pre>  </td> <td>3 s  </td> <td>02:09:11 </td><td><a target="_blank" href="./HTML_files/Step15.png" onmouseover="showIt(this.href)">Step15.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>16 </td> <td>Click  </td> <td>Object : AppCompatEditText{1}  </td> <td title="Step executed on id"><pre>Step executed on id</pre>  </td> <td>2 s  </td> <td>02:09:14 </td><td><a target="_blank" href="./HTML_files/Step16.png" onmouseover="showIt(this.href)">Step16.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>17 </td> <td>Click  </td> <td>Object : Send{0}  </td> <td title="Step executed on name"><pre>Step executed on name</pre>  </td> <td>3 s  </td> <td>02:09:18 </td><td><a target="_blank" href="./HTML_files/Step17.png" onmouseover="showIt(this.href)">Step17.png</a> </td><td class="pass">Pass </td> </tr>
+
+<tr><td>18 </td> <td>Click  </td> <td>Object : Messages{0}  </td> <td title="Step executed on name"><pre>Step executed on name</pre>  </td> <td>2 s  </td> <td>02:09:21 </td><td><a target="_blank" href="./HTML_files/Step18.png" onmouseover="showIt(this.href)">Step18.png</a> </td><td class="pass">Pass </td> </tr>
+
+</tbody></table>
+</div>
+
+
+
+<hr>
+<script>
+var acc = document.getElementsByClassName('accordion');
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function(){
+       this.classList.toggle('active');
+       this.nextElementSibling.classList.toggle('show');
+  }
+}
+</script>
+<script>
+$(function(){
+$('#collapse_all_testcases').click(function(){
+var acc = document.getElementsByClassName('accordion');
+var i;
+for (i = 0; i < acc.length; i++) {
+    acc[i].classList.toggle('active', false);
+    acc[i].nextElementSibling.classList.toggle('show', false);
+}
+});
+$('#toggle_all_testcases').click(function(){
+var acc = document.getElementsByClassName('accordion');
+var i;
+for (i = 0; i < acc.length; i++) {
+    acc[i].classList.toggle('active');
+    acc[i].nextElementSibling.classList.toggle('show');
+}
+});
+$('#expand_all_testcases').click(function(){
+var acc = document.getElementsByClassName('accordion');
+var i;
+for (i = 0; i < acc.length; i++) {
+    acc[i].classList.toggle('active', true);
+    acc[i].nextElementSibling.classList.toggle('show', true);
+}
+});
+});
+</script>
+<br>
+
+
+<footer><center>
+<pre>AAR Recorder/Playback Version 0.4.2 , Script Was Recorded Using Instrumentor 1.4.0</pre>
+<br>
+<p>Report Powered by: pCloudy @ SSTS Inc. US.</p>
+<p>pCloudy™ is a registered trademark. Copyright Laws Apply. pCloudy is owned by Smart Software Testing Solutions Inc. US.</p>
+<a href="https://www.pcloudy.com/">https://www.pcloudy.com</a><p></p>
+</center></footer>
+<hr>
+
+</body></html>
